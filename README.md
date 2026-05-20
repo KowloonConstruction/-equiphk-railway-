@@ -1,6 +1,8 @@
 # EquipHK Backup Repository
 
-Automated monthly backups of the EquipHK website.
+Automated daily backups of the EquipHK website.
+
+A rolling **7-day window** is maintained — backups older than 7 days are removed automatically.
 
 Each folder under `backups/` contains:
 - `equiphk_code_YYYY-MM-DD.zip` — full source code

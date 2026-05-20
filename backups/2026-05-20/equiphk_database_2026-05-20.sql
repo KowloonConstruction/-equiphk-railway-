@@ -997,7 +997,7 @@ CREATE TABLE `users` (
   `lastSignedIn` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`) /*T![clustered_index] CLUSTERED */,
   UNIQUE KEY `users_openId_unique` (`openId`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin AUTO_INCREMENT=4140001;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin AUTO_INCREMENT=4440001;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -1006,7 +1006,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'k6pmo7Bh7rWPpNQrS8bkxF','Benjamin Casey','caseyhk@icloud.com','apple','admin','2026-03-22 08:04:13','2026-05-20 02:51:28','2026-05-20 02:51:29'),(3960001,'WGFh9ukvm7nyQQNeJRooWK','Lyndsey Cook','lyndseycook23@gmail.com',NULL,'user','2026-05-19 06:11:44','2026-05-19 09:28:48','2026-05-19 09:28:47');
+INSERT INTO `users` VALUES (1,'k6pmo7Bh7rWPpNQrS8bkxF','Benjamin Casey','caseyhk@icloud.com','apple','admin','2026-03-22 08:04:13','2026-05-20 04:33:45','2026-05-20 04:33:46'),(3960001,'WGFh9ukvm7nyQQNeJRooWK','Lyndsey Cook','lyndseycook23@gmail.com',NULL,'user','2026-05-19 06:11:44','2026-05-19 09:28:48','2026-05-19 09:28:47');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -1019,4 +1019,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-05-19 22:56:22
+-- Dump completed on 2026-05-20  0:37:20

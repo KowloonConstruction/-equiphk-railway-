@@ -15,6 +15,8 @@ RUN pnpm install --frozen-lockfile
 COPY . .
 
 # Build the application
+# - Server builds to /app/dist/index.js
+# - Frontend (Vite) builds to /app/dist/public/ (per vite.config.ts outDir)
 RUN pnpm build
 
 # Production stage
@@ -31,12 +33,12 @@ COPY patches ./patches
 # Install production dependencies only
 RUN pnpm install --prod --frozen-lockfile
 
-# Copy built files from builder
+# Copy built server and frontend from builder
+# Both are under /app/dist/ (server: dist/index.js, frontend: dist/public/)
 COPY --from=builder /app/dist ./dist
-COPY --from=builder /app/client/dist ./client/dist
 
 # Expose port (Railway sets PORT env var)
 EXPOSE 3000
 
 # Start the server
-CMD ["node", "dist/_core/index.js"]
+CMD ["node", "dist/index.js"]

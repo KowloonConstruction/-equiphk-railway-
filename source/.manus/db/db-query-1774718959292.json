@@ -1,0 +1,1294 @@
+{
+  "query": "SELECT id, name, brand, model FROM equipment_items ORDER BY id;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2B2d1HYRsoiQJMJ.root --database EqJqhhxWWJKtKB68YEvggw --execute SELECT id, name, brand, model FROM equipment_items ORDER BY id;",
+  "rows": [
+    {
+      "id": "1",
+      "name": "Hilti 360* Lazer level",
+      "brand": "Hilti Tools (China)",
+      "model": ""
+    },
+    {
+      "id": "2",
+      "name": "Dr Scaffold Safety Railing 2 Rung Span",
+      "brand": "Dr Scaffold",
+      "model": ""
+    },
+    {
+      "id": "3",
+      "name": "Cadillac Sand Blaster",
+      "brand": "Cadillac Products USA",
+      "model": ""
+    },
+    {
+      "id": "4",
+      "name": "Haru Fall Arrester",
+      "brand": "Haru Co.",
+      "model": ""
+    },
+    {
+      "id": "5",
+      "name": "Viraj Fall Arrester",
+      "brand": "Viraj VSPL group (India)",
+      "model": ""
+    },
+    {
+      "id": "6",
+      "name": "AC Delco Marine Battery",
+      "brand": "AC Delco",
+      "model": ""
+    },
+    {
+      "id": "7",
+      "name": "Cheetah Equipment Battery",
+      "brand": "Cheetah Battery Korea",
+      "model": ""
+    },
+    {
+      "id": "8",
+      "name": "Bosch Laser Level",
+      "brand": "Bosch Tools Germany",
+      "model": ""
+    },
+    {
+      "id": "9",
+      "name": "Klein Digital Angle Gauge",
+      "brand": "Klein Tools",
+      "model": ""
+    },
+    {
+      "id": "10",
+      "name": "Elephant 1T Chain Block",
+      "brand": "Elephant Chain Block Company",
+      "model": ""
+    },
+    {
+      "id": "11",
+      "name": "Togoshi Walking Measuring Wheel",
+      "brand": "Togoshi Manufacturing Japan",
+      "model": ""
+    },
+    {
+      "id": "12",
+      "name": "Umbilical Flushing and Cleaning Kit",
+      "brand": "Guangdong Lingxiao pump industry co.ltd",
+      "model": ""
+    },
+    {
+      "id": "13",
+      "name": "Argon Gas Tank",
+      "brand": "Unknown",
+      "model": ""
+    },
+    {
+      "id": "14",
+      "name": "Taiyu 1T chain block",
+      "brand": "Taiyu Corporation",
+      "model": ""
+    },
+    {
+      "id": "15",
+      "name": "Xcalibre Magnum Hydraulic Drill",
+      "brand": "Xcalibre UK",
+      "model": ""
+    },
+    {
+      "id": "16",
+      "name": "CP-9 Pneumatic Rock/Concrete Drill/Breaker",
+      "brand": "Unknown",
+      "model": ""
+    },
+    {
+      "id": "17",
+      "name": "Toku Pneumatic Breaker",
+      "brand": "Toku Corp Japan",
+      "model": ""
+    },
+    {
+      "id": "18",
+      "name": "TD Pro Pipe Stand",
+      "brand": "TD Company China",
+      "model": ""
+    },
+    {
+      "id": "19",
+      "name": "PU Pump Large (Minion)",
+      "brand": "Unknown",
+      "model": ""
+    },
+    {
+      "id": "20",
+      "name": "Bora Speed Horse",
+      "brand": "Bora",
+      "model": ""
+    },
+    {
+      "id": "21",
+      "name": "Vespa 3HP air compressor",
+      "brand": "Vespa China",
+      "model": ""
+    },
+    {
+      "id": "22",
+      "name": "Makita Tool Briefcase",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "23",
+      "name": "ING Welding Rod Warmers",
+      "brand": "Nippon-Alloy electrode co. Ltd (Japan)",
+      "model": ""
+    },
+    {
+      "id": "24",
+      "name": "UWeld Gas Torches",
+      "brand": "U-Weld China",
+      "model": ""
+    },
+    {
+      "id": "25",
+      "name": "Husqvarna 440 Chainsaw",
+      "brand": "Husqvarna",
+      "model": ""
+    },
+    {
+      "id": "26",
+      "name": "Husqvarna 460 Rancher Chainsaw",
+      "brand": "Husqvarna",
+      "model": ""
+    },
+    {
+      "id": "27",
+      "name": "Dr Scaffold Cross Brace",
+      "brand": "Dr Scaffold",
+      "model": ""
+    },
+    {
+      "id": "28",
+      "name": "Dr Scaffold Horizontal Brace",
+      "brand": "Dr Scaffold",
+      "model": ""
+    },
+    {
+      "id": "29",
+      "name": "Dr Scaffold Horizontal brace",
+      "brand": "Dr Scaffold",
+      "model": ""
+    },
+    {
+      "id": "30",
+      "name": "Dr Scaffold Platform",
+      "brand": "Dr Scaffold",
+      "model": ""
+    },
+    {
+      "id": "31",
+      "name": "Dr Scaffold HD Scaffold Castors",
+      "brand": "Dr Scaffold",
+      "model": ""
+    },
+    {
+      "id": "32",
+      "name": "Dr  Scaffold HD Scaffold Castors",
+      "brand": "Dr Scaffold",
+      "model": ""
+    },
+    {
+      "id": "33",
+      "name": "Dr Scaffold Outrigger",
+      "brand": "Dr Scaffold",
+      "model": ""
+    },
+    {
+      "id": "34",
+      "name": "Dr Scaffold 5 Rung Ladder Span",
+      "brand": "Dr Scaffold",
+      "model": ""
+    },
+    {
+      "id": "35",
+      "name": "Dr Scaffold 5 Rung Span",
+      "brand": "Dr Scaffold",
+      "model": ""
+    },
+    {
+      "id": "36",
+      "name": "Dr Scaffold 3 Rung Span",
+      "brand": "Dr Scaffold",
+      "model": ""
+    },
+    {
+      "id": "37",
+      "name": "Dr Scaffold 3 Rung Ladder Span",
+      "brand": "Dr Scaffold",
+      "model": ""
+    },
+    {
+      "id": "38",
+      "name": "Smith H2O sprayer",
+      "brand": "Smith Performance",
+      "model": ""
+    },
+    {
+      "id": "39",
+      "name": "IMC Power Sprayer",
+      "brand": "IMC motors",
+      "model": ""
+    },
+    {
+      "id": "40",
+      "name": "Milwaukie Drain Cleaner",
+      "brand": "Milwaukie",
+      "model": ""
+    },
+    {
+      "id": "41",
+      "name": "Makita 10\" pole saw attachment",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "42",
+      "name": "Dongchang paint/mud mixer",
+      "brand": "Jiangsu Dongcheng tools co. Ltd",
+      "model": ""
+    },
+    {
+      "id": "43",
+      "name": "Little Giant 4 Step Folding Ladder",
+      "brand": "Little Giant USA",
+      "model": ""
+    },
+    {
+      "id": "44",
+      "name": "Little Giant 5 Step Folding Ladder",
+      "brand": "Little Giant USA",
+      "model": ""
+    },
+    {
+      "id": "45",
+      "name": "Electrical Winch",
+      "brand": "Unknown",
+      "model": ""
+    },
+    {
+      "id": "46",
+      "name": "4\" Bench Vice",
+      "brand": "Unknown",
+      "model": ""
+    },
+    {
+      "id": "47",
+      "name": "Irwin 6\" Bench Vice",
+      "brand": "Irwin Tools",
+      "model": ""
+    },
+    {
+      "id": "48",
+      "name": "SL PU pump",
+      "brand": "SL Company",
+      "model": ""
+    },
+    {
+      "id": "49",
+      "name": "PU Pump",
+      "brand": "Unknown",
+      "model": ""
+    },
+    {
+      "id": "50",
+      "name": "Air Plus Industrial Floor Fan",
+      "brand": "Air Plus",
+      "model": ""
+    },
+    {
+      "id": "51",
+      "name": "Air Plus Industrial Floor Fans",
+      "brand": "N/A",
+      "model": ""
+    },
+    {
+      "id": "52",
+      "name": "AP Industrial Floor Fan",
+      "brand": "AP",
+      "model": ""
+    },
+    {
+      "id": "53",
+      "name": "EKO Pneumatic Impact Gun",
+      "brand": "EKO Tools",
+      "model": ""
+    },
+    {
+      "id": "54",
+      "name": "Diesel Pump Kit",
+      "brand": "Piusi/Fleetwood/Bada",
+      "model": ""
+    },
+    {
+      "id": "55",
+      "name": "Makita 18V Battery",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "56",
+      "name": "Makita 18V battery",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "57",
+      "name": "Makita Smart Battery Charger",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "58",
+      "name": "Makita Fast Charging Double Charge Station",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "59",
+      "name": "Makita Cordless Impact Driver",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "60",
+      "name": "Makita Cordless Drill",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "61",
+      "name": "Makita Cordless Circular Saw",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "62",
+      "name": "Makita Cordless SDS Hammer Drill",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "63",
+      "name": "Milwaukie Packout Low Profile Small Organizer Box",
+      "brand": "Milwaukie",
+      "model": ""
+    },
+    {
+      "id": "64",
+      "name": "Milwaukie Packout Low Profile Organizer Box",
+      "brand": "Milwaukie",
+      "model": ""
+    },
+    {
+      "id": "65",
+      "name": "Milwaukie Compact Small Organizer Box",
+      "brand": "Milwaukie",
+      "model": ""
+    },
+    {
+      "id": "66",
+      "name": "Milwaukie Packout Compact Large Organizer Box",
+      "brand": "Milwaukie",
+      "model": ""
+    },
+    {
+      "id": "67",
+      "name": "Milwaukie Packout Three Drawer Tool Chest",
+      "brand": "Milwaukie",
+      "model": ""
+    },
+    {
+      "id": "68",
+      "name": "Milwaukie Packout Large Tool Box",
+      "brand": "Milwaukie",
+      "model": ""
+    },
+    {
+      "id": "69",
+      "name": "Milwaukie Packout Rolling Base Tool Box",
+      "brand": "Milwaukie",
+      "model": ""
+    },
+    {
+      "id": "70",
+      "name": "Beta 5 Drawer Bottom Tool Chest",
+      "brand": "Beta Tools",
+      "model": ""
+    },
+    {
+      "id": "71",
+      "name": "6 Drawer top tool chest",
+      "brand": "Unknown",
+      "model": ""
+    },
+    {
+      "id": "72",
+      "name": "Arda Metal Band Saw",
+      "brand": "Arda Manufacturing",
+      "model": ""
+    },
+    {
+      "id": "73",
+      "name": "Drill Press",
+      "brand": "Unknown",
+      "model": ""
+    },
+    {
+      "id": "74",
+      "name": "FireFly Motion Sensor",
+      "brand": "Firefly MSA Company",
+      "model": ""
+    },
+    {
+      "id": "75",
+      "name": "Crawcon Gas Detector",
+      "brand": "Crawcon UK",
+      "model": ""
+    },
+    {
+      "id": "76",
+      "name": "Metabo Siding Nail Gun",
+      "brand": "Metabo",
+      "model": ""
+    },
+    {
+      "id": "77",
+      "name": "Metabo Framing Nail Gun",
+      "brand": "Metabo",
+      "model": ""
+    },
+    {
+      "id": "78",
+      "name": "Metabo HTP Framing Nail Gun",
+      "brand": "Metabo",
+      "model": ""
+    },
+    {
+      "id": "79",
+      "name": "Dahoo Pneumatic Nail Gun",
+      "brand": "Dahoo Tools",
+      "model": ""
+    },
+    {
+      "id": "80",
+      "name": "Numax Brad Nailer",
+      "brand": "Numax",
+      "model": ""
+    },
+    {
+      "id": "81",
+      "name": "Makita Brad Nailer",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "82",
+      "name": "Bosch Wet/Dry Vacuum",
+      "brand": "Bosch Germany",
+      "model": ""
+    },
+    {
+      "id": "83",
+      "name": "Makita Drywall Sander",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "84",
+      "name": "Dewalt Chop Saw",
+      "brand": "Dewalt",
+      "model": ""
+    },
+    {
+      "id": "85",
+      "name": "Rex Pipe Threader",
+      "brand": "Suzhou Rex electro-machinery co. Ltd",
+      "model": ""
+    },
+    {
+      "id": "86",
+      "name": "Makita Wood Planner",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "87",
+      "name": "Makita Combination Mitre/Table saw",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "88",
+      "name": "Makita Table Saw",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "89",
+      "name": "Makita Mitre Saw",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "90",
+      "name": "Hilti SDS Hammer Drill",
+      "brand": "Hilti Corporation",
+      "model": ""
+    },
+    {
+      "id": "91",
+      "name": "Dongcheng Reciprocating saw",
+      "brand": "Jiangsu Dongcheng M&E tools Co. Ltd.",
+      "model": ""
+    },
+    {
+      "id": "92",
+      "name": "Bosch SDS Hammer Drill",
+      "brand": "Bosch Germany",
+      "model": ""
+    },
+    {
+      "id": "93",
+      "name": "Lavor Pressure Washer",
+      "brand": "Lavor Italy",
+      "model": ""
+    },
+    {
+      "id": "94",
+      "name": "Graco Paint Gun",
+      "brand": "Graco USA",
+      "model": ""
+    },
+    {
+      "id": "95",
+      "name": "Graco True Airless Paint Sprayer",
+      "brand": "Graco USA",
+      "model": ""
+    },
+    {
+      "id": "96",
+      "name": "Full Clean Chrome Wet/Dry Vacuum",
+      "brand": "Full Clean Italy",
+      "model": ""
+    },
+    {
+      "id": "97",
+      "name": "Makita Backpack Garden Sprayer",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "98",
+      "name": "Makita Small Pressure Washer",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "99",
+      "name": "Makita Small Circular Concrete/Tile Cutter",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "100",
+      "name": "Makita Small Jobsite Fan",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "101",
+      "name": "Makita 7 1/4\" Circular Saw",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "102",
+      "name": "SPE Concrete Floor Grinder",
+      "brand": "SPE Manufacturing",
+      "model": ""
+    },
+    {
+      "id": "103",
+      "name": "Standing Belt and Disc Sander",
+      "brand": "Unknown from Taiwan",
+      "model": ""
+    },
+    {
+      "id": "104",
+      "name": "Warco drill press",
+      "brand": "Warco UK",
+      "model": ""
+    },
+    {
+      "id": "105",
+      "name": "Makita Back Pack blower",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "106",
+      "name": "Makita Couple Shaft Power head",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "107",
+      "name": "Makita Large Work Light",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "108",
+      "name": "Makita Router",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "109",
+      "name": "Makita Finger Belt Sander",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "110",
+      "name": "Makita Jigsaw",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "111",
+      "name": "Makita 7\" Angle Grinder",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "112",
+      "name": "Makita 9\" Angle Grinder",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "113",
+      "name": "Makita Demolition Jack Hammer",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "114",
+      "name": "Makita Big Leaf Blower",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "115",
+      "name": "Makita Work Light",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "116",
+      "name": "Makita Caulking Gun",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "117",
+      "name": "Makita Rivet Gun",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "118",
+      "name": "Makita Dust Blower Gun",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "119",
+      "name": "Makita 1/2\" Big Impact Gun",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "120",
+      "name": "Makita 1/2\" Small Impact Gun",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "121",
+      "name": "Makita 1/4\" impact driver",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "122",
+      "name": "Makita Drill",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "123",
+      "name": "Makita Multitool",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "124",
+      "name": "Makita Angle Grinder",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "125",
+      "name": "Makita Shear Nibbler",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "126",
+      "name": "Makita Palm Sander",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "127",
+      "name": "Makita Orbital Sander",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "128",
+      "name": "Makita Small Dust Blower",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "129",
+      "name": "Makita Router/Trimmer",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "130",
+      "name": "Makita Dust Extractor",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "131",
+      "name": "Makita Metal Cutting Circular Saw",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "132",
+      "name": "Makita Tile Cutter Circular Saw",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "133",
+      "name": "Makita Circular Saw",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "134",
+      "name": "Makita 36V Framing Circular Saw",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "135",
+      "name": "Makita Small Band Saw",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "136",
+      "name": "Makita Large Band Saw",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "137",
+      "name": "Makita Short Reciprocating Saw",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "138",
+      "name": "Makita  Reciprocating Saw",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "139",
+      "name": "Makita Concrete Cutter",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "140",
+      "name": "Makita Concrete Saw",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "141",
+      "name": "Manual Pallet Jack",
+      "brand": "N/A",
+      "model": ""
+    },
+    {
+      "id": "142",
+      "name": "Electric Pallet Truck",
+      "brand": "Zhejiang Gongzhong machinery co. Ltd.",
+      "model": ""
+    },
+    {
+      "id": "143",
+      "name": "Floor washer attachment",
+      "brand": "Unknown",
+      "model": ""
+    },
+    {
+      "id": "144",
+      "name": "SPE DRG 200-3 Concrete Floor Grinder",
+      "brand": "Barlett Worldwide",
+      "model": ""
+    },
+    {
+      "id": "145",
+      "name": "Suzuki DF250 boat motor",
+      "brand": "Suzuki",
+      "model": ""
+    },
+    {
+      "id": "146",
+      "name": "Series 426 5.5 HP air compressor (THE 426)",
+      "brand": "Unknown",
+      "model": ""
+    },
+    {
+      "id": "147",
+      "name": "Sanco HL-2  2HP Air Compressor",
+      "brand": "Sanco manufacturing co. Ltd Osaka Japan",
+      "model": ""
+    },
+    {
+      "id": "148",
+      "name": "Bauer 5.5 HP Air Compressor",
+      "brand": "Bauer Germany",
+      "model": ""
+    },
+    {
+      "id": "149",
+      "name": "Keyue TIG-200P tig welder",
+      "brand": "Keyue",
+      "model": ""
+    },
+    {
+      "id": "150",
+      "name": "Keyue ARC-200 arc welder",
+      "brand": "Keyue",
+      "model": ""
+    },
+    {
+      "id": "151",
+      "name": "Keyue CUT-40 plasma cutter",
+      "brand": "Keyue",
+      "model": ""
+    },
+    {
+      "id": "152",
+      "name": "Mitech Stick Welder",
+      "brand": "Mitech equipment",
+      "model": ""
+    },
+    {
+      "id": "153",
+      "name": "1 HP nail gun compressor",
+      "brand": "Made in Taiwan",
+      "model": ""
+    },
+    {
+      "id": "154",
+      "name": "Fini Amico 2500 air compressor",
+      "brand": "Fini Amico",
+      "model": ""
+    },
+    {
+      "id": "155",
+      "name": "Air Fox 1.5 HP air compressor",
+      "brand": "Quan Zhou Ritia machinery co. Ltd",
+      "model": ""
+    },
+    {
+      "id": "156",
+      "name": "Air Fox 2 HP aircompressor",
+      "brand": "Quan Zhou Ritia machinery co. Ltd",
+      "model": ""
+    },
+    {
+      "id": "157",
+      "name": "Bauer Junior II HP air compressor",
+      "brand": "Bauer",
+      "model": ""
+    },
+    {
+      "id": "158",
+      "name": "Blue Planet Floor polisher",
+      "brand": "Blue Planet",
+      "model": ""
+    },
+    {
+      "id": "159",
+      "name": "Honda 20i EU Generator/Inverter",
+      "brand": "Honda",
+      "model": ""
+    },
+    {
+      "id": "160",
+      "name": "Falcon 9 Hydraulic Power Pack",
+      "brand": "Paratech Equipment",
+      "model": ""
+    },
+    {
+      "id": "161",
+      "name": "Tsurumi 3\" Water Pump",
+      "brand": "Tsurumi Manufacturing co. ltd Japan",
+      "model": ""
+    },
+    {
+      "id": "162",
+      "name": "Innovatech Concrete floor polisher/finisher",
+      "brand": "Bartell Global",
+      "model": ""
+    },
+    {
+      "id": "163",
+      "name": "Von Arx 380V Concrete Floor Grinder",
+      "brand": "AG Switzerland - Von Arx",
+      "model": ""
+    },
+    {
+      "id": "164",
+      "name": "Von Arx 380V Concrete floor grinder",
+      "brand": "AG Switzerland -Von Arx",
+      "model": ""
+    },
+    {
+      "id": "165",
+      "name": "Milwaukie Dymodril Coring Rig",
+      "brand": "Milwaukie",
+      "model": ""
+    },
+    {
+      "id": "166",
+      "name": "IMC 4000 Pressure Washer",
+      "brand": "IMC motor Japan co. Ltd",
+      "model": ""
+    },
+    {
+      "id": "167",
+      "name": "Lifan Hydropro 3600 Pressure Washer",
+      "brand": "Lifan USA Power",
+      "model": ""
+    },
+    {
+      "id": "168",
+      "name": "White 4 hp compressor",
+      "brand": "",
+      "model": ""
+    },
+    {
+      "id": "169",
+      "name": "EleMax Power Generator/Inverter",
+      "brand": "Unknown",
+      "model": ""
+    },
+    {
+      "id": "170",
+      "name": "Air Fox 4 HP air compressor",
+      "brand": "Quan Zhou Ritia Machinery co. Ltd",
+      "model": ""
+    },
+    {
+      "id": "171",
+      "name": "Miller Syncrowave 250DX welder",
+      "brand": "Miller Manufacturing USA",
+      "model": ""
+    },
+    {
+      "id": "172",
+      "name": "Feiyu STO 140 Cement Mixer",
+      "brand": "Zhengzhou Feiyu Machinery Equipment Co., LTD.",
+      "model": ""
+    },
+    {
+      "id": "173",
+      "name": "MiniMix 150 Cement Mixer",
+      "brand": "Belle Equipment",
+      "model": ""
+    },
+    {
+      "id": "174",
+      "name": "Porta mix",
+      "brand": "Eibenstock Germany",
+      "model": ""
+    },
+    {
+      "id": "175",
+      "name": "Porta Mix",
+      "brand": "Eibenstock Germany",
+      "model": ""
+    },
+    {
+      "id": "176",
+      "name": "Bauer HP compressor",
+      "brand": "Bauer",
+      "model": ""
+    },
+    {
+      "id": "177",
+      "name": "9M Open Cruiser Speed Boat",
+      "brand": "Unknown",
+      "model": ""
+    },
+    {
+      "id": "178",
+      "name": "Mercedes Vito 116 Van",
+      "brand": "Mercedes",
+      "model": ""
+    },
+    {
+      "id": "179",
+      "name": "Vanguard Hydrapak 23",
+      "brand": "Vanguard USA",
+      "model": ""
+    },
+    {
+      "id": "180",
+      "name": "Vespa Compressor",
+      "brand": "Ming Tyan Iron Works Co LTD",
+      "model": ""
+    },
+    {
+      "id": "181",
+      "name": "Quincy QT 7.5 (Big Blue)",
+      "brand": "Quincy USA",
+      "model": ""
+    },
+    {
+      "id": "182",
+      "name": "Flashing Bender",
+      "brand": "Anhui Runbang Heavy Industry Machinery",
+      "model": ""
+    },
+    {
+      "id": "183",
+      "name": "Hany IC 310 Concrete Grout Plant",
+      "brand": "Hany AG - Switzerland",
+      "model": ""
+    },
+    {
+      "id": "184",
+      "name": "Mobile Office 2 (MOBO2)",
+      "brand": "Kowloon Construction",
+      "model": ""
+    },
+    {
+      "id": "185",
+      "name": "Mobile Office 1 (MOBO1)",
+      "brand": "Kowloon Construction",
+      "model": ""
+    },
+    {
+      "id": "186",
+      "name": "Dive Spread 1 (DS1)",
+      "brand": "Kowloon Construction",
+      "model": ""
+    },
+    {
+      "id": "187",
+      "name": "Makita 18V Cordless Drill",
+      "brand": "Makita",
+      "model": "DCD777C2"
+    },
+    {
+      "id": "188",
+      "name": "DeWalt Circular Saw",
+      "brand": "DeWalt",
+      "model": "DCS391D1"
+    },
+    {
+      "id": "189",
+      "name": "Bosch Reciprocating Saw",
+      "brand": "Bosch",
+      "model": "RS20"
+    },
+    {
+      "id": "190",
+      "name": "Makita Angle Grinder",
+      "brand": "Makita",
+      "model": "GA5030"
+    },
+    {
+      "id": "191",
+      "name": "Festool Orbital Sander",
+      "brand": "Festool",
+      "model": "RO90"
+    },
+    {
+      "id": "192",
+      "name": "Dr Scaffold Platform 1.2m",
+      "brand": "Dr Scaffold",
+      "model": "PSF-1200"
+    },
+    {
+      "id": "193",
+      "name": "Aluminum Extension Ladder 6m",
+      "brand": "Gorilla",
+      "model": "GLF-6M"
+    },
+    {
+      "id": "194",
+      "name": "Mobile Scaffolding Tower",
+      "brand": "Werner",
+      "model": "MT-6"
+    },
+    {
+      "id": "195",
+      "name": "Fall Arrest Harness",
+      "brand": "3M",
+      "model": "DBI-SALA"
+    },
+    {
+      "id": "196",
+      "name": "Safety Helmet Orange",
+      "brand": "MSA",
+      "model": "V-Gard"
+    },
+    {
+      "id": "197",
+      "name": "Laser Level 50m",
+      "brand": "Bosch",
+      "model": "GLL 2-50"
+    },
+    {
+      "id": "198",
+      "name": "Digital Angle Gauge",
+      "brand": "Starrett",
+      "model": "PAG-M"
+    },
+    {
+      "id": "199",
+      "name": "MIG Welder 200A",
+      "brand": "Lincoln",
+      "model": "Ranger 305D"
+    },
+    {
+      "id": "200",
+      "name": "Oxy-Acetylene Torch Kit",
+      "brand": "Victor",
+      "model": "CA2460"
+    },
+    {
+      "id": "201",
+      "name": "Pneumatic Breaker 25kg",
+      "brand": "Atlas Copco",
+      "model": "LF25"
+    },
+    {
+      "id": "203",
+      "name": "Hydraulic Jack 50 Ton",
+      "brand": "Enerpac",
+      "model": "RCH-50"
+    },
+    {
+      "id": "204",
+      "name": "Hydraulic Pump 2HP",
+      "brand": "Parker",
+      "model": "PV-2HP"
+    },
+    {
+      "id": "205",
+      "name": "Submersible Pump 2HP",
+      "brand": "Grundfos",
+      "model": "SQ3-65"
+    },
+    {
+      "id": "206",
+      "name": "Spray Gun HVLP 1.4mm",
+      "brand": "DeVilbiss",
+      "model": "HVLP-1400"
+    },
+    {
+      "id": "207",
+      "name": "Husqvarna Chainsaw 455",
+      "brand": "Husqvarna",
+      "model": "455"
+    },
+    {
+      "id": "208",
+      "name": "Makita 18V Battery 3.0Ah",
+      "brand": "Makita",
+      "model": "BL1830B"
+    },
+    {
+      "id": "209",
+      "name": "Makita Dual Charger",
+      "brand": "Makita",
+      "model": "DC18RD"
+    },
+    {
+      "id": "210",
+      "name": "Chain Block 2 Ton",
+      "brand": "Kito",
+      "model": "CB020"
+    },
+    {
+      "id": "211",
+      "name": "Pipe Stand Heavy Duty",
+      "brand": "Sumner",
+      "model": "PS-1000"
+    },
+    {
+      "id": "212",
+      "name": "Air Compressor 100L 3HP",
+      "brand": "Atlas Copco",
+      "model": "GA11FF"
+    },
+    {
+      "id": "213",
+      "name": "Portable Air Fan 20\"",
+      "brand": "Lasko",
+      "model": "U20310"
+    },
+    {
+      "id": "214",
+      "name": "Concrete Mixer 140L",
+      "brand": "Imer",
+      "model": "Syntesi 140"
+    },
+    {
+      "id": "215",
+      "name": "Electric Winch 1000kg",
+      "brand": "Elephant",
+      "model": "EW1000"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tname\tbrand\tmodel\n1\tHilti 360* Lazer level\tHilti Tools (China)\t\n2\tDr Scaffold Safety Railing 2 Rung Span\tDr Scaffold\t\n3\tCadillac Sand Blaster\tCadillac Products USA\t\n4\tHaru Fall Arrester\tHaru Co.\t\n5\tViraj Fall Arrester\tViraj VSPL group (India)\t\n6\tAC Delco Marine Battery\tAC Delco\t\n7\tCheetah Equipment Battery\tCheetah Battery Korea\t\n8\tBosch Laser Level\tBosch Tools Germany\t\n9\tKlein Digital Angle Gauge\tKlein Tools\t\n10\tElephant 1T Chain Block\tElephant Chain Block Company\t\n11\tTogoshi Walking Measuring Wheel\tTogoshi Manufacturing Japan\t\n12\tUmbilical Flushing and Cleaning Kit\tGuangdong Lingxiao pump industry co.ltd\t\n13\tArgon Gas Tank\tUnknown\t\n14\tTaiyu 1T chain block\tTaiyu Corporation\t\n15\tXcalibre Magnum Hydraulic Drill\tXcalibre UK\t\n16\tCP-9 Pneumatic Rock/Concrete Drill/Breaker\tUnknown\t\n17\tToku Pneumatic Breaker\tToku Corp Japan\t\n18\tTD Pro Pipe Stand\tTD Company China\t\n19\tPU Pump Large (Minion)\tUnknown\t\n20\tBora Speed Horse\tBora\t\n21\tVespa 3HP air compressor\tVespa China\t\n22\tMakita Tool Briefcase\tMakita\t\n23\tING Welding Rod Warmers\tNippon-Alloy electrode co. Ltd (Japan)\t\n24\tUWeld Gas Torches\tU-Weld China\t\n25\tHusqvarna 440 Chainsaw\tHusqvarna\t\n26\tHusqvarna 460 Rancher Chainsaw\tHusqvarna\t\n27\tDr Scaffold Cross Brace\tDr Scaffold\t\n28\tDr Scaffold Horizontal Brace\tDr Scaffold\t\n29\tDr Scaffold Horizontal brace\tDr Scaffold\t\n30\tDr Scaffold Platform\tDr Scaffold\t\n31\tDr Scaffold HD Scaffold Castors\tDr Scaffold\t\n32\tDr  Scaffold HD Scaffold Castors\tDr Scaffold\t\n33\tDr Scaffold Outrigger\tDr Scaffold\t\n34\tDr Scaffold 5 Rung Ladder Span\tDr Scaffold\t\n35\tDr Scaffold 5 Rung Span\tDr Scaffold\t\n36\tDr Scaffold 3 Rung Span\tDr Scaffold\t\n37\tDr Scaffold 3 Rung Ladder Span\tDr Scaffold\t\n38\tSmith H2O sprayer\tSmith Performance\t\n39\tIMC Power Sprayer\tIMC motors\t\n40\tMilwaukie Drain Cleaner\tMilwaukie\t\n41\tMakita 10\" pole saw attachment\tMakita\t\n42\tDongchang paint/mud mixer\tJiangsu Dongcheng tools co. Ltd\t\n43\tLittle Giant 4 Step Folding Ladder\tLittle Giant USA\t\n44\tLittle Giant 5 Step Folding Ladder\tLittle Giant USA\t\n45\tElectrical Winch\tUnknown\t\n46\t4\" Bench Vice\tUnknown\t\n47\tIrwin 6\" Bench Vice\tIrwin Tools\t\n48\tSL PU pump\tSL Company\t\n49\tPU Pump\tUnknown\t\n50\tAir Plus Industrial Floor Fan\tAir Plus\t\n51\tAir Plus Industrial Floor Fans\tN/A\t\n52\tAP Industrial Floor Fan\tAP\t\n53\tEKO Pneumatic Impact Gun\tEKO Tools\t\n54\tDiesel Pump Kit\tPiusi/Fleetwood/Bada\t\n55\tMakita 18V Battery\tMakita\t\n56\tMakita 18V battery\tMakita\t\n57\tMakita Smart Battery Charger\tMakita\t\n58\tMakita Fast Charging Double Charge Station\tMakita\t\n59\tMakita Cordless Impact Driver\tMakita\t\n60\tMakita Cordless Drill\tMakita\t\n61\tMakita Cordless Circular Saw\tMakita\t\n62\tMakita Cordless SDS Hammer Drill\tMakita\t\n63\tMilwaukie Packout Low Profile Small Organizer Box\tMilwaukie\t\n64\tMilwaukie Packout Low Profile Organizer Box\tMilwaukie\t\n65\tMilwaukie Compact Small Organizer Box\tMilwaukie\t\n66\tMilwaukie Packout Compact Large Organizer Box\tMilwaukie\t\n67\tMilwaukie Packout Three Drawer Tool Chest\tMilwaukie\t\n68\tMilwaukie Packout Large Tool Box\tMilwaukie\t\n69\tMilwaukie Packout Rolling Base Tool Box\tMilwaukie\t\n70\tBeta 5 Drawer Bottom Tool Chest\tBeta Tools\t\n71\t6 Drawer top tool chest\tUnknown\t\n72\tArda Metal Band Saw\tArda Manufacturing\t\n73\tDrill Press\tUnknown\t\n74\tFireFly Motion Sensor\tFirefly MSA Company\t\n75\tCrawcon Gas Detector\tCrawcon UK\t\n76\tMetabo Siding Nail Gun\tMetabo\t\n77\tMetabo Framing Nail Gun\tMetabo\t\n78\tMetabo HTP Framing Nail Gun\tMetabo\t\n79\tDahoo Pneumatic Nail Gun\tDahoo Tools\t\n80\tNumax Brad Nailer\tNumax\t\n81\tMakita Brad Nailer\tMakita\t\n82\tBosch Wet/Dry Vacuum\tBosch Germany\t\n83\tMakita Drywall Sander\tMakita\t\n84\tDewalt Chop Saw\tDewalt\t\n85\tRex Pipe Threader\tSuzhou Rex electro-machinery co. Ltd\t\n86\tMakita Wood Planner\tMakita\t\n87\tMakita Combination Mitre/Table saw\tMakita\t\n88\tMakita Table Saw\tMakita\t\n89\tMakita Mitre Saw\tMakita\t\n90\tHilti SDS Hammer Drill\tHilti Corporation\t\n91\tDongcheng Reciprocating saw\tJiangsu Dongcheng M&E tools Co. Ltd.\t\n92\tBosch SDS Hammer Drill\tBosch Germany\t\n93\tLavor Pressure Washer\tLavor Italy\t\n94\tGraco Paint Gun\tGraco USA\t\n95\tGraco True Airless Paint Sprayer\tGraco USA\t\n96\tFull Clean Chrome Wet/Dry Vacuum\tFull Clean Italy\t\n97\tMakita Backpack Garden Sprayer\tMakita\t\n98\tMakita Small Pressure Washer\tMakita\t\n99\tMakita Small Circular Concrete/Tile Cutter\tMakita\t\n100\tMakita Small Jobsite Fan\tMakita\t\n101\tMakita 7 1/4\" Circular Saw\tMakita\t\n102\tSPE Concrete Floor Grinder\tSPE Manufacturing\t\n103\tStanding Belt and Disc Sander\tUnknown from Taiwan\t\n104\tWarco drill press\tWarco UK\t\n105\tMakita Back Pack blower\tMakita\t\n106\tMakita Couple Shaft Power head\tMakita\t\n107\tMakita Large Work Light\tMakita\t\n108\tMakita Router\tMakita\t\n109\tMakita Finger Belt Sander\tMakita\t\n110\tMakita Jigsaw\tMakita\t\n111\tMakita 7\" Angle Grinder\tMakita\t\n112\tMakita 9\" Angle Grinder\tMakita\t\n113\tMakita Demolition Jack Hammer\tMakita\t\n114\tMakita Big Leaf Blower\tMakita\t\n115\tMakita Work Light\tMakita\t\n116\tMakita Caulking Gun\tMakita\t\n117\tMakita Rivet Gun\tMakita\t\n118\tMakita Dust Blower Gun\tMakita\t\n119\tMakita 1/2\" Big Impact Gun\tMakita\t\n120\tMakita 1/2\" Small Impact Gun\tMakita\t\n121\tMakita 1/4\" impact driver\tMakita\t\n122\tMakita Drill\tMakita\t\n123\tMakita Multitool\tMakita\t\n124\tMakita Angle Grinder\tMakita\t\n125\tMakita Shear Nibbler\tMakita\t\n126\tMakita Palm Sander\tMakita\t\n127\tMakita Orbital Sander\tMakita\t\n128\tMakita Small Dust Blower\tMakita\t\n129\tMakita Router/Trimmer\tMakita\t\n130\tMakita Dust Extractor\tMakita\t\n131\tMakita Metal Cutting Circular Saw\tMakita\t\n132\tMakita Tile Cutter Circular Saw\tMakita\t\n133\tMakita Circular Saw\tMakita\t\n134\tMakita 36V Framing Circular Saw\tMakita\t\n135\tMakita Small Band Saw\tMakita\t\n136\tMakita Large Band Saw\tMakita\t\n137\tMakita Short Reciprocating Saw\tMakita\t\n138\tMakita  Reciprocating Saw\tMakita\t\n139\tMakita Concrete Cutter\tMakita\t\n140\tMakita Concrete Saw\tMakita\t\n141\tManual Pallet Jack\tN/A\t\n142\tElectric Pallet Truck\tZhejiang Gongzhong machinery co. Ltd.\t\n143\tFloor washer attachment\tUnknown\t\n144\tSPE DRG 200-3 Concrete Floor Grinder\tBarlett Worldwide\t\n145\tSuzuki DF250 boat motor\tSuzuki\t\n146\tSeries 426 5.5 HP air compressor (THE 426)\tUnknown\t\n147\tSanco HL-2  2HP Air Compressor\tSanco manufacturing co. Ltd Osaka Japan\t\n148\tBauer 5.5 HP Air Compressor\tBauer Germany\t\n149\tKeyue TIG-200P tig welder\tKeyue\t\n150\tKeyue ARC-200 arc welder\tKeyue\t\n151\tKeyue CUT-40 plasma cutter\tKeyue\t\n152\tMitech Stick Welder\tMitech equipment\t\n153\t1 HP nail gun compressor\tMade in Taiwan\t\n154\tFini Amico 2500 air compressor\tFini Amico\t\n155\tAir Fox 1.5 HP air compressor\tQuan Zhou Ritia machinery co. Ltd\t\n156\tAir Fox 2 HP aircompressor\tQuan Zhou Ritia machinery co. Ltd\t\n157\tBauer Junior II HP air compressor\tBauer\t\n158\tBlue Planet Floor polisher\tBlue Planet\t\n159\tHonda 20i EU Generator/Inverter\tHonda\t\n160\tFalcon 9 Hydraulic Power Pack\tParatech Equipment\t\n161\tTsurumi 3\" Water Pump\tTsurumi Manufacturing co. ltd Japan\t\n162\tInnovatech Concrete floor polisher/finisher\tBartell Global\t\n163\tVon Arx 380V Concrete Floor Grinder\tAG Switzerland - Von Arx\t\n164\tVon Arx 380V Concrete floor grinder\tAG Switzerland -Von Arx\t\n165\tMilwaukie Dymodril Coring Rig\tMilwaukie\t\n166\tIMC 4000 Pressure Washer\tIMC motor Japan co. Ltd\t\n167\tLifan Hydropro 3600 Pressure Washer\tLifan USA Power\t\n168\tWhite 4 hp compressor\t\t\n169\tEleMax Power Generator/Inverter\tUnknown\t\n170\tAir Fox 4 HP air compressor\tQuan Zhou Ritia Machinery co. Ltd\t\n171\tMiller Syncrowave 250DX welder\tMiller Manufacturing USA\t\n172\tFeiyu STO 140 Cement Mixer\tZhengzhou Feiyu Machinery Equipment Co., LTD.\t\n173\tMiniMix 150 Cement Mixer\tBelle Equipment\t\n174\tPorta mix\tEibenstock Germany\t\n175\tPorta Mix\tEibenstock Germany\t\n176\tBauer HP compressor\tBauer\t\n177\t9M Open Cruiser Speed Boat\tUnknown\t\n178\tMercedes Vito 116 Van\tMercedes\t\n179\tVanguard Hydrapak 23\tVanguard USA\t\n180\tVespa Compressor\tMing Tyan Iron Works Co LTD\t\n181\tQuincy QT 7.5 (Big Blue)\tQuincy USA\t\n182\tFlashing Bender\tAnhui Runbang Heavy Industry Machinery\t\n183\tHany IC 310 Concrete Grout Plant\tHany AG - Switzerland\t\n184\tMobile Office 2 (MOBO2)\tKowloon Construction\t\n185\tMobile Office 1 (MOBO1)\tKowloon Construction\t\n186\tDive Spread 1 (DS1)\tKowloon Construction\t\n187\tMakita 18V Cordless Drill\tMakita\tDCD777C2\n188\tDeWalt Circular Saw\tDeWalt\tDCS391D1\n189\tBosch Reciprocating Saw\tBosch\tRS20\n190\tMakita Angle Grinder\tMakita\tGA5030\n191\tFestool Orbital Sander\tFestool\tRO90\n192\tDr Scaffold Platform 1.2m\tDr Scaffold\tPSF-1200\n193\tAluminum Extension Ladder 6m\tGorilla\tGLF-6M\n194\tMobile Scaffolding Tower\tWerner\tMT-6\n195\tFall Arrest Harness\t3M\tDBI-SALA\n196\tSafety Helmet Orange\tMSA\tV-Gard\n197\tLaser Level 50m\tBosch\tGLL 2-50\n198\tDigital Angle Gauge\tStarrett\tPAG-M\n199\tMIG Welder 200A\tLincoln\tRanger 305D\n200\tOxy-Acetylene Torch Kit\tVictor\tCA2460\n201\tPneumatic Breaker 25kg\tAtlas Copco\tLF25\n203\tHydraulic Jack 50 Ton\tEnerpac\tRCH-50\n204\tHydraulic Pump 2HP\tParker\tPV-2HP\n205\tSubmersible Pump 2HP\tGrundfos\tSQ3-65\n206\tSpray Gun HVLP 1.4mm\tDeVilbiss\tHVLP-1400\n207\tHusqvarna Chainsaw 455\tHusqvarna\t455\n208\tMakita 18V Battery 3.0Ah\tMakita\tBL1830B\n209\tMakita Dual Charger\tMakita\tDC18RD\n210\tChain Block 2 Ton\tKito\tCB020\n211\tPipe Stand Heavy Duty\tSumner\tPS-1000\n212\tAir Compressor 100L 3HP\tAtlas Copco\tGA11FF\n213\tPortable Air Fan 20\"\tLasko\tU20310\n214\tConcrete Mixer 140L\tImer\tSyntesi 140\n215\tElectric Winch 1000kg\tElephant\tEW1000\n",
+  "stderr": "",
+  "execution_time_ms": 1642
+}

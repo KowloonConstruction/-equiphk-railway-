@@ -1,0 +1,15 @@
+{
+  "query": "UPDATE equipment_items SET brand = 'Makita' WHERE id = 62;\nSELECT id, name, brand FROM equipment_items WHERE id = 62;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2B2d1HYRsoiQJMJ.root --database EqJqhhxWWJKtKB68YEvggw --execute UPDATE equipment_items SET brand = 'Makita' WHERE id = 62;\nSELECT id, name, brand FROM equipment_items WHERE id = 62;",
+  "rows": [
+    {
+      "id": "62",
+      "name": "Makita Cordless SDS Hammer Drill",
+      "brand": "Makita"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tname\tbrand\n62\tMakita Cordless SDS Hammer Drill\tMakita\n",
+  "stderr": "",
+  "execution_time_ms": 1747
+}

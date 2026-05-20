@@ -1,0 +1,46 @@
+{
+  "query": "SELECT COUNT(*) as total FROM equipment_items;\nSELECT id, name, brand, model FROM equipment_items WHERE id NOT IN (\n  SELECT id FROM equipment_items WHERE id <= 214\n) ORDER BY id LIMIT 10;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2B2d1HYRsoiQJMJ.root --database EqJqhhxWWJKtKB68YEvggw --execute SELECT COUNT(*) as total FROM equipment_items;\nSELECT id, name, brand, model FROM equipment_items WHERE id NOT IN (\n  SELECT id FROM equipment_items WHERE id <= 214\n) ORDER BY id LIMIT 10;",
+  "rows": [
+    {
+      "total": "297"
+    },
+    {
+      "total": "id\tname\tbrand\tmodel"
+    },
+    {
+      "total": "215\tElectric Winch 1000kg\tElephant\tEW1000"
+    },
+    {
+      "total": "30001\tDr Scaffold SRP-3 Cross Brace 2200mm\tDr Scaffold\tSRP-3"
+    },
+    {
+      "total": "30002\tDr Scaffold SRP-3 Horizontal Brace 2000mm\tDr Scaffold\tSRP-3"
+    },
+    {
+      "total": "30003\tDr Scaffold SRP-3 Extendable Outrigger 3200mm\tDr Scaffold\tSRP-3"
+    },
+    {
+      "total": "30004\tDr Scaffold 3 Rung Ladder Span 1400mm\tDr Scaffold\tSRP-3"
+    },
+    {
+      "total": "30005\tDr Scaffold 5 Rung Ladder Span 2300mm\tDr Scaffold\tSRP-3"
+    },
+    {
+      "total": "30006\tDr Scaffold Safety Railing 2 Rung Span\tDr Scaffold\tSRP-3"
+    },
+    {
+      "total": "30007\tHaru Fall Arrester\tHaru Co.\tHE-6N"
+    },
+    {
+      "total": "30008\tViraj Fall Arrester\tViraj VSPL Group\tSF-RFA-6W"
+    },
+    {
+      "total": "30009\tFirefly Battery Operated Motion Sensor\tFirefly MSA Company\tFirefly 11"
+    }
+  ],
+  "messages": [],
+  "stdout": "total\n297\nid\tname\tbrand\tmodel\n215\tElectric Winch 1000kg\tElephant\tEW1000\n30001\tDr Scaffold SRP-3 Cross Brace 2200mm\tDr Scaffold\tSRP-3\n30002\tDr Scaffold SRP-3 Horizontal Brace 2000mm\tDr Scaffold\tSRP-3\n30003\tDr Scaffold SRP-3 Extendable Outrigger 3200mm\tDr Scaffold\tSRP-3\n30004\tDr Scaffold 3 Rung Ladder Span 1400mm\tDr Scaffold\tSRP-3\n30005\tDr Scaffold 5 Rung Ladder Span 2300mm\tDr Scaffold\tSRP-3\n30006\tDr Scaffold Safety Railing 2 Rung Span\tDr Scaffold\tSRP-3\n30007\tHaru Fall Arrester\tHaru Co.\tHE-6N\n30008\tViraj Fall Arrester\tViraj VSPL Group\tSF-RFA-6W\n30009\tFirefly Battery Operated Motion Sensor\tFirefly MSA Company\tFirefly 11\n",
+  "stderr": "",
+  "execution_time_ms": 1791
+}

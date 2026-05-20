@@ -1,0 +1,154 @@
+{
+  "query": "SELECT id, name, brand, model FROM equipment_items \nWHERE id IN (70, 78, 79, 80, 81, 83, 86, 87, 90, 91, 92, 95, 96, 97, 103, 112, 113, 116, 124, 137, 142, 144, 173, 187)\nORDER BY id;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2B2d1HYRsoiQJMJ.root --database EqJqhhxWWJKtKB68YEvggw --execute SELECT id, name, brand, model FROM equipment_items \nWHERE id IN (70, 78, 79, 80, 81, 83, 86, 87, 90, 91, 92, 95, 96, 97, 103, 112, 113, 116, 124, 137, 142, 144, 173, 187)\nORDER BY id;",
+  "rows": [
+    {
+      "id": "70",
+      "name": "Beta 5 Drawer Bottom Tool Chest",
+      "brand": "Beta Tools",
+      "model": "C24S-5"
+    },
+    {
+      "id": "78",
+      "name": "Metabo HTP Framing Nail Gun",
+      "brand": "Metabo",
+      "model": "NR90AE(S1)"
+    },
+    {
+      "id": "79",
+      "name": "Dahoo Pneumatic Nail Gun",
+      "brand": "Dahoo Tools",
+      "model": "GJ38771"
+    },
+    {
+      "id": "80",
+      "name": "Numax Brad Nailer",
+      "brand": "Numax",
+      "model": "S20VFST50"
+    },
+    {
+      "id": "81",
+      "name": "Makita Brad Nailer",
+      "brand": "Makita",
+      "model": "DBN500"
+    },
+    {
+      "id": "83",
+      "name": "Makita Drywall Sander",
+      "brand": "Makita",
+      "model": "DSL801"
+    },
+    {
+      "id": "86",
+      "name": "Makita Wood Planner",
+      "brand": "Makita",
+      "model": "2012 NB"
+    },
+    {
+      "id": "87",
+      "name": "Makita Combination Mitre/Table saw",
+      "brand": "Makita",
+      "model": "LH1201FL"
+    },
+    {
+      "id": "90",
+      "name": "Hilti SDS Hammer Drill",
+      "brand": "Hilti",
+      "model": "TE500X"
+    },
+    {
+      "id": "91",
+      "name": "Dongcheng Reciprocating saw",
+      "brand": "Dongcheng",
+      "model": "DJF 30"
+    },
+    {
+      "id": "92",
+      "name": "Bosch SDS Hammer Drill",
+      "brand": "Bosch",
+      "model": "GBH 2-23S"
+    },
+    {
+      "id": "95",
+      "name": "Graco True Airless Paint Sprayer",
+      "brand": "Graco",
+      "model": "magnum ProX17"
+    },
+    {
+      "id": "96",
+      "name": "Full Clean Chrome Wet/Dry Vacuum",
+      "brand": "Full Clean Italy",
+      "model": "FC-301"
+    },
+    {
+      "id": "97",
+      "name": "Makita Backpack Garden Sprayer",
+      "brand": "Makita",
+      "model": "DUS054"
+    },
+    {
+      "id": "103",
+      "name": "Standing Belt and Disc Sander",
+      "brand": "Unknown",
+      "model": ""
+    },
+    {
+      "id": "112",
+      "name": "Makita 9\" Angle Grinder",
+      "brand": "Makita",
+      "model": "GA9020"
+    },
+    {
+      "id": "113",
+      "name": "Makita Demolition Jack Hammer",
+      "brand": "Makita",
+      "model": "HM0810"
+    },
+    {
+      "id": "116",
+      "name": "Makita Caulking Gun",
+      "brand": "Makita",
+      "model": "DCG180"
+    },
+    {
+      "id": "124",
+      "name": "Makita Angle Grinder",
+      "brand": "Makita",
+      "model": "DGA404"
+    },
+    {
+      "id": "137",
+      "name": "Makita Short Reciprocating Saw",
+      "brand": "Makita",
+      "model": "DJR188"
+    },
+    {
+      "id": "142",
+      "name": "Electric Pallet Truck",
+      "brand": "Zhejiang Gongzhong",
+      "model": ""
+    },
+    {
+      "id": "144",
+      "name": "SPE DRG 200-3 Concrete Floor Grinder",
+      "brand": "SPE Manufacturing",
+      "model": ""
+    },
+    {
+      "id": "173",
+      "name": "MiniMix 150 Cement Mixer",
+      "brand": "Feiyu",
+      "model": ""
+    },
+    {
+      "id": "187",
+      "name": "Makita 18V Cordless Drill",
+      "brand": "Makita",
+      "model": "DTD172"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tname\tbrand\tmodel\n70\tBeta 5 Drawer Bottom Tool Chest\tBeta Tools\tC24S-5\n78\tMetabo HTP Framing Nail Gun\tMetabo\tNR90AE(S1)\n79\tDahoo Pneumatic Nail Gun\tDahoo Tools\tGJ38771\n80\tNumax Brad Nailer\tNumax\tS20VFST50\n81\tMakita Brad Nailer\tMakita\tDBN500\n83\tMakita Drywall Sander\tMakita\tDSL801\n86\tMakita Wood Planner\tMakita\t2012 NB\n87\tMakita Combination Mitre/Table saw\tMakita\tLH1201FL\n90\tHilti SDS Hammer Drill\tHilti\tTE500X\n91\tDongcheng Reciprocating saw\tDongcheng\tDJF 30\n92\tBosch SDS Hammer Drill\tBosch\tGBH 2-23S\n95\tGraco True Airless Paint Sprayer\tGraco\tmagnum ProX17\n96\tFull Clean Chrome Wet/Dry Vacuum\tFull Clean Italy\tFC-301\n97\tMakita Backpack Garden Sprayer\tMakita\tDUS054\n103\tStanding Belt and Disc Sander\tUnknown\t\n112\tMakita 9\" Angle Grinder\tMakita\tGA9020\n113\tMakita Demolition Jack Hammer\tMakita\tHM0810\n116\tMakita Caulking Gun\tMakita\tDCG180\n124\tMakita Angle Grinder\tMakita\tDGA404\n137\tMakita Short Reciprocating Saw\tMakita\tDJR188\n142\tElectric Pallet Truck\tZhejiang Gongzhong\t\n144\tSPE DRG 200-3 Concrete Floor Grinder\tSPE Manufacturing\t\n173\tMiniMix 150 Cement Mixer\tFeiyu\t\n187\tMakita 18V Cordless Drill\tMakita\tDTD172\n",
+  "stderr": "",
+  "execution_time_ms": 1614
+}

@@ -1,0 +1,16 @@
+{
+  "query": "SELECT \n  COUNT(*) as total,\n  SUM(CASE WHEN description LIKE '%Hong Kong%' THEN 1 ELSE 0 END) as hong_kong,\n  SUM(CASE WHEN description LIKE '%HK%' THEN 1 ELSE 0 END) as hk_ref,\n  SUM(CASE WHEN description LIKE '%hong kong%' THEN 1 ELSE 0 END) as lowercase_hk\nFROM equipment_items \nWHERE description LIKE '%Hong Kong%' OR description LIKE '%hong kong%';",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2B2d1HYRsoiQJMJ.root --database EqJqhhxWWJKtKB68YEvggw --execute SELECT \n  COUNT(*) as total,\n  SUM(CASE WHEN description LIKE '%Hong Kong%' THEN 1 ELSE 0 END) as hong_kong,\n  SUM(CASE WHEN description LIKE '%HK%' THEN 1 ELSE 0 END) as hk_ref,\n  SUM(CASE WHEN description LIKE '%hong kong%' THEN 1 ELSE 0 END) as lowercase_hk\nFROM equipment_items \nWHERE description LIKE '%Hong Kong%' OR description LIKE '%hong kong%';",
+  "rows": [
+    {
+      "total": "196",
+      "hong_kong": "196",
+      "hk_ref": "0",
+      "lowercase_hk": "0"
+    }
+  ],
+  "messages": [],
+  "stdout": "total\thong_kong\thk_ref\tlowercase_hk\n196\t196\t0\t0\n",
+  "stderr": "",
+  "execution_time_ms": 1682
+}

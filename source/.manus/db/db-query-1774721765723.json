@@ -1,0 +1,13 @@
+{
+  "query": "SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'equipment_items' AND COLUMN_NAME LIKE '%sub%' OR COLUMN_NAME LIKE '%Sub%';",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2B2d1HYRsoiQJMJ.root --database EqJqhhxWWJKtKB68YEvggw --execute SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'equipment_items' AND COLUMN_NAME LIKE '%sub%' OR COLUMN_NAME LIKE '%Sub%';",
+  "rows": [
+    {
+      "COLUMN_NAME": "subCategoryId"
+    }
+  ],
+  "messages": [],
+  "stdout": "COLUMN_NAME\nsubCategoryId\n",
+  "stderr": "",
+  "execution_time_ms": 1597
+}

@@ -1,0 +1,345 @@
+[2026-03-29T14:02:48.127Z] Found 187 items needing photos
+[2026-03-29T14:02:48.128Z] Batch 1/38 — processing 5 items
+[2026-03-29T14:02:58.385Z]   ✓ ID 1: Hilti 360* Lazer level — queued for approval
+[2026-03-29T14:03:04.983Z]   ✓ ID 2: Dr Scaffold Safety Railing 2 Rung Span — queued for approval
+[2026-03-29T14:03:11.952Z]   ✓ ID 3: Cadillac Sand Blaster — queued for approval
+[2026-03-29T14:03:17.983Z]   ✓ ID 4: Haru Fall Arrester — queued for approval
+[2026-03-29T14:03:23.242Z]   ✓ ID 5: Viraj Fall Arrester — queued for approval
+[2026-03-29T14:03:23.743Z] Batch 2/38 — processing 5 items
+[2026-03-29T14:03:31.884Z]   ✓ ID 6: AC Delco Marine Battery — queued for approval
+[2026-03-29T14:03:40.948Z]   ✓ ID 10: Elephant 1T Chain Block — queued for approval
+[2026-03-29T14:03:50.706Z]   ✓ ID 11: Togoshi Walking Measuring Wheel — queued for approval
+[2026-03-29T14:03:57.048Z]   ✓ ID 12: Umbilical Flushing and Cleaning Kit — queued for approval
+[2026-03-29T14:04:04.952Z]   ✓ ID 14: Taiyu 1T chain block — queued for approval
+[2026-03-29T14:04:05.453Z] Batch 3/38 — processing 5 items
+[2026-03-29T14:04:12.850Z]   ✓ ID 15: Xcalibre Magnum Hydraulic Drill — queued for approval
+[2026-03-29T14:04:18.424Z]   ✓ ID 17: Toku Pneumatic Breaker — queued for approval
+[2026-03-29T14:04:23.917Z]   ✓ ID 18: TD Pro Pipe Stand — queued for approval
+[2026-03-29T14:04:30.816Z]   ✓ ID 19: PU Pump Large (Minion) — queued for approval
+[2026-03-29T14:04:37.982Z]   ✓ ID 23: ING Welding Rod Warmers — queued for approval
+[2026-03-29T14:04:38.484Z] Batch 4/38 — processing 5 items
+[2026-03-29T14:04:46.467Z]   ✓ ID 24: UWeld Gas Torches — queued for approval
+[2026-03-29T14:04:54.922Z]   ✓ ID 26: Husqvarna 460 Rancher Chainsaw — queued for approval
+[2026-03-29T14:05:00.818Z]   ✓ ID 27: Dr Scaffold Cross Brace — queued for approval
+[2026-03-29T14:05:03.965Z]   ✓ ID 28: Dr Scaffold Horizontal Brace — queued for approval
+[2026-03-29T14:05:12.949Z]   ✓ ID 29: Dr Scaffold Horizontal brace — queued for approval
+[2026-03-29T14:05:13.450Z] Batch 5/38 — processing 5 items
+[2026-03-29T14:05:26.479Z]   ✓ ID 30: Dr Scaffold Platform — queued for approval
+[2026-03-29T14:05:33.300Z]   ✓ ID 31: Dr Scaffold HD Scaffold Castors — queued for approval
+[2026-03-29T14:05:38.685Z]   ✓ ID 32: Dr  Scaffold HD Scaffold Castors — queued for approval
+[2026-03-29T14:05:42.886Z]   ✓ ID 33: Dr Scaffold Outrigger — queued for approval
+[2026-03-29T14:05:46.119Z]   ✓ ID 34: Dr Scaffold 5 Rung Ladder Span — queued for approval
+[2026-03-29T14:05:46.620Z] Batch 6/38 — processing 5 items
+[2026-03-29T14:05:52.707Z]   ✓ ID 35: Dr Scaffold 5 Rung Span — queued for approval
+[2026-03-29T14:05:59.132Z]   ✓ ID 37: Dr Scaffold 3 Rung Ladder Span — queued for approval
+[2026-03-29T14:06:06.827Z]   ✓ ID 39: IMC Power Sprayer — queued for approval
+[2026-03-29T14:06:15.957Z]   ✓ ID 40: Milwaukie Drain Cleaner — queued for approval
+[2026-03-29T14:06:23.840Z]   ✓ ID 42: Dongchang paint/mud mixer — queued for approval
+[2026-03-29T14:06:24.341Z] Batch 7/38 — processing 5 items
+[2026-03-29T14:06:31.394Z]   ✓ ID 43: Little Giant 4 Step Folding Ladder — queued for approval
+[2026-03-29T14:06:39.808Z]   ✓ ID 44: 5 Step Folding Ladder — queued for approval
+[2026-03-29T14:06:47.986Z]   ✓ ID 45: Electrical Winch — queued for approval
+[2026-03-29T14:06:53.107Z]   ✓ ID 46: 4" Bench Vice — queued for approval
+[2026-03-29T14:06:59.232Z]   ✓ ID 47: Irwin 6" Bench Vice — queued for approval
+[2026-03-29T14:06:59.733Z] Batch 8/38 — processing 5 items
+[2026-03-29T14:07:05.421Z]   ✓ ID 48: SL PU pump — queued for approval
+[2026-03-29T14:07:09.695Z]   ✓ ID 49: PU Pump — queued for approval
+[2026-03-29T14:07:14.915Z]   ✓ ID 50: Air Plus Industrial Floor Fan — queued for approval
+[2026-03-29T14:07:20.772Z]   ✓ ID 51: Air Plus Industrial Floor Fans — queued for approval
+[2026-03-29T14:07:28.565Z]   ✓ ID 52: AP Industrial Floor Fan — queued for approval
+[2026-03-29T14:07:29.065Z] Batch 9/38 — processing 5 items
+[2026-03-29T14:07:33.082Z]   ✓ ID 53: EKO Pneumatic Impact Gun — queued for approval
+[2026-03-29T14:07:45.182Z]   ✓ ID 58: Makita Fast Charging Double Charge Station — queued for approval
+[2026-03-29T14:07:52.380Z]   ✓ ID 70: Beta 5 Drawer Bottom Tool Chest — queued for approval
+[2026-03-29T14:07:59.178Z]   ✓ ID 71: 6 Drawer top tool chest — queued for approval
+[2026-03-29T14:08:08.138Z]   ✓ ID 72: Arda Metal Band Saw — queued for approval
+[2026-03-29T14:08:08.639Z] Batch 10/38 — processing 5 items
+[2026-03-29T14:08:16.100Z]   ✓ ID 73: Drill Press — queued for approval
+[2026-03-29T14:08:24.979Z]   ✓ ID 74: FireFly Motion Sensor — queued for approval
+[2026-03-29T14:08:35.780Z]   ✓ ID 75: Crawcon Gas Detector — queued for approval
+[2026-03-29T14:08:44.434Z]   ✓ ID 77: Metabo Framing Nail Gun — queued for approval
+[2026-03-29T14:08:52.384Z]   ✓ ID 80: Numax Brad Nailer — queued for approval
+[2026-03-29T14:08:52.885Z] Batch 11/38 — processing 5 items
+[2026-03-29T14:09:01.716Z]   ✓ ID 81: Makita Brad Nailer — queued for approval
+[2026-03-29T14:09:09.594Z]   ✓ ID 82: Bosch Wet/Dry Vacuum — queued for approval
+[2026-03-29T14:09:16.491Z]   ✓ ID 84: Dewalt Chop Saw — queued for approval
+[2026-03-29T14:09:24.602Z]   ✓ ID 88: Makita Table Saw — queued for approval
+[2026-03-29T14:09:33.500Z]   ✓ ID 89: Makita Mitre Saw — queued for approval
+[2026-03-29T14:09:34.001Z] Batch 12/38 — processing 5 items
+[2026-03-29T14:09:42.982Z]   ✓ ID 90: Hilti SDS Hammer Drill — queued for approval
+[2026-03-29T14:09:50.292Z]   ✓ ID 91: Dongcheng Reciprocating saw — queued for approval
+[2026-03-29T14:09:56.978Z]   ✓ ID 93: Lavor Pressure Washer — queued for approval
+[2026-03-29T14:10:01.996Z]   ✓ ID 94: Graco Paint Gun — queued for approval
+[2026-03-29T14:10:12.787Z]   ✓ ID 96: Full Clean Chrome Wet/Dry Vacuum — queued for approval
+[2026-03-29T14:10:13.288Z] Batch 13/38 — processing 5 items
+[2026-03-29T14:10:22.010Z]   ✓ ID 98: Makita Small Pressure Washer — queued for approval
+[2026-03-29T14:10:31.242Z]   ✓ ID 99: Small Circular Concrete/Tile Cutter — queued for approval
+[2026-03-29T14:10:42.394Z]   ✓ ID 100: Makita Small Jobsite Fan — queued for approval
+[2026-03-29T14:10:43.938Z]   ✓ ID 104: Warco drill press — queued for approval
+[2026-03-29T14:10:46.328Z]   ✓ ID 105: Makita Back Pack blower — queued for approval
+[2026-03-29T14:10:46.829Z] Batch 14/38 — processing 5 items
+[2026-03-29T14:10:48.167Z]   ✓ ID 108: Makita Router — queued for approval
+[2026-03-29T14:10:50.026Z]   ✓ ID 110: Makita Jigsaw — queued for approval
+[2026-03-29T14:10:51.626Z]   ✓ ID 112: Makita 9" Angle Grinder — queued for approval
+[2026-03-29T14:10:55.276Z]   ✓ ID 113: Makita Demolition Jack Hammer — queued for approval
+[2026-03-29T14:10:56.998Z]   ✓ ID 114: Makita Big Leaf Blower — queued for approval
+[2026-03-29T14:10:57.499Z] Batch 15/38 — processing 5 items
+[2026-03-29T14:10:59.397Z]   ✓ ID 115: Makita Work Light — queued for approval
+[2026-03-29T14:11:01.383Z]   ✓ ID 119: Makita 1/2" Big Impact Gun — queued for approval
+[2026-03-29T14:11:03.066Z]   ✓ ID 120: Makita 1/2" Small Impact Gun — queued for approval
+[2026-03-29T14:11:05.264Z]   ✓ ID 123: Makita Multitool — queued for approval
+[2026-03-29T14:11:09.385Z]   ✓ ID 124: Makita Angle Grinder — queued for approval
+[2026-03-29T14:11:09.884Z] Batch 16/38 — processing 5 items
+[2026-03-29T14:11:11.833Z]   ✓ ID 125: Makita Shear Nibbler — queued for approval
+[2026-03-29T14:11:13.277Z]   ✓ ID 126: Makita Palm Sander — queued for approval
+[2026-03-29T14:11:15.379Z]   ✓ ID 130: Makita Dust Extractor — queued for approval
+[2026-03-29T14:11:17.271Z]   ✓ ID 132: Makita Tile Cutter Circular Saw — queued for approval
+[2026-03-29T14:11:18.979Z]   ✓ ID 137: Makita Short Reciprocating Saw — queued for approval
+[2026-03-29T14:11:19.480Z] Batch 17/38 — processing 5 items
+[2026-03-29T14:11:22.243Z]   ✓ ID 139: Makita Concrete Cutter — queued for approval
+[2026-03-29T14:11:24.068Z]   ✓ ID 140: Makita Concrete Saw — queued for approval
+[2026-03-29T14:11:32.699Z]   ✓ ID 142: Electric Pallet Truck — queued for approval
+[2026-03-29T14:11:34.501Z]   ✓ ID 143: Floor washer attachment — queued for approval
+[2026-03-29T14:11:37.707Z]   ✓ ID 145: Suzuki DF250 boat motor — queued for approval
+[2026-03-29T14:11:38.207Z] Batch 18/38 — processing 5 items
+[2026-03-29T14:11:39.703Z]   ✓ ID 146: Series 426 5.5 HP air compressor (THE 426) — queued for approval
+[2026-03-29T14:11:41.091Z]   ✓ ID 147: Sanco HL-2  2HP Air Compressor — queued for approval
+[2026-03-29T14:11:42.511Z]   ✓ ID 148: Bauer 5.5 HP Air Compressor — queued for approval
+[2026-03-29T14:11:45.685Z]   ✓ ID 149: Keyue TIG-200P tig welder — queued for approval
+[2026-03-29T14:11:48.663Z]   ✓ ID 150: Keyue ARC-200 arc welder — queued for approval
+[2026-03-29T14:11:49.164Z] Batch 19/38 — processing 5 items
+[2026-03-29T14:11:54.893Z]   ✓ ID 151: Keyue CUT-40 plasma cutter — queued for approval
+[2026-03-29T14:11:59.355Z]   ✓ ID 152: Mitech Stick Welder — queued for approval
+[2026-03-29T14:12:03.461Z]   ✓ ID 154: Fini Amico 2500 air compressor — queued for approval
+[2026-03-29T14:12:06.159Z]   ✓ ID 155: Air Fox 1.5 HP air compressor — queued for approval
+[2026-03-29T14:12:08.528Z]   ✓ ID 156: Air Fox 2 HP aircompressor — queued for approval
+[2026-03-29T14:12:09.029Z] Batch 20/38 — processing 5 items
+[2026-03-29T14:12:15.337Z]   ✓ ID 157: Bauer Junior II HP air compressor — queued for approval
+[2026-03-29T14:12:20.003Z]   ✓ ID 158: Blue Planet Floor polisher — queued for approval
+[2026-03-29T14:12:28.971Z]   ✓ ID 159: Honda 20i EU Generator/Inverter — queued for approval
+[2026-03-29T14:16:02.110Z]   ✗ ID 160: Falcon 9 Hydraulic Power Pack — read ECONNRESET
+[2026-03-29T14:16:08.881Z]   ✗ ID 161: Tsurumi 3" Water Pump — Can't add new command when connection is in closed state
+[2026-03-29T14:16:09.382Z] Batch 21/38 — processing 5 items
+[2026-03-29T14:16:16.518Z]   ✗ ID 162: Innovatech Concrete floor polisher/finisher — Can't add new command when connection is in closed state
+[2026-03-29T14:16:33.007Z] Found 187 items needing photos
+[2026-03-29T14:16:33.008Z] Resuming from index 100
+[2026-03-29T14:16:33.008Z] Batch 1/18 — processing 5 items
+[2026-03-29T14:16:52.229Z]   ✓ ID 162: Innovatech Concrete floor polisher/finisher — queued for approval
+[2026-03-29T14:16:54.263Z]   ✓ ID 163: Von Arx 380V Concrete Floor Grinder — queued for approval
+[2026-03-29T14:16:55.498Z]   ✗ ID 163: Von Arx 380V Concrete Floor Grinder — Can't add new command when connection is in closed state
+[2026-03-29T14:16:57.137Z]   ✓ ID 164: Von Arx 380V Concrete floor grinder — queued for approval
+[2026-03-29T14:16:57.891Z]   ✗ ID 164: Von Arx 380V Concrete floor grinder — Can't add new command when connection is in closed state
+[2026-03-29T14:17:00.744Z]   ✗ ID 165: Milwaukie Dymodril Coring Rig — Can't add new command when connection is in closed state
+[2026-03-29T14:17:01.132Z]   ✓ ID 165: Milwaukie Dymodril Coring Rig — queued for approval
+[2026-03-29T14:17:03.072Z]   ✗ ID 166: IMC 4000 Pressure Washer — Can't add new command when connection is in closed state
+[2026-03-29T14:17:03.269Z]   ✓ ID 166: IMC 4000 Pressure Washer — queued for approval
+[2026-03-29T14:17:03.572Z] Batch 22/38 — processing 5 items
+[2026-03-29T14:17:03.769Z] Batch 2/18 — processing 5 items
+[2026-03-29T14:17:05.597Z]   ✗ ID 167: Lifan Hydropro 3600 Pressure Washer — Can't add new command when connection is in closed state
+[2026-03-29T14:17:06.077Z]   ✓ ID 167: Lifan Hydropro 3600 Pressure Washer — queued for approval
+[2026-03-29T14:17:06.690Z]   ✗ ID 168: White 4 hp compressor — Can't add new command when connection is in closed state
+[2026-03-29T14:17:07.127Z]   ✓ ID 168: White 4 hp compressor — queued for approval
+[2026-03-29T14:17:07.844Z]   ✗ ID 170: Air Fox 4 HP air compressor — Can't add new command when connection is in closed state
+[2026-03-29T14:17:08.461Z]   ✓ ID 170: Air Fox 4 HP air compressor — queued for approval
+[2026-03-29T14:17:10.170Z]   ✗ ID 171: Miller Syncrowave 250DX welder — Can't add new command when connection is in closed state
+[2026-03-29T14:17:10.539Z]   ✓ ID 171: Miller Syncrowave 250DX welder — queued for approval
+[2026-03-29T14:17:11.186Z]   ✗ ID 172: Feiyu STO 140 Cement Mixer — Can't add new command when connection is in closed state
+[2026-03-29T14:17:11.688Z] Batch 23/38 — processing 5 items
+[2026-03-29T14:17:11.913Z]   ✓ ID 172: Feiyu STO 140 Cement Mixer — queued for approval
+[2026-03-29T14:17:12.414Z] Batch 3/18 — processing 5 items
+[2026-03-29T14:17:13.872Z]   ✗ ID 173: MiniMix 150 Cement Mixer — Can't add new command when connection is in closed state
+[2026-03-29T14:17:14.194Z]   ✓ ID 173: MiniMix 150 Cement Mixer — queued for approval
+[2026-03-29T14:17:16.480Z]   ✗ ID 174: Porta mix — Can't add new command when connection is in closed state
+[2026-03-29T14:17:16.642Z]   ✓ ID 174: Porta mix — queued for approval
+[2026-03-29T14:17:17.496Z]   ✗ ID 175: Porta Mix — Can't add new command when connection is in closed state
+[2026-03-29T14:17:18.082Z]   ✓ ID 175: Porta Mix — queued for approval
+[2026-03-29T14:17:20.741Z]   ✗ ID 176: Bauer HP compressor — Can't add new command when connection is in closed state
+[2026-03-29T14:17:21.451Z]   ✓ ID 176: Bauer HP compressor — queued for approval
+[2026-03-29T14:17:23.175Z]   ✗ ID 177: 9M Open Cruiser Speed Boat — Can't add new command when connection is in closed state
+[2026-03-29T14:17:23.373Z]   ✓ ID 177: 9M Open Cruiser Speed Boat — queued for approval
+[2026-03-29T14:17:23.676Z] Batch 24/38 — processing 5 items
+[2026-03-29T14:17:23.873Z] Batch 4/18 — processing 5 items
+[2026-03-29T14:17:26.601Z]   ✗ ID 178: Mercedes Vito 116 Van — Can't add new command when connection is in closed state
+[2026-03-29T14:17:26.724Z]   ✓ ID 178: Mercedes Vito 116 Van — queued for approval
+[2026-03-29T14:17:29.115Z]   ✗ ID 179: Vanguard Hydrapak 23 — Can't add new command when connection is in closed state
+[2026-03-29T14:17:29.666Z]   ✓ ID 179: Vanguard Hydrapak 23 — queued for approval
+[2026-03-29T14:17:31.421Z]   ✗ ID 180: Vespa Compressor — Can't add new command when connection is in closed state
+[2026-03-29T14:17:31.568Z]   ✓ ID 180: Vespa Compressor — queued for approval
+[2026-03-29T14:17:33.731Z]   ✗ ID 181: Quincy QT 7.5 (Big Blue) — Can't add new command when connection is in closed state
+[2026-03-29T14:17:34.115Z]   ✓ ID 181: Quincy QT 7.5 (Big Blue) — queued for approval
+[2026-03-29T14:17:35.630Z]   ✗ ID 182: Flashing Bender — Can't add new command when connection is in closed state
+[2026-03-29T14:17:35.998Z]   ✓ ID 182: Flashing Bender — queued for approval
+[2026-03-29T14:17:36.130Z] Batch 25/38 — processing 5 items
+[2026-03-29T14:17:36.499Z] Batch 5/18 — processing 5 items
+[2026-03-29T14:17:37.524Z]   ✗ ID 184: Mobile Office 2 (MOBO2) — Can't add new command when connection is in closed state
+[2026-03-29T14:17:38.090Z]   ✓ ID 184: Mobile Office 2 (MOBO2) — queued for approval
+[2026-03-29T14:17:40.332Z]   ✗ ID 185: Mobile Office 1 (MOBO1) — Can't add new command when connection is in closed state
+[2026-03-29T14:17:40.995Z]   ✓ ID 185: Mobile Office 1 (MOBO1) — queued for approval
+[2026-03-29T14:17:42.112Z]   ✗ ID 186: Dive Spread 1 (DS1) — Can't add new command when connection is in closed state
+[2026-03-29T14:17:42.209Z]   ✓ ID 186: Dive Spread 1 (DS1) — queued for approval
+[2026-03-29T14:17:47.171Z]   ✗ ID 188: DeWalt Circular Saw — Can't add new command when connection is in closed state
+[2026-03-29T14:17:47.305Z]   ✓ ID 188: DeWalt Circular Saw — queued for approval
+[2026-03-29T14:17:51.291Z]   ✗ ID 189: Bosch Reciprocating Saw — Can't add new command when connection is in closed state
+[2026-03-29T14:17:51.493Z]   ✓ ID 189: Bosch Reciprocating Saw — queued for approval
+[2026-03-29T14:17:51.792Z] Batch 26/38 — processing 5 items
+[2026-03-29T14:17:51.993Z] Batch 6/18 — processing 5 items
+[2026-03-29T14:17:53.647Z]   ✗ ID 215: Electric Winch 1000kg — Can't add new command when connection is in closed state
+[2026-03-29T14:17:53.993Z]   ✓ ID 215: Electric Winch 1000kg — queued for approval
+[2026-03-29T14:17:55.229Z]   ✗ ID 30001: Dr Scaffold SRP-3 Cross Brace 2200mm — Can't add new command when connection is in closed state
+[2026-03-29T14:17:55.841Z]   ✓ ID 30001: Dr Scaffold SRP-3 Cross Brace 2200mm — queued for approval
+[2026-03-29T14:17:56.422Z]   ✗ ID 30002: Dr Scaffold SRP-3 Horizontal Brace 2000mm — Can't add new command when connection is in closed state
+[2026-03-29T14:17:57.269Z]   ✓ ID 30002: Dr Scaffold SRP-3 Horizontal Brace 2000mm — queued for approval
+[2026-03-29T14:17:57.647Z]   ✗ ID 30003: Dr Scaffold SRP-3 Extendable Outrigger 3200mm — Can't add new command when connection is in closed state
+[2026-03-29T14:17:58.679Z]   ✓ ID 30003: Dr Scaffold SRP-3 Extendable Outrigger 3200mm — queued for approval
+[2026-03-29T14:17:58.995Z]   ✗ ID 30004: Dr Scaffold 3 Rung Ladder Span 1400mm — Can't add new command when connection is in closed state
+[2026-03-29T14:17:59.496Z] Batch 27/38 — processing 5 items
+[2026-03-29T14:18:00.234Z]   ✓ ID 30004: Dr Scaffold 3 Rung Ladder Span 1400mm — queued for approval
+[2026-03-29T14:18:00.736Z] Batch 7/18 — processing 5 items
+[2026-03-29T14:18:00.744Z]   ✗ ID 30005: Dr Scaffold 5 Rung Ladder Span 2300mm — Can't add new command when connection is in closed state
+[2026-03-29T14:18:02.261Z]   ✓ ID 30005: Dr Scaffold 5 Rung Ladder Span 2300mm — queued for approval
+[2026-03-29T14:18:03.673Z]   ✓ ID 30006: Dr Scaffold Safety Railing 2 Rung Span — queued for approval
+[2026-03-29T14:18:04.768Z]   ✗ ID 30006: Dr Scaffold Safety Railing 2 Rung Span — Can't add new command when connection is in closed state
+[2026-03-29T14:18:05.733Z]   ✓ ID 30007: Haru Fall Arrester — queued for approval
+[2026-03-29T14:18:05.983Z]   ✗ ID 30007: Haru Fall Arrester — Can't add new command when connection is in closed state
+[2026-03-29T14:18:08.747Z]   ✓ ID 30009: Firefly Battery Operated Motion Sensor — queued for approval
+[2026-03-29T14:18:08.816Z]   ✗ ID 30009: Firefly Battery Operated Motion Sensor — Can't add new command when connection is in closed state
+[2026-03-29T14:18:11.602Z]   ✗ ID 30010: Crawcon Battery Operated Gas Detector — Can't add new command when connection is in closed state
+[2026-03-29T14:18:11.772Z]   ✓ ID 30010: Crawcon Battery Operated Gas Detector — queued for approval
+[2026-03-29T14:18:12.102Z] Batch 28/38 — processing 5 items
+[2026-03-29T14:18:12.272Z] Batch 8/18 — processing 5 items
+[2026-03-29T14:18:19.468Z]   ✗ ID 30011: Paratech Air Lifting Bag — Can't add new command when connection is in closed state
+[2026-03-29T14:18:19.697Z]   ✓ ID 30011: Paratech Air Lifting Bag — queued for approval
+[2026-03-29T14:18:36.960Z]   ✗ ID 30012: Hilti Multiple Line Laser Level — Can't add new command when connection is in closed state
+[2026-03-29T14:18:37.304Z]   ✓ ID 30012: Hilti Multiple Line Laser Level — queued for approval
+[2026-03-29T14:18:44.909Z]   ✗ ID 30013: Air Fox 4 HP Low Pressure Air Compressor — Can't add new command when connection is in closed state
+[2026-03-29T14:18:45.154Z]   ✓ ID 30013: Air Fox 4 HP Low Pressure Air Compressor — queued for approval
+[2026-03-29T14:18:51.601Z]   ✗ ID 30014: Air Fox 6L 1/5 HP Air Compressor — Can't add new command when connection is in closed state
+[2026-03-29T14:18:51.844Z]   ✓ ID 30014: Air Fox 6L 1/5 HP Air Compressor — queued for approval
+[2026-03-29T14:18:57.952Z]   ✗ ID 30015: Air Fox 8L 2 HP Air Compressor — Can't add new command when connection is in closed state
+[2026-03-29T14:18:58.336Z]   ✓ ID 30015: Air Fox 8L 2 HP Air Compressor — queued for approval
+[2026-03-29T14:18:58.452Z] Batch 29/38 — processing 5 items
+[2026-03-29T14:18:58.837Z] Batch 9/18 — processing 5 items
+[2026-03-29T14:19:05.056Z]   ✗ ID 30017: 6L 1 HP Nail Gun Compressor — Can't add new command when connection is in closed state
+[2026-03-29T14:19:05.570Z]   ✓ ID 30017: 6L 1 HP Nail Gun Compressor — queued for approval
+[2026-03-29T14:19:17.820Z]   ✗ ID 30018: Bauer 5.5 HP High Pressure Compressor (Breathing Air) — Can't add new command when connection is in closed state
+[2026-03-29T14:19:18.440Z]   ✓ ID 30018: Bauer 5.5 HP High Pressure Compressor (Breathing Air) — queued for approval
+[2026-03-29T14:19:30.470Z]   ✗ ID 30019: 5.5 HP High Pressure Compressor for Filling Breathing Air Tanks — Can't add new command when connection is in closed state
+[2026-03-29T14:19:31.357Z]   ✓ ID 30019: 5.5 HP High Pressure Compressor for Filling Breathing Air Tanks — queued for approval
+[2026-03-29T14:19:43.883Z]   ✗ ID 30020: CP-9 Pneumatic Rock and Concrete Drill/Breaker — Can't add new command when connection is in closed state
+[2026-03-29T14:19:43.919Z]   ✓ ID 30020: CP-9 Pneumatic Rock and Concrete Drill/Breaker — queued for approval
+[2026-03-29T14:19:55.780Z]   ✗ ID 30022: Xcalibre Magnum Hydraulic Drill — Can't add new command when connection is in closed state
+[2026-03-29T14:19:56.085Z]   ✓ ID 30022: Xcalibre Magnum Hydraulic Drill — queued for approval
+[2026-03-29T14:19:56.280Z] Batch 30/38 — processing 5 items
+[2026-03-29T14:19:56.586Z] Batch 10/18 — processing 5 items
+[2026-03-29T14:20:02.932Z]   ✗ ID 30024: 240V Electrical Winch 150kg / 300 lbs — Can't add new command when connection is in closed state
+[2026-03-29T14:20:03.565Z]   ✓ ID 30024: 240V Electrical Winch 150kg / 300 lbs — queued for approval
+[2026-03-29T14:20:14.884Z]   ✗ ID 30025: 23 HP Hydraulic Power Pack — Can't add new command when connection is in closed state
+[2026-03-29T14:20:15.169Z]   ✓ ID 30025: 23 HP Hydraulic Power Pack — queued for approval
+[2026-03-29T14:20:22.578Z]   ✗ ID 30026: 9 HP Hydraulic Power Pack — Can't add new command when connection is in closed state
+[2026-03-29T14:20:23.199Z]   ✓ ID 30026: 9 HP Hydraulic Power Pack — queued for approval
+[2026-03-29T14:20:36.983Z]   ✗ ID 30027: High Pressure Polyurethane Grout Pump — Can't add new command when connection is in closed state
+[2026-03-29T14:20:37.135Z]   ✓ ID 30027: High Pressure Polyurethane Grout Pump — queued for approval
+[2026-03-29T14:20:49.092Z]   ✗ ID 30028: 240V Single Phase Small Batch Cement Mixer — Can't add new command when connection is in closed state
+[2026-03-29T14:20:49.173Z]   ✓ ID 30028: 240V Single Phase Small Batch Cement Mixer — queued for approval
+[2026-03-29T14:20:49.593Z] Batch 31/38 — processing 5 items
+[2026-03-29T14:20:49.674Z] Batch 11/18 — processing 5 items
+[2026-03-29T14:21:01.726Z]   ✗ ID 30029: Von Arx 380V 3 Phase Electric Concrete Floor Grinder — Can't add new command when connection is in closed state
+[2026-03-29T14:21:02.054Z]   ✓ ID 30029: Von Arx 380V 3 Phase Electric Concrete Floor Grinder — queued for approval
+[2026-03-29T14:21:14.337Z]   ✗ ID 30030: Blue Planet 240V Electric Floor Scrubber/Polisher — Can't add new command when connection is in closed state
+[2026-03-29T14:21:14.774Z]   ✓ ID 30030: Blue Planet 240V Electric Floor Scrubber/Polisher — queued for approval
+[2026-03-29T14:21:32.053Z]   ✗ ID 30031: Wacker Neuson Plate Compactor — Can't add new command when connection is in closed state
+[2026-03-29T14:21:32.357Z]   ✓ ID 30031: Wacker Neuson Plate Compactor — queued for approval
+[2026-03-29T14:21:49.669Z]   ✓ ID 30032: Concrete Grout Mixer and Pump — queued for approval
+[2026-03-29T14:21:49.677Z]   ✗ ID 30032: Concrete Grout Mixer and Pump — Can't add new command when connection is in closed state
+[2026-03-29T14:21:56.703Z]   ✓ ID 30033: Electric Flashing Bending Machine — queued for approval
+[2026-03-29T14:21:56.936Z]   ✗ ID 30033: Electric Flashing Bending Machine — Can't add new command when connection is in closed state
+[2026-03-29T14:21:57.203Z] Batch 12/18 — processing 5 items
+[2026-03-29T14:21:57.438Z] Batch 32/38 — processing 5 items
+[2026-03-29T14:22:08.195Z]   ✗ ID 30034: Adra 240V Electric Metal Band Saw on Stand — Can't add new command when connection is in closed state
+[2026-03-29T14:22:08.272Z]   ✓ ID 30034: Adra 240V Electric Metal Band Saw on Stand — queued for approval
+[2026-03-29T14:22:17.778Z]   ✗ ID 30035: Lavor Electric 230V High Pressure Washer — Can't add new command when connection is in closed state
+[2026-03-29T14:22:18.084Z]   ✓ ID 30035: Lavor Electric 230V High Pressure Washer — queued for approval
+[2026-03-29T14:22:22.850Z]   ✓ ID 30036: Gas Powered Pressure Washer to 3600 PSI — queued for approval
+[2026-03-29T14:22:22.958Z]   ✗ ID 30036: Gas Powered Pressure Washer to 3600 PSI — Can't add new command when connection is in closed state
+[2026-03-29T14:22:24.806Z]   ✗ ID 30037: Sanco 240V Electric Pressure Washer — Can't add new command when connection is in closed state
+[2026-03-29T14:22:24.968Z]   ✓ ID 30037: Sanco 240V Electric Pressure Washer — queued for approval
+[2026-03-29T14:22:33.849Z]   ✗ ID 30038: Bosch 230V Electric Wet or Dry Vacuum — Can't add new command when connection is in closed state
+[2026-03-29T14:22:33.897Z]   ✓ ID 30038: Bosch 230V Electric Wet or Dry Vacuum — queued for approval
+[2026-03-29T14:22:34.349Z] Batch 33/38 — processing 5 items
+[2026-03-29T14:22:34.399Z] Batch 13/18 — processing 5 items
+[2026-03-29T14:22:42.341Z]   ✗ ID 30039: Cadillac Recirculating/Recovering Portable Sandblaster — Can't add new command when connection is in closed state
+[2026-03-29T14:22:42.479Z]   ✓ ID 30039: Cadillac Recirculating/Recovering Portable Sandblaster — queued for approval
+[2026-03-29T14:22:52.176Z]   ✗ ID 30040: 2.0Kva Gas Powered Generator  — Can't add new command when connection is in closed state
+[2026-03-29T14:22:52.523Z]   ✓ ID 30040: 2.0Kva Gas Powered Generator  — queued for approval
+[2026-03-29T14:23:00.582Z]   ✗ ID 30042: Tsurumi Submersible Pump — Can't add new command when connection is in closed state
+[2026-03-29T14:23:00.781Z]   ✓ ID 30042: Tsurumi Submersible Pump — queued for approval
+[2026-03-29T14:23:07.017Z]   ✗ ID 30043: Diesel Pump Kit — Can't add new command when connection is in closed state
+[2026-03-29T14:23:08.003Z]   ✓ ID 30043: Diesel Pump Kit — queued for approval
+[2026-03-29T14:23:12.988Z]   ✗ ID 30044: Large PU Pump for 1-2" Hose — Can't add new command when connection is in closed state
+[2026-03-29T14:23:13.488Z] Batch 34/38 — processing 5 items
+[2026-03-29T14:23:13.895Z]   ✓ ID 30044: Large PU Pump for 1-2" Hose — queued for approval
+[2026-03-29T14:23:14.396Z] Batch 14/18 — processing 5 items
+[2026-03-29T14:23:19.484Z]   ✗ ID 30045: Umbilical Flushing and Cleaning Kit — Can't add new command when connection is in closed state
+[2026-03-29T14:23:20.194Z]   ✓ ID 30045: Umbilical Flushing and Cleaning Kit — queued for approval
+[2026-03-29T14:23:25.255Z]   ✓ ID 30047: 9M Speed Boat — queued for approval
+[2026-03-29T14:23:25.409Z]   ✗ ID 30047: 9M Speed Boat — Can't add new command when connection is in closed state
+[2026-03-29T14:23:36.867Z]   ✗ ID 30048: Suzuki DF250 4-Stroke Boat Motor — Can't add new command when connection is in closed state
+[2026-03-29T14:23:36.997Z]   ✓ ID 30048: Suzuki DF250 4-Stroke Boat Motor — queued for approval
+[2026-03-29T14:23:42.547Z]   ✗ ID 30050: 20ft Container Mobile Office — Can't add new command when connection is in closed state
+[2026-03-29T14:23:42.760Z]   ✓ ID 30050: 20ft Container Mobile Office — queued for approval
+[2026-03-29T14:23:46.233Z]   ✗ ID 30052: Warco Drill Press — Can't add new command when connection is in closed state
+[2026-03-29T14:23:46.465Z]   ✓ ID 30052: Warco Drill Press — queued for approval
+[2026-03-29T14:23:46.734Z] Batch 35/38 — processing 5 items
+[2026-03-29T14:23:46.965Z] Batch 15/18 — processing 5 items
+[2026-03-29T14:23:52.716Z]   ✗ ID 30055: Husqvarna 440 2-Stroke Gasoline Chainsaw — Can't add new command when connection is in closed state
+[2026-03-29T14:23:53.883Z]   ✓ ID 30055: Husqvarna 440 2-Stroke Gasoline Chainsaw — queued for approval
+[2026-03-29T14:23:59.300Z]   ✗ ID 30056: Husqvarna 460 Rancher Chainsaw — Can't add new command when connection is in closed state
+[2026-03-29T14:24:00.653Z]   ✓ ID 30056: Husqvarna 460 Rancher Chainsaw — queued for approval
+[2026-03-29T14:24:08.754Z]   ✗ ID 30057: Stihl Chainsaw — Can't add new command when connection is in closed state
+[2026-03-29T14:24:09.302Z]   ✓ ID 30057: Stihl Chainsaw — queued for approval
+[2026-03-29T14:24:18.011Z]   ✗ ID 30060: Graco 20V Cordless Paint Gun — Can't add new command when connection is in closed state
+[2026-03-29T14:24:19.300Z]   ✓ ID 30060: Graco 20V Cordless Paint Gun — queued for approval
+[2026-03-29T14:24:25.187Z]   ✗ ID 30062: Makita 18V Cordless Circular Saw — Can't add new command when connection is in closed state
+[2026-03-29T14:24:25.687Z] Batch 36/38 — processing 5 items
+[2026-03-29T14:24:26.244Z]   ✓ ID 30062: Makita 18V Cordless Circular Saw — queued for approval
+[2026-03-29T14:24:26.746Z] Batch 16/18 — processing 5 items
+[2026-03-29T14:24:31.501Z]   ✗ ID 30063: Makita 18V Cordless Jigsaw — Can't add new command when connection is in closed state
+[2026-03-29T14:24:33.035Z]   ✓ ID 30063: Makita 18V Cordless Jigsaw — queued for approval
+[2026-03-29T14:24:38.880Z]   ✗ ID 30064: Makita 18V Cordless Multi-Tool — Can't add new command when connection is in closed state
+[2026-03-29T14:24:40.228Z]   ✓ ID 30064: Makita 18V Cordless Multi-Tool — queued for approval
+[2026-03-29T14:24:49.595Z]   ✗ ID 30065: Makita 18V Cordless Planer — Can't add new command when connection is in closed state
+[2026-03-29T14:24:50.685Z]   ✓ ID 30065: Makita 18V Cordless Planer — queued for approval
+[2026-03-29T14:25:00.717Z]   ✗ ID 30068: Makita 18V Cordless Screwdriver — Can't add new command when connection is in closed state
+[2026-03-29T14:25:01.460Z]   ✓ ID 30068: Makita 18V Cordless Screwdriver — queued for approval
+[2026-03-29T14:25:08.799Z]   ✗ ID 30069: Makita 18V Cordless Vacuum — Can't add new command when connection is in closed state
+[2026-03-29T14:25:09.299Z] Batch 37/38 — processing 5 items
+[2026-03-29T14:25:09.408Z]   ✓ ID 30069: Makita 18V Cordless Vacuum — queued for approval
+[2026-03-29T14:25:09.909Z] Batch 17/18 — processing 5 items
+[2026-03-29T14:25:16.476Z]   ✗ ID 30071: Makita 36V Cordless Reciprocating Saw — Can't add new command when connection is in closed state
+[2026-03-29T14:25:21.649Z]   ✓ ID 30071: Makita 36V Cordless Reciprocating Saw — queued for approval
+[2026-03-29T14:25:34.375Z]   ✗ ID 30072: 36V Cordless Slide Compound Mitre Saw  — Can't add new command when connection is in closed state
+[2026-03-29T14:25:39.636Z]   ✓ ID 30072: 36V Cordless Slide Compound Mitre Saw  — queued for approval
+[2026-03-29T14:25:55.530Z]   ✗ ID 30075: Milwaukee M18 Drill Driver — Can't add new command when connection is in closed state
+[2026-03-29T14:26:00.143Z]   ✓ ID 30075: Milwaukee M18 Drill Driver — queued for approval
+[2026-03-29T14:26:12.325Z]   ✗ ID 30077: Milwaukee M18 Reciprocating Saw — Can't add new command when connection is in closed state
+[2026-03-29T14:26:17.122Z]   ✓ ID 30077: Milwaukee M18 Reciprocating Saw — queued for approval
+[2026-03-29T14:26:28.827Z]   ✗ ID 30078: Milwaukee M18 SDS Drill — Can't add new command when connection is in closed state
+[2026-03-29T14:26:29.328Z] Batch 38/38 — processing 2 items
+[2026-03-29T14:26:34.187Z]   ✓ ID 30078: Milwaukee M18 SDS Drill — queued for approval
+[2026-03-29T14:26:34.689Z] Batch 18/18 — processing 2 items
+[2026-03-29T14:26:47.541Z]   ✗ ID 30080: Milwaukee M18 Angle Grinder — Can't add new command when connection is in closed state
+[2026-03-29T14:26:54.448Z]   ✓ ID 30080: Milwaukee M18 Angle Grinder — queued for approval
+[2026-03-29T14:27:04.753Z]   ✗ ID 30083: Milwaukee M18 Vacuum — Can't add new command when connection is in closed state
+[2026-03-29T14:27:05.254Z] 
+=== PHOTO SOURCE COMPLETE ===
+[2026-03-29T14:27:05.254Z] Total items: 187
+[2026-03-29T14:27:05.254Z] Succeeded (queued for approval): 98
+[2026-03-29T14:27:05.254Z] Failed (no image found): 89
+[2026-03-29T14:27:05.254Z] Skipped: 0
+[2026-03-29T14:27:11.695Z]   ✓ ID 30083: Milwaukee M18 Vacuum — queued for approval
+[2026-03-29T14:27:12.196Z] 
+=== PHOTO SOURCE COMPLETE ===
+[2026-03-29T14:27:12.197Z] Total items: 187
+[2026-03-29T14:27:12.197Z] Succeeded (queued for approval): 185
+[2026-03-29T14:27:12.197Z] Failed (no image found): 2
+[2026-03-29T14:27:12.197Z] Skipped: 0

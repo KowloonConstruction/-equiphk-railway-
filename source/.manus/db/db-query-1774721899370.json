@@ -1,0 +1,13 @@
+{
+  "query": "-- Remove generic seeded placeholders (ids 191-214) that are not real EquipHK items\n-- Keep id 215 (Electric Winch 1000kg - Elephant) as it's a real item\nDELETE FROM equipment_items WHERE id IN (\n  191, 192, 193, 194, 195, 196, 197, 198, 199, 200,\n  201, 203, 204, 205, 206, 207, 208, 209, 210, 211,\n  212, 213, 214\n);\nSELECT COUNT(*) as total_items FROM equipment_items;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2B2d1HYRsoiQJMJ.root --database EqJqhhxWWJKtKB68YEvggw --execute -- Remove generic seeded placeholders (ids 191-214) that are not real EquipHK items\n-- Keep id 215 (Electric Winch 1000kg - Elephant) as it's a real item\nDELETE FROM equipment_items WHERE id IN (\n  191, 192, 193, 194, 195, 196, 197, 198, 199, 200,\n  201, 203, 204, 205, 206, 207, 208, 209, 210, 211,\n  212, 213, 214\n);\nSELECT COUNT(*) as total_items FROM equipment_items;",
+  "rows": [
+    {
+      "total_items": "274"
+    }
+  ],
+  "messages": [],
+  "stdout": "total_items\n274\n",
+  "stderr": "",
+  "execution_time_ms": 1808
+}

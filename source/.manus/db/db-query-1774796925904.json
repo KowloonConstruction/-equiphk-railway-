@@ -1,0 +1,9 @@
+{
+  "query": "UPDATE equipment_items SET description = REPLACE(description, '  ', ' ') WHERE description LIKE '%  %';",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2B2d1HYRsoiQJMJ.root --database EqJqhhxWWJKtKB68YEvggw --execute UPDATE equipment_items SET description = REPLACE(description, '  ', ' ') WHERE description LIKE '%  %';",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 1616
+}

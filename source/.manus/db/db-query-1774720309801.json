@@ -1,0 +1,310 @@
+{
+  "query": "SELECT id, name, brand, model FROM equipment_items \nWHERE model IS NULL OR model = ''\nORDER BY id\nLIMIT 50;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2B2d1HYRsoiQJMJ.root --database EqJqhhxWWJKtKB68YEvggw --execute SELECT id, name, brand, model FROM equipment_items \nWHERE model IS NULL OR model = ''\nORDER BY id\nLIMIT 50;",
+  "rows": [
+    {
+      "id": "12",
+      "name": "Umbilical Flushing and Cleaning Kit",
+      "brand": "Guangdong Lingxiao pump industry",
+      "model": ""
+    },
+    {
+      "id": "13",
+      "name": "Argon Gas Tank",
+      "brand": "Unknown",
+      "model": ""
+    },
+    {
+      "id": "29",
+      "name": "Dr Scaffold Horizontal brace",
+      "brand": "Dr Scaffold",
+      "model": ""
+    },
+    {
+      "id": "30",
+      "name": "Dr Scaffold Platform",
+      "brand": "Dr Scaffold",
+      "model": ""
+    },
+    {
+      "id": "31",
+      "name": "Dr Scaffold HD Scaffold Castors",
+      "brand": "Dr Scaffold",
+      "model": ""
+    },
+    {
+      "id": "32",
+      "name": "Dr  Scaffold HD Scaffold Castors",
+      "brand": "Dr Scaffold",
+      "model": ""
+    },
+    {
+      "id": "33",
+      "name": "Dr Scaffold Outrigger",
+      "brand": "Dr Scaffold",
+      "model": ""
+    },
+    {
+      "id": "34",
+      "name": "Dr Scaffold 5 Rung Ladder Span",
+      "brand": "Dr Scaffold",
+      "model": ""
+    },
+    {
+      "id": "35",
+      "name": "Dr Scaffold 5 Rung Span",
+      "brand": "Dr Scaffold",
+      "model": ""
+    },
+    {
+      "id": "36",
+      "name": "Dr Scaffold 3 Rung Span",
+      "brand": "Dr Scaffold",
+      "model": ""
+    },
+    {
+      "id": "37",
+      "name": "Dr Scaffold 3 Rung Ladder Span",
+      "brand": "SL Company",
+      "model": ""
+    },
+    {
+      "id": "38",
+      "name": "Smith H2O sprayer",
+      "brand": "Smith Performance",
+      "model": ""
+    },
+    {
+      "id": "39",
+      "name": "IMC Power Sprayer",
+      "brand": "Air Plus",
+      "model": ""
+    },
+    {
+      "id": "40",
+      "name": "Milwaukie Drain Cleaner",
+      "brand": "EKO",
+      "model": ""
+    },
+    {
+      "id": "41",
+      "name": "Makita 10\" pole saw attachment",
+      "brand": "Piusi",
+      "model": ""
+    },
+    {
+      "id": "42",
+      "name": "Dongchang paint/mud mixer",
+      "brand": "Jiangsu Dongcheng tools co. Ltd",
+      "model": ""
+    },
+    {
+      "id": "43",
+      "name": "Little Giant 4 Step Folding Ladder",
+      "brand": "Little Giant USA",
+      "model": ""
+    },
+    {
+      "id": "44",
+      "name": "Little Giant 5 Step Folding Ladder",
+      "brand": "Little Giant USA",
+      "model": ""
+    },
+    {
+      "id": "45",
+      "name": "Electrical Winch",
+      "brand": "Unknown",
+      "model": ""
+    },
+    {
+      "id": "46",
+      "name": "4\" Bench Vice",
+      "brand": "Unknown",
+      "model": ""
+    },
+    {
+      "id": "47",
+      "name": "Irwin 6\" Bench Vice",
+      "brand": "Irwin Tools",
+      "model": ""
+    },
+    {
+      "id": "48",
+      "name": "SL PU pump",
+      "brand": "SL Company",
+      "model": ""
+    },
+    {
+      "id": "49",
+      "name": "PU Pump",
+      "brand": "Unknown",
+      "model": ""
+    },
+    {
+      "id": "50",
+      "name": "Air Plus Industrial Floor Fan",
+      "brand": "Air Plus",
+      "model": ""
+    },
+    {
+      "id": "51",
+      "name": "Air Plus Industrial Floor Fans",
+      "brand": "N/A",
+      "model": ""
+    },
+    {
+      "id": "52",
+      "name": "AP Industrial Floor Fan",
+      "brand": "AP",
+      "model": ""
+    },
+    {
+      "id": "53",
+      "name": "EKO Pneumatic Impact Gun",
+      "brand": "EKO Tools",
+      "model": ""
+    },
+    {
+      "id": "54",
+      "name": "Diesel Pump Kit",
+      "brand": "Piusi/Fleetwood/Bada",
+      "model": ""
+    },
+    {
+      "id": "55",
+      "name": "Makita 18V Battery",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "56",
+      "name": "Makita 18V battery",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "57",
+      "name": "Makita Smart Battery Charger",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "58",
+      "name": "Makita Fast Charging Double Charge Station",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "59",
+      "name": "Makita Cordless Impact Driver",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "60",
+      "name": "Makita Cordless Drill",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "61",
+      "name": "Makita Cordless Circular Saw",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "62",
+      "name": "Makita Cordless SDS Hammer Drill",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "63",
+      "name": "Milwaukie Packout Low Profile Small Organizer Box",
+      "brand": "Milwaukie",
+      "model": ""
+    },
+    {
+      "id": "64",
+      "name": "Milwaukie Packout Low Profile Organizer Box",
+      "brand": "Milwaukie",
+      "model": ""
+    },
+    {
+      "id": "65",
+      "name": "Milwaukie Compact Small Organizer Box",
+      "brand": "Milwaukie",
+      "model": ""
+    },
+    {
+      "id": "66",
+      "name": "Milwaukie Packout Compact Large Organizer Box",
+      "brand": "Milwaukie",
+      "model": ""
+    },
+    {
+      "id": "67",
+      "name": "Milwaukie Packout Three Drawer Tool Chest",
+      "brand": "Milwaukie",
+      "model": ""
+    },
+    {
+      "id": "68",
+      "name": "Milwaukie Packout Large Tool Box",
+      "brand": "Crawcon",
+      "model": ""
+    },
+    {
+      "id": "69",
+      "name": "Milwaukie Packout Rolling Base Tool Box",
+      "brand": "Warco",
+      "model": ""
+    },
+    {
+      "id": "98",
+      "name": "Makita Small Pressure Washer",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "99",
+      "name": "Makita Small Circular Concrete/Tile Cutter",
+      "brand": "Barlett",
+      "model": ""
+    },
+    {
+      "id": "100",
+      "name": "Makita Small Jobsite Fan",
+      "brand": "Suzuki",
+      "model": ""
+    },
+    {
+      "id": "101",
+      "name": "Makita 7 1/4\" Circular Saw",
+      "brand": "Makita",
+      "model": ""
+    },
+    {
+      "id": "102",
+      "name": "SPE Concrete Floor Grinder",
+      "brand": "Sanco",
+      "model": ""
+    },
+    {
+      "id": "103",
+      "name": "Standing Belt and Disc Sander",
+      "brand": "Bauer",
+      "model": ""
+    },
+    {
+      "id": "105",
+      "name": "Makita Back Pack blower",
+      "brand": "Keyue",
+      "model": ""
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tname\tbrand\tmodel\n12\tUmbilical Flushing and Cleaning Kit\tGuangdong Lingxiao pump industry\t\n13\tArgon Gas Tank\tUnknown\t\n29\tDr Scaffold Horizontal brace\tDr Scaffold\t\n30\tDr Scaffold Platform\tDr Scaffold\t\n31\tDr Scaffold HD Scaffold Castors\tDr Scaffold\t\n32\tDr  Scaffold HD Scaffold Castors\tDr Scaffold\t\n33\tDr Scaffold Outrigger\tDr Scaffold\t\n34\tDr Scaffold 5 Rung Ladder Span\tDr Scaffold\t\n35\tDr Scaffold 5 Rung Span\tDr Scaffold\t\n36\tDr Scaffold 3 Rung Span\tDr Scaffold\t\n37\tDr Scaffold 3 Rung Ladder Span\tSL Company\t\n38\tSmith H2O sprayer\tSmith Performance\t\n39\tIMC Power Sprayer\tAir Plus\t\n40\tMilwaukie Drain Cleaner\tEKO\t\n41\tMakita 10\" pole saw attachment\tPiusi\t\n42\tDongchang paint/mud mixer\tJiangsu Dongcheng tools co. Ltd\t\n43\tLittle Giant 4 Step Folding Ladder\tLittle Giant USA\t\n44\tLittle Giant 5 Step Folding Ladder\tLittle Giant USA\t\n45\tElectrical Winch\tUnknown\t\n46\t4\" Bench Vice\tUnknown\t\n47\tIrwin 6\" Bench Vice\tIrwin Tools\t\n48\tSL PU pump\tSL Company\t\n49\tPU Pump\tUnknown\t\n50\tAir Plus Industrial Floor Fan\tAir Plus\t\n51\tAir Plus Industrial Floor Fans\tN/A\t\n52\tAP Industrial Floor Fan\tAP\t\n53\tEKO Pneumatic Impact Gun\tEKO Tools\t\n54\tDiesel Pump Kit\tPiusi/Fleetwood/Bada\t\n55\tMakita 18V Battery\tMakita\t\n56\tMakita 18V battery\tMakita\t\n57\tMakita Smart Battery Charger\tMakita\t\n58\tMakita Fast Charging Double Charge Station\tMakita\t\n59\tMakita Cordless Impact Driver\tMakita\t\n60\tMakita Cordless Drill\tMakita\t\n61\tMakita Cordless Circular Saw\tMakita\t\n62\tMakita Cordless SDS Hammer Drill\tMakita\t\n63\tMilwaukie Packout Low Profile Small Organizer Box\tMilwaukie\t\n64\tMilwaukie Packout Low Profile Organizer Box\tMilwaukie\t\n65\tMilwaukie Compact Small Organizer Box\tMilwaukie\t\n66\tMilwaukie Packout Compact Large Organizer Box\tMilwaukie\t\n67\tMilwaukie Packout Three Drawer Tool Chest\tMilwaukie\t\n68\tMilwaukie Packout Large Tool Box\tCrawcon\t\n69\tMilwaukie Packout Rolling Base Tool Box\tWarco\t\n98\tMakita Small Pressure Washer\tMakita\t\n99\tMakita Small Circular Concrete/Tile Cutter\tBarlett\t\n100\tMakita Small Jobsite Fan\tSuzuki\t\n101\tMakita 7 1/4\" Circular Saw\tMakita\t\n102\tSPE Concrete Floor Grinder\tSanco\t\n103\tStanding Belt and Disc Sander\tBauer\t\n105\tMakita Back Pack blower\tKeyue\t\n",
+  "stderr": "",
+  "execution_time_ms": 1635
+}

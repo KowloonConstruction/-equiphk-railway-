@@ -1,0 +1,15 @@
+{
+  "query": "\n-- Check total count of old vs new sub-categories\nSELECT COUNT(*) as total, MIN(id) as min_id, MAX(id) as max_id FROM equipment_sub_categories;\n",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2B2d1HYRsoiQJMJ.root --database EqJqhhxWWJKtKB68YEvggw --execute \n-- Check total count of old vs new sub-categories\nSELECT COUNT(*) as total, MIN(id) as min_id, MAX(id) as max_id FROM equipment_sub_categories;\n",
+  "rows": [
+    {
+      "total": "56",
+      "min_id": "1",
+      "max_id": "67"
+    }
+  ],
+  "messages": [],
+  "stdout": "total\tmin_id\tmax_id\n56\t1\t67\n",
+  "stderr": "",
+  "execution_time_ms": 1592
+}

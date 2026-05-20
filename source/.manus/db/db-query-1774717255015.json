@@ -1,0 +1,15 @@
+{
+  "query": "SELECT COUNT(*) as total, COUNT(subCategoryId) as assigned, COUNT(*) - COUNT(subCategoryId) as unassigned FROM equipment_items;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2B2d1HYRsoiQJMJ.root --database EqJqhhxWWJKtKB68YEvggw --execute SELECT COUNT(*) as total, COUNT(subCategoryId) as assigned, COUNT(*) - COUNT(subCategoryId) as unassigned FROM equipment_items;",
+  "rows": [
+    {
+      "total": "214",
+      "assigned": "214",
+      "unassigned": "0"
+    }
+  ],
+  "messages": [],
+  "stdout": "total\tassigned\tunassigned\n214\t214\t0\n",
+  "stderr": "",
+  "execution_time_ms": 1646
+}

@@ -1,0 +1,1 @@
+ALTER TABLE `equipment_items` ADD `isReviewed` boolean DEFAULT false NOT NULL;

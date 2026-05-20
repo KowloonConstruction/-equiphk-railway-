@@ -1,0 +1,426 @@
+{
+  "query": "SELECT ec.id as cat_id, ec.name as cat_name, ec.slug as cat_slug,\n       es.id as sub_id, es.name as sub_name, es.slug as sub_slug\nFROM equipment_categories ec\nLEFT JOIN equipment_sub_categories es ON es.categoryId = ec.id\nORDER BY ec.sortOrder, es.sortOrder;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2B2d1HYRsoiQJMJ.root --database EqJqhhxWWJKtKB68YEvggw --execute SELECT ec.id as cat_id, ec.name as cat_name, ec.slug as cat_slug,\n       es.id as sub_id, es.name as sub_name, es.slug as sub_slug\nFROM equipment_categories ec\nLEFT JOIN equipment_sub_categories es ON es.categoryId = ec.id\nORDER BY ec.sortOrder, es.sortOrder;",
+  "rows": [
+    {
+      "cat_id": "1",
+      "cat_name": "Power Tools",
+      "cat_slug": "power-tools",
+      "sub_id": "16",
+      "sub_name": "Drills & Hammer Drills",
+      "sub_slug": "drills-hammer-drills"
+    },
+    {
+      "cat_id": "1",
+      "cat_name": "Power Tools",
+      "cat_slug": "power-tools",
+      "sub_id": "2",
+      "sub_name": "Grinders & Sanders",
+      "sub_slug": "grinders-sanders"
+    },
+    {
+      "cat_id": "1",
+      "cat_name": "Power Tools",
+      "cat_slug": "power-tools",
+      "sub_id": "18",
+      "sub_name": "Saws & Cutting Tools",
+      "sub_slug": "saws-cutting-tools"
+    },
+    {
+      "cat_id": "1",
+      "cat_name": "Power Tools",
+      "cat_slug": "power-tools",
+      "sub_id": "19",
+      "sub_name": "Impact & Fastening",
+      "sub_slug": "impact-fastening"
+    },
+    {
+      "cat_id": "2",
+      "cat_name": "Scaffolding & Access",
+      "cat_slug": "scaffolding-access",
+      "sub_id": "5",
+      "sub_name": "Scaffolding Systems",
+      "sub_slug": "scaffolding-systems"
+    },
+    {
+      "cat_id": "2",
+      "cat_name": "Scaffolding & Access",
+      "cat_slug": "scaffolding-access",
+      "sub_id": "6",
+      "sub_name": "Mobile Towers",
+      "sub_slug": "mobile-towers"
+    },
+    {
+      "cat_id": "2",
+      "cat_name": "Scaffolding & Access",
+      "cat_slug": "scaffolding-access",
+      "sub_id": "7",
+      "sub_name": "Ladders & Steps",
+      "sub_slug": "ladders-steps"
+    },
+    {
+      "cat_id": "2",
+      "cat_name": "Scaffolding & Access",
+      "cat_slug": "scaffolding-access",
+      "sub_id": "8",
+      "sub_name": "Aerial Platforms",
+      "sub_slug": "aerial-platforms"
+    },
+    {
+      "cat_id": "3",
+      "cat_name": "Safety Equipment",
+      "cat_slug": "safety-equipment",
+      "sub_id": "12",
+      "sub_name": "Fall Protection",
+      "sub_slug": "fall-protection"
+    },
+    {
+      "cat_id": "3",
+      "cat_name": "Safety Equipment",
+      "cat_slug": "safety-equipment",
+      "sub_id": "13",
+      "sub_name": "PPE & Clothing",
+      "sub_slug": "ppe-clothing"
+    },
+    {
+      "cat_id": "3",
+      "cat_name": "Safety Equipment",
+      "cat_slug": "safety-equipment",
+      "sub_id": "14",
+      "sub_name": "Barriers & Signage",
+      "sub_slug": "barriers-signage"
+    },
+    {
+      "cat_id": "3",
+      "cat_name": "Safety Equipment",
+      "cat_slug": "safety-equipment",
+      "sub_id": "15",
+      "sub_name": "Gas Detection",
+      "sub_slug": "gas-detection"
+    },
+    {
+      "cat_id": "4",
+      "cat_name": "Measuring & Leveling",
+      "cat_slug": "measuring-leveling",
+      "sub_id": "28",
+      "sub_name": "Laser Levels",
+      "sub_slug": "laser-levels"
+    },
+    {
+      "cat_id": "4",
+      "cat_name": "Measuring & Leveling",
+      "cat_slug": "measuring-leveling",
+      "sub_id": "29",
+      "sub_name": "Spirit & Optical Levels",
+      "sub_slug": "spirit-optical-levels"
+    },
+    {
+      "cat_id": "4",
+      "cat_name": "Measuring & Leveling",
+      "cat_slug": "measuring-leveling",
+      "sub_id": "30",
+      "sub_name": "Distance & Layout",
+      "sub_slug": "distance-layout"
+    },
+    {
+      "cat_id": "4",
+      "cat_name": "Measuring & Leveling",
+      "cat_slug": "measuring-leveling",
+      "sub_id": "31",
+      "sub_name": "Thermal & Detection",
+      "sub_slug": "thermal-detection"
+    },
+    {
+      "cat_id": "5",
+      "cat_name": "Welding & Cutting",
+      "cat_slug": "welding-cutting",
+      "sub_id": "9",
+      "sub_name": "MIG & TIG Welders",
+      "sub_slug": "mig-tig-welders"
+    },
+    {
+      "cat_id": "5",
+      "cat_name": "Welding & Cutting",
+      "cat_slug": "welding-cutting",
+      "sub_id": "10",
+      "sub_name": "Plasma Cutters",
+      "sub_slug": "plasma-cutters"
+    },
+    {
+      "cat_id": "5",
+      "cat_name": "Welding & Cutting",
+      "cat_slug": "welding-cutting",
+      "sub_id": "34",
+      "sub_name": "Oxy-Acetylene Sets",
+      "sub_slug": "oxy-acetylene-sets"
+    },
+    {
+      "cat_id": "5",
+      "cat_name": "Welding & Cutting",
+      "cat_slug": "welding-cutting",
+      "sub_id": "35",
+      "sub_name": "Welding Accessories",
+      "sub_slug": "welding-accessories"
+    },
+    {
+      "cat_id": "6",
+      "cat_name": "Pneumatic Tools",
+      "cat_slug": "pneumatic-tools",
+      "sub_id": "36",
+      "sub_name": "Air Drills & Grinders",
+      "sub_slug": "air-drills-grinders"
+    },
+    {
+      "cat_id": "6",
+      "cat_name": "Pneumatic Tools",
+      "cat_slug": "pneumatic-tools",
+      "sub_id": "37",
+      "sub_name": "Impact Wrenches",
+      "sub_slug": "impact-wrenches"
+    },
+    {
+      "cat_id": "6",
+      "cat_name": "Pneumatic Tools",
+      "cat_slug": "pneumatic-tools",
+      "sub_id": "38",
+      "sub_name": "Nail & Staple Guns",
+      "sub_slug": "nail-staple-guns"
+    },
+    {
+      "cat_id": "6",
+      "cat_name": "Pneumatic Tools",
+      "cat_slug": "pneumatic-tools",
+      "sub_id": "39",
+      "sub_name": "Hoses & Fittings",
+      "sub_slug": "air-hoses-fittings"
+    },
+    {
+      "cat_id": "7",
+      "cat_name": "Hydraulic Equipment",
+      "cat_slug": "hydraulic-equipment",
+      "sub_id": "40",
+      "sub_name": "Hydraulic Jacks",
+      "sub_slug": "hydraulic-jacks"
+    },
+    {
+      "cat_id": "7",
+      "cat_name": "Hydraulic Equipment",
+      "cat_slug": "hydraulic-equipment",
+      "sub_id": "41",
+      "sub_name": "Hydraulic Breakers",
+      "sub_slug": "hydraulic-breakers"
+    },
+    {
+      "cat_id": "7",
+      "cat_name": "Hydraulic Equipment",
+      "cat_slug": "hydraulic-equipment",
+      "sub_id": "42",
+      "sub_name": "Hydraulic Presses",
+      "sub_slug": "hydraulic-presses"
+    },
+    {
+      "cat_id": "7",
+      "cat_name": "Hydraulic Equipment",
+      "cat_slug": "hydraulic-equipment",
+      "sub_id": "43",
+      "sub_name": "Hydraulic Hoses",
+      "sub_slug": "hydraulic-hoses"
+    },
+    {
+      "cat_id": "8",
+      "cat_name": "Pumps & Fluid Handling",
+      "cat_slug": "pumps-fluid-handling",
+      "sub_id": "44",
+      "sub_name": "Water Pumps",
+      "sub_slug": "water-pumps"
+    },
+    {
+      "cat_id": "8",
+      "cat_name": "Pumps & Fluid Handling",
+      "cat_slug": "pumps-fluid-handling",
+      "sub_id": "45",
+      "sub_name": "Submersible Pumps",
+      "sub_slug": "submersible-pumps"
+    },
+    {
+      "cat_id": "8",
+      "cat_name": "Pumps & Fluid Handling",
+      "cat_slug": "pumps-fluid-handling",
+      "sub_id": "46",
+      "sub_name": "Chemical Pumps",
+      "sub_slug": "chemical-pumps"
+    },
+    {
+      "cat_id": "8",
+      "cat_name": "Pumps & Fluid Handling",
+      "cat_slug": "pumps-fluid-handling",
+      "sub_id": "47",
+      "sub_name": "Hoses & Couplings",
+      "sub_slug": "pump-hoses-couplings"
+    },
+    {
+      "cat_id": "9",
+      "cat_name": "Chainsaws & Outdoor",
+      "cat_slug": "chainsaws-outdoor",
+      "sub_id": "48",
+      "sub_name": "Chainsaws",
+      "sub_slug": "chainsaws"
+    },
+    {
+      "cat_id": "9",
+      "cat_name": "Chainsaws & Outdoor",
+      "cat_slug": "chainsaws-outdoor",
+      "sub_id": "49",
+      "sub_name": "Hedge Trimmers",
+      "sub_slug": "hedge-trimmers"
+    },
+    {
+      "cat_id": "9",
+      "cat_name": "Chainsaws & Outdoor",
+      "cat_slug": "chainsaws-outdoor",
+      "sub_id": "50",
+      "sub_name": "Leaf Blowers",
+      "sub_slug": "leaf-blowers"
+    },
+    {
+      "cat_id": "9",
+      "cat_name": "Chainsaws & Outdoor",
+      "cat_slug": "chainsaws-outdoor",
+      "sub_id": "51",
+      "sub_name": "Outdoor Power",
+      "sub_slug": "outdoor-power"
+    },
+    {
+      "cat_id": "10",
+      "cat_name": "Batteries & Power",
+      "cat_slug": "batteries-power",
+      "sub_id": "52",
+      "sub_name": "Battery Packs",
+      "sub_slug": "battery-packs"
+    },
+    {
+      "cat_id": "10",
+      "cat_name": "Batteries & Power",
+      "cat_slug": "batteries-power",
+      "sub_id": "53",
+      "sub_name": "Chargers",
+      "sub_slug": "battery-chargers"
+    },
+    {
+      "cat_id": "10",
+      "cat_name": "Batteries & Power",
+      "cat_slug": "batteries-power",
+      "sub_id": "54",
+      "sub_name": "Generators",
+      "sub_slug": "portable-generators"
+    },
+    {
+      "cat_id": "10",
+      "cat_name": "Batteries & Power",
+      "cat_slug": "batteries-power",
+      "sub_id": "55",
+      "sub_name": "Power Stations",
+      "sub_slug": "power-stations"
+    },
+    {
+      "cat_id": "11",
+      "cat_name": "Hand Tools & Accessories",
+      "cat_slug": "hand-tools-accessories",
+      "sub_id": "56",
+      "sub_name": "Striking Tools",
+      "sub_slug": "striking-tools"
+    },
+    {
+      "cat_id": "11",
+      "cat_name": "Hand Tools & Accessories",
+      "cat_slug": "hand-tools-accessories",
+      "sub_id": "57",
+      "sub_name": "Cutting & Shaping",
+      "sub_slug": "cutting-shaping"
+    },
+    {
+      "cat_id": "11",
+      "cat_name": "Hand Tools & Accessories",
+      "cat_slug": "hand-tools-accessories",
+      "sub_id": "58",
+      "sub_name": "Clamping & Holding",
+      "sub_slug": "clamping-holding"
+    },
+    {
+      "cat_id": "11",
+      "cat_name": "Hand Tools & Accessories",
+      "cat_slug": "hand-tools-accessories",
+      "sub_id": "59",
+      "sub_name": "Blades & Bits",
+      "sub_slug": "blades-bits"
+    },
+    {
+      "cat_id": "12",
+      "cat_name": "Compressors & Air",
+      "cat_slug": "compressors-air",
+      "sub_id": "60",
+      "sub_name": "Portable Compressors",
+      "sub_slug": "portable-compressors"
+    },
+    {
+      "cat_id": "12",
+      "cat_name": "Compressors & Air",
+      "cat_slug": "compressors-air",
+      "sub_id": "61",
+      "sub_name": "Industrial Compressors",
+      "sub_slug": "industrial-compressors"
+    },
+    {
+      "cat_id": "12",
+      "cat_name": "Compressors & Air",
+      "cat_slug": "compressors-air",
+      "sub_id": "62",
+      "sub_name": "Oil-Free Compressors",
+      "sub_slug": "oil-free-compressors"
+    },
+    {
+      "cat_id": "12",
+      "cat_name": "Compressors & Air",
+      "cat_slug": "compressors-air",
+      "sub_id": "63",
+      "sub_name": "Air Accessories",
+      "sub_slug": "air-accessories"
+    },
+    {
+      "cat_id": "13",
+      "cat_name": "Specialized Equipment",
+      "cat_slug": "specialized-equipment",
+      "sub_id": "64",
+      "sub_name": "Concrete & Masonry",
+      "sub_slug": "concrete-masonry-tools"
+    },
+    {
+      "cat_id": "13",
+      "cat_name": "Specialized Equipment",
+      "cat_slug": "specialized-equipment",
+      "sub_id": "65",
+      "sub_name": "Lifting & Rigging",
+      "sub_slug": "lifting-rigging-tools"
+    },
+    {
+      "cat_id": "13",
+      "cat_name": "Specialized Equipment",
+      "cat_slug": "specialized-equipment",
+      "sub_id": "66",
+      "sub_name": "Marine & Diving",
+      "sub_slug": "marine-diving-tools"
+    },
+    {
+      "cat_id": "13",
+      "cat_name": "Specialized Equipment",
+      "cat_slug": "specialized-equipment",
+      "sub_id": "67",
+      "sub_name": "Survey & Detection",
+      "sub_slug": "survey-detection-tools"
+    }
+  ],
+  "messages": [],
+  "stdout": "cat_id\tcat_name\tcat_slug\tsub_id\tsub_name\tsub_slug\n1\tPower Tools\tpower-tools\t16\tDrills & Hammer Drills\tdrills-hammer-drills\n1\tPower Tools\tpower-tools\t2\tGrinders & Sanders\tgrinders-sanders\n1\tPower Tools\tpower-tools\t18\tSaws & Cutting Tools\tsaws-cutting-tools\n1\tPower Tools\tpower-tools\t19\tImpact & Fastening\timpact-fastening\n2\tScaffolding & Access\tscaffolding-access\t5\tScaffolding Systems\tscaffolding-systems\n2\tScaffolding & Access\tscaffolding-access\t6\tMobile Towers\tmobile-towers\n2\tScaffolding & Access\tscaffolding-access\t7\tLadders & Steps\tladders-steps\n2\tScaffolding & Access\tscaffolding-access\t8\tAerial Platforms\taerial-platforms\n3\tSafety Equipment\tsafety-equipment\t12\tFall Protection\tfall-protection\n3\tSafety Equipment\tsafety-equipment\t13\tPPE & Clothing\tppe-clothing\n3\tSafety Equipment\tsafety-equipment\t14\tBarriers & Signage\tbarriers-signage\n3\tSafety Equipment\tsafety-equipment\t15\tGas Detection\tgas-detection\n4\tMeasuring & Leveling\tmeasuring-leveling\t28\tLaser Levels\tlaser-levels\n4\tMeasuring & Leveling\tmeasuring-leveling\t29\tSpirit & Optical Levels\tspirit-optical-levels\n4\tMeasuring & Leveling\tmeasuring-leveling\t30\tDistance & Layout\tdistance-layout\n4\tMeasuring & Leveling\tmeasuring-leveling\t31\tThermal & Detection\tthermal-detection\n5\tWelding & Cutting\twelding-cutting\t9\tMIG & TIG Welders\tmig-tig-welders\n5\tWelding & Cutting\twelding-cutting\t10\tPlasma Cutters\tplasma-cutters\n5\tWelding & Cutting\twelding-cutting\t34\tOxy-Acetylene Sets\toxy-acetylene-sets\n5\tWelding & Cutting\twelding-cutting\t35\tWelding Accessories\twelding-accessories\n6\tPneumatic Tools\tpneumatic-tools\t36\tAir Drills & Grinders\tair-drills-grinders\n6\tPneumatic Tools\tpneumatic-tools\t37\tImpact Wrenches\timpact-wrenches\n6\tPneumatic Tools\tpneumatic-tools\t38\tNail & Staple Guns\tnail-staple-guns\n6\tPneumatic Tools\tpneumatic-tools\t39\tHoses & Fittings\tair-hoses-fittings\n7\tHydraulic Equipment\thydraulic-equipment\t40\tHydraulic Jacks\thydraulic-jacks\n7\tHydraulic Equipment\thydraulic-equipment\t41\tHydraulic Breakers\thydraulic-breakers\n7\tHydraulic Equipment\thydraulic-equipment\t42\tHydraulic Presses\thydraulic-presses\n7\tHydraulic Equipment\thydraulic-equipment\t43\tHydraulic Hoses\thydraulic-hoses\n8\tPumps & Fluid Handling\tpumps-fluid-handling\t44\tWater Pumps\twater-pumps\n8\tPumps & Fluid Handling\tpumps-fluid-handling\t45\tSubmersible Pumps\tsubmersible-pumps\n8\tPumps & Fluid Handling\tpumps-fluid-handling\t46\tChemical Pumps\tchemical-pumps\n8\tPumps & Fluid Handling\tpumps-fluid-handling\t47\tHoses & Couplings\tpump-hoses-couplings\n9\tChainsaws & Outdoor\tchainsaws-outdoor\t48\tChainsaws\tchainsaws\n9\tChainsaws & Outdoor\tchainsaws-outdoor\t49\tHedge Trimmers\thedge-trimmers\n9\tChainsaws & Outdoor\tchainsaws-outdoor\t50\tLeaf Blowers\tleaf-blowers\n9\tChainsaws & Outdoor\tchainsaws-outdoor\t51\tOutdoor Power\toutdoor-power\n10\tBatteries & Power\tbatteries-power\t52\tBattery Packs\tbattery-packs\n10\tBatteries & Power\tbatteries-power\t53\tChargers\tbattery-chargers\n10\tBatteries & Power\tbatteries-power\t54\tGenerators\tportable-generators\n10\tBatteries & Power\tbatteries-power\t55\tPower Stations\tpower-stations\n11\tHand Tools & Accessories\thand-tools-accessories\t56\tStriking Tools\tstriking-tools\n11\tHand Tools & Accessories\thand-tools-accessories\t57\tCutting & Shaping\tcutting-shaping\n11\tHand Tools & Accessories\thand-tools-accessories\t58\tClamping & Holding\tclamping-holding\n11\tHand Tools & Accessories\thand-tools-accessories\t59\tBlades & Bits\tblades-bits\n12\tCompressors & Air\tcompressors-air\t60\tPortable Compressors\tportable-compressors\n12\tCompressors & Air\tcompressors-air\t61\tIndustrial Compressors\tindustrial-compressors\n12\tCompressors & Air\tcompressors-air\t62\tOil-Free Compressors\toil-free-compressors\n12\tCompressors & Air\tcompressors-air\t63\tAir Accessories\tair-accessories\n13\tSpecialized Equipment\tspecialized-equipment\t64\tConcrete & Masonry\tconcrete-masonry-tools\n13\tSpecialized Equipment\tspecialized-equipment\t65\tLifting & Rigging\tlifting-rigging-tools\n13\tSpecialized Equipment\tspecialized-equipment\t66\tMarine & Diving\tmarine-diving-tools\n13\tSpecialized Equipment\tspecialized-equipment\t67\tSurvey & Detection\tsurvey-detection-tools\n",
+  "stderr": "",
+  "execution_time_ms": 1618
+}

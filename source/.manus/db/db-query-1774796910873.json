@@ -1,0 +1,9 @@
+{
+  "query": "UPDATE equipment_items \nSET description = REPLACE(\n  REPLACE(\n    REPLACE(\n      REPLACE(\n        REPLACE(\n          REPLACE(description, 'Hong Kong flat', 'flat'),\n          'Hong Kong workshop', 'workshop'\n        ),\n        'Hong Kong terrain', 'terrain'\n      ),\n      'Hong Kong worksites', 'worksites'\n    ),\n    'Hong Kong surfaces', 'surfaces'\n  ),\n  'Hong Kong', ''\n)\nWHERE description LIKE '%Hong Kong%';",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2B2d1HYRsoiQJMJ.root --database EqJqhhxWWJKtKB68YEvggw --execute UPDATE equipment_items \nSET description = REPLACE(\n  REPLACE(\n    REPLACE(\n      REPLACE(\n        REPLACE(\n          REPLACE(description, 'Hong Kong flat', 'flat'),\n          'Hong Kong workshop', 'workshop'\n        ),\n        'Hong Kong terrain', 'terrain'\n      ),\n      'Hong Kong worksites', 'worksites'\n    ),\n    'Hong Kong surfaces', 'surfaces'\n  ),\n  'Hong Kong', ''\n)\nWHERE description LIKE '%Hong Kong%';",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 1575
+}

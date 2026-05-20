@@ -1,0 +1,60 @@
+{
+  "query": "SELECT id, name, SUBSTRING(description, LOCATE('Hong Kong', description) - 30, 80) as context \nFROM equipment_items \nWHERE description LIKE '%Hong Kong%' \nLIMIT 10;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2B2d1HYRsoiQJMJ.root --database EqJqhhxWWJKtKB68YEvggw --execute SELECT id, name, SUBSTRING(description, LOCATE('Hong Kong', description) - 30, 80) as context \nFROM equipment_items \nWHERE description LIKE '%Hong Kong%' \nLIMIT 10;",
+  "rows": [
+    {
+      "id": "1",
+      "name": "Hilti 360* Lazer level",
+      "context": "at spirit levels in a cramped Hong Kong flat? This Hilti 360° laser level projec"
+    },
+    {
+      "id": "2",
+      "name": "Dr Scaffold Safety Railing 2 Rung Span",
+      "context": "re."
+    },
+    {
+      "id": "5",
+      "name": "Viraj Fall Arrester",
+      "context": "fidence."
+    },
+    {
+      "id": "7",
+      "name": "Cheetah Equipment Battery",
+      "context": "those quick fixes around your Hong Kong flat or that ambitious furniture assembl"
+    },
+    {
+      "id": "8",
+      "name": "Laser Level",
+      "context": "y shelf installations in your Hong Kong flat? Grab our Bosch Standard Laser Leve"
+    },
+    {
+      "id": "10",
+      "name": "Elephant 1T Chain Block",
+      "context": "hoist something heavy in your Hong Kong workshop or renovation project without b"
+    },
+    {
+      "id": "11",
+      "name": "Togoshi Walking Measuring Wheel",
+      "context": "with a tape measure on uneven Hong Kong terrain or sprawling construction sites?"
+    },
+    {
+      "id": "12",
+      "name": "Umbilical Flushing and Cleaning Kit",
+      "context": " hands-on solution for common Hong Kong household pipe woes."
+    },
+    {
+      "id": "14",
+      "name": "Taiyu 1T chain block",
+      "context": "n your solo projects or tight Hong Kong worksites? This Taiyu 1T chain block is "
+    },
+    {
+      "id": "15",
+      "name": "Xcalibre Magnum Hydraulic Drill",
+      "context": "ll slices through the hardest Hong Kong surfaces with surprising ease, letting y"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tname\tcontext\n1\tHilti 360* Lazer level\tat spirit levels in a cramped Hong Kong flat? This Hilti 360° laser level projec\n2\tDr Scaffold Safety Railing 2 Rung Span\tre.\n5\tViraj Fall Arrester\tfidence.\n7\tCheetah Equipment Battery\tthose quick fixes around your Hong Kong flat or that ambitious furniture assembl\n8\tLaser Level\ty shelf installations in your Hong Kong flat? Grab our Bosch Standard Laser Leve\n10\tElephant 1T Chain Block\thoist something heavy in your Hong Kong workshop or renovation project without b\n11\tTogoshi Walking Measuring Wheel\twith a tape measure on uneven Hong Kong terrain or sprawling construction sites?\n12\tUmbilical Flushing and Cleaning Kit\t hands-on solution for common Hong Kong household pipe woes.\n14\tTaiyu 1T chain block\tn your solo projects or tight Hong Kong worksites? This Taiyu 1T chain block is \n15\tXcalibre Magnum Hydraulic Drill\tll slices through the hardest Hong Kong surfaces with surprising ease, letting y\n",
+  "stderr": "",
+  "execution_time_ms": 1584
+}

@@ -1,0 +1,8 @@
+{
+  "query": "SELECT ec.id as cat_id, ec.name as cat_name, ec.slug as cat_slug,\n       es.id as sub_id, es.name as sub_name, es.slug as sub_slug\nFROM equipment_categories ec\nLEFT JOIN equipment_sub_categories es ON es.category_id = ec.id\nORDER BY ec.sort_order, es.sort_order;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2B2d1HYRsoiQJMJ.root --database EqJqhhxWWJKtKB68YEvggw --execute SELECT ec.id as cat_id, ec.name as cat_name, ec.slug as cat_slug,\n       es.id as sub_id, es.name as sub_name, es.slug as sub_slug\nFROM equipment_categories ec\nLEFT JOIN equipment_sub_categories es ON es.category_id = ec.id\nORDER BY ec.sort_order, es.sort_order;",
+  "returncode": 1,
+  "logs": [
+    "ERROR 1054 (42S22) at line 1: Unknown column 'es.category_id' in 'on clause'"
+  ]
+}

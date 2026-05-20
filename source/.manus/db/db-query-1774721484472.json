@@ -1,0 +1,9 @@
+{
+  "query": "UPDATE equipment_items SET brand = 'Beta Tools', model = 'C24S-5' WHERE id = 70;\nUPDATE equipment_items SET brand = 'Metabo', model = 'NR90AE(S1)' WHERE id = 78;\nUPDATE equipment_items SET brand = 'Dahoo Tools', model = 'GJ38771' WHERE id = 79;\nUPDATE equipment_items SET brand = 'Numax', model = 'S20VFST50' WHERE id = 80;\nUPDATE equipment_items SET brand = 'Dongcheng', model = 'DJF 30' WHERE id = 91;\nUPDATE equipment_items SET brand = 'Graco', model = 'magnum ProX17' WHERE id = 95;\nUPDATE equipment_items SET brand = 'Unknown' WHERE id = 103;\nUPDATE equipment_items SET brand = 'Zhejiang Gongzhong' WHERE id = 142;\nUPDATE equipment_items SET brand = 'SPE Manufacturing' WHERE id = 144;\nUPDATE equipment_items SET brand = 'Feiyu' WHERE id = 173;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2B2d1HYRsoiQJMJ.root --database EqJqhhxWWJKtKB68YEvggw --execute UPDATE equipment_items SET brand = 'Beta Tools', model = 'C24S-5' WHERE id = 70;\nUPDATE equipment_items SET brand = 'Metabo', model = 'NR90AE(S1)' WHERE id = 78;\nUPDATE equipment_items SET brand = 'Dahoo Tools', model = 'GJ38771' WHERE id = 79;\nUPDATE equipment_items SET brand = 'Numax', model = 'S20VFST50' WHERE id = 80;\nUPDATE equipment_items SET brand = 'Dongcheng', model = 'DJF 30' WHERE id = 91;\nUPDATE equipment_items SET brand = 'Graco', model = 'magnum ProX17' WHERE id = 95;\nUPDATE equipment_items SET brand = 'Unknown' WHERE id = 103;\nUPDATE equipment_items SET brand = 'Zhejiang Gongzhong' WHERE id = 142;\nUPDATE equipment_items SET brand = 'SPE Manufacturing' WHERE id = 144;\nUPDATE equipment_items SET brand = 'Feiyu' WHERE id = 173;",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 3752
+}

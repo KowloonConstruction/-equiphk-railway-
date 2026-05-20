@@ -1,0 +1,62 @@
+{
+  "query": "SELECT ec.id, ec.name AS categoryName FROM equipment_categories ec ORDER BY ec.name;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2B2d1HYRsoiQJMJ.root --database EqJqhhxWWJKtKB68YEvggw --execute SELECT ec.id, ec.name AS categoryName FROM equipment_categories ec ORDER BY ec.name;",
+  "rows": [
+    {
+      "id": "10",
+      "categoryName": "Batteries & Power"
+    },
+    {
+      "id": "9",
+      "categoryName": "Chainsaws & Outdoor"
+    },
+    {
+      "id": "12",
+      "categoryName": "Compressors & Air"
+    },
+    {
+      "id": "11",
+      "categoryName": "Hand Tools & Accessories"
+    },
+    {
+      "id": "7",
+      "categoryName": "Hydraulic Equipment"
+    },
+    {
+      "id": "4",
+      "categoryName": "Measuring & Leveling"
+    },
+    {
+      "id": "6",
+      "categoryName": "Pneumatic Tools"
+    },
+    {
+      "id": "1",
+      "categoryName": "Power Tools"
+    },
+    {
+      "id": "8",
+      "categoryName": "Pumps & Fluid Handling"
+    },
+    {
+      "id": "3",
+      "categoryName": "Safety Equipment"
+    },
+    {
+      "id": "2",
+      "categoryName": "Scaffolding & Access"
+    },
+    {
+      "id": "13",
+      "categoryName": "Specialized Equipment"
+    },
+    {
+      "id": "5",
+      "categoryName": "Welding & Cutting"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tcategoryName\n10\tBatteries & Power\n9\tChainsaws & Outdoor\n12\tCompressors & Air\n11\tHand Tools & Accessories\n7\tHydraulic Equipment\n4\tMeasuring & Leveling\n6\tPneumatic Tools\n1\tPower Tools\n8\tPumps & Fluid Handling\n3\tSafety Equipment\n2\tScaffolding & Access\n13\tSpecialized Equipment\n5\tWelding & Cutting\n",
+  "stderr": "",
+  "execution_time_ms": 1666
+}

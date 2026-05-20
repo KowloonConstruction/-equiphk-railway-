@@ -1,0 +1,9 @@
+{
+  "query": "-- Remove orphan sub-category with categoryId=0 (no parent)\nDELETE FROM equipment_sub_categories WHERE id = 68 AND categoryId = 0;\n",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2B2d1HYRsoiQJMJ.root --database EqJqhhxWWJKtKB68YEvggw --execute -- Remove orphan sub-category with categoryId=0 (no parent)\nDELETE FROM equipment_sub_categories WHERE id = 68 AND categoryId = 0;\n",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 1559
+}

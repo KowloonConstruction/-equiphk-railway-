@@ -1,0 +1,52 @@
+{
+  "query": "\n-- Check all sub-categories for power-tools (categoryId=1)\nSELECT id, name, slug, sortOrder FROM equipment_sub_categories WHERE categoryId = 1 ORDER BY sortOrder, id;\n",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2B2d1HYRsoiQJMJ.root --database EqJqhhxWWJKtKB68YEvggw --execute \n-- Check all sub-categories for power-tools (categoryId=1)\nSELECT id, name, slug, sortOrder FROM equipment_sub_categories WHERE categoryId = 1 ORDER BY sortOrder, id;\n",
+  "rows": [
+    {
+      "id": "1",
+      "name": "Drills & Hammers",
+      "slug": "drills-hammers",
+      "sortOrder": "1"
+    },
+    {
+      "id": "16",
+      "name": "Drills & Hammer Drills",
+      "slug": "drills-hammer-drills",
+      "sortOrder": "1"
+    },
+    {
+      "id": "2",
+      "name": "Grinders & Sanders",
+      "slug": "grinders-sanders",
+      "sortOrder": "2"
+    },
+    {
+      "id": "3",
+      "name": "Saws & Cutting",
+      "slug": "saws-cutting",
+      "sortOrder": "3"
+    },
+    {
+      "id": "18",
+      "name": "Saws & Cutting Tools",
+      "slug": "saws-cutting-tools",
+      "sortOrder": "3"
+    },
+    {
+      "id": "4",
+      "name": "Fastening & Nailing",
+      "slug": "fastening-nailing",
+      "sortOrder": "4"
+    },
+    {
+      "id": "19",
+      "name": "Impact & Fastening",
+      "slug": "impact-fastening",
+      "sortOrder": "4"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tname\tslug\tsortOrder\n1\tDrills & Hammers\tdrills-hammers\t1\n16\tDrills & Hammer Drills\tdrills-hammer-drills\t1\n2\tGrinders & Sanders\tgrinders-sanders\t2\n3\tSaws & Cutting\tsaws-cutting\t3\n18\tSaws & Cutting Tools\tsaws-cutting-tools\t3\n4\tFastening & Nailing\tfastening-nailing\t4\n19\tImpact & Fastening\timpact-fastening\t4\n",
+  "stderr": "",
+  "execution_time_ms": 1637
+}

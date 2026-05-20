@@ -1,0 +1,2 @@
+ALTER TABLE `equipment_items` ADD `pendingImageUrl` text;--> statement-breakpoint
+ALTER TABLE `equipment_items` ADD `imageApprovalStatus` enum('none','pending','approved','rejected') DEFAULT 'none' NOT NULL;

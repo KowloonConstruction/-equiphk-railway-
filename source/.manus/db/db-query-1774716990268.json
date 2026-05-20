@@ -1,0 +1,75 @@
+{
+  "query": "SELECT id, name, slug FROM equipment_categories ORDER BY id;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2B2d1HYRsoiQJMJ.root --database EqJqhhxWWJKtKB68YEvggw --execute SELECT id, name, slug FROM equipment_categories ORDER BY id;",
+  "rows": [
+    {
+      "id": "1",
+      "name": "Power Tools",
+      "slug": "power-tools"
+    },
+    {
+      "id": "2",
+      "name": "Scaffolding & Access",
+      "slug": "scaffolding-access"
+    },
+    {
+      "id": "3",
+      "name": "Safety Equipment",
+      "slug": "safety-equipment"
+    },
+    {
+      "id": "4",
+      "name": "Measuring & Leveling",
+      "slug": "measuring-leveling"
+    },
+    {
+      "id": "5",
+      "name": "Welding & Cutting",
+      "slug": "welding-cutting"
+    },
+    {
+      "id": "6",
+      "name": "Pneumatic Tools",
+      "slug": "pneumatic-tools"
+    },
+    {
+      "id": "7",
+      "name": "Hydraulic Equipment",
+      "slug": "hydraulic-equipment"
+    },
+    {
+      "id": "8",
+      "name": "Pumps & Fluid Handling",
+      "slug": "pumps-fluid-handling"
+    },
+    {
+      "id": "9",
+      "name": "Chainsaws & Outdoor",
+      "slug": "chainsaws-outdoor"
+    },
+    {
+      "id": "10",
+      "name": "Batteries & Power",
+      "slug": "batteries-power"
+    },
+    {
+      "id": "11",
+      "name": "Hand Tools & Accessories",
+      "slug": "hand-tools-accessories"
+    },
+    {
+      "id": "12",
+      "name": "Compressors & Air",
+      "slug": "compressors-air"
+    },
+    {
+      "id": "13",
+      "name": "Specialized Equipment",
+      "slug": "specialized-equipment"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tname\tslug\n1\tPower Tools\tpower-tools\n2\tScaffolding & Access\tscaffolding-access\n3\tSafety Equipment\tsafety-equipment\n4\tMeasuring & Leveling\tmeasuring-leveling\n5\tWelding & Cutting\twelding-cutting\n6\tPneumatic Tools\tpneumatic-tools\n7\tHydraulic Equipment\thydraulic-equipment\n8\tPumps & Fluid Handling\tpumps-fluid-handling\n9\tChainsaws & Outdoor\tchainsaws-outdoor\n10\tBatteries & Power\tbatteries-power\n11\tHand Tools & Accessories\thand-tools-accessories\n12\tCompressors & Air\tcompressors-air\n13\tSpecialized Equipment\tspecialized-equipment\n",
+  "stderr": "",
+  "execution_time_ms": 1608
+}

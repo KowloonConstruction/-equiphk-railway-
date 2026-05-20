@@ -1,0 +1,9 @@
+{
+  "query": "UPDATE equipment_items SET brand = 'Makita' WHERE id IN (105, 106, 107, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 125, 126, 127, 128, 129, 130, 131, 132, 134, 135, 136, 137, 138, 139, 140);\nUPDATE equipment_items SET brand = 'Air Fox' WHERE id IN (155, 156, 170);\nUPDATE equipment_items SET brand = 'Vespa' WHERE id = 180;\nUPDATE equipment_items SET brand = 'EleMax' WHERE id = 169;\nUPDATE equipment_items SET brand = 'Hany AG Switzerland' WHERE id = 183;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2B2d1HYRsoiQJMJ.root --database EqJqhhxWWJKtKB68YEvggw --execute UPDATE equipment_items SET brand = 'Makita' WHERE id IN (105, 106, 107, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 125, 126, 127, 128, 129, 130, 131, 132, 134, 135, 136, 137, 138, 139, 140);\nUPDATE equipment_items SET brand = 'Air Fox' WHERE id IN (155, 156, 170);\nUPDATE equipment_items SET brand = 'Vespa' WHERE id = 180;\nUPDATE equipment_items SET brand = 'EleMax' WHERE id = 169;\nUPDATE equipment_items SET brand = 'Hany AG Switzerland' WHERE id = 183;",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 2493
+}

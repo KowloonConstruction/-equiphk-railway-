@@ -1,0 +1,40 @@
+{
+  "query": "SELECT id, name, brand, model FROM equipment_items WHERE id BETWEEN 37 AND 41 ORDER BY id;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2B2d1HYRsoiQJMJ.root --database EqJqhhxWWJKtKB68YEvggw --execute SELECT id, name, brand, model FROM equipment_items WHERE id BETWEEN 37 AND 41 ORDER BY id;",
+  "rows": [
+    {
+      "id": "37",
+      "name": "Dr Scaffold 3 Rung Ladder Span",
+      "brand": "SL Company",
+      "model": ""
+    },
+    {
+      "id": "38",
+      "name": "Smith H2O sprayer",
+      "brand": "Smith Performance",
+      "model": ""
+    },
+    {
+      "id": "39",
+      "name": "IMC Power Sprayer",
+      "brand": "Air Plus",
+      "model": ""
+    },
+    {
+      "id": "40",
+      "name": "Milwaukie Drain Cleaner",
+      "brand": "EKO",
+      "model": ""
+    },
+    {
+      "id": "41",
+      "name": "Makita 10\" pole saw attachment",
+      "brand": "Piusi",
+      "model": ""
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tname\tbrand\tmodel\n37\tDr Scaffold 3 Rung Ladder Span\tSL Company\t\n38\tSmith H2O sprayer\tSmith Performance\t\n39\tIMC Power Sprayer\tAir Plus\t\n40\tMilwaukie Drain Cleaner\tEKO\t\n41\tMakita 10\" pole saw attachment\tPiusi\t\n",
+  "stderr": "",
+  "execution_time_ms": 1582
+}

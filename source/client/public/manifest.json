@@ -1,0 +1,24 @@
+{
+  "name": "Equip.HK Admin",
+  "short_name": "Equip.HK",
+  "description": "Equip.HK Equipment Rental Management — manage inventory, approve photos, track enquiries on the go.",
+  "start_url": "/admin",
+  "display": "standalone",
+  "background_color": "#0a1628",
+  "theme_color": "#e8731a",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/pwa-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/pwa-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

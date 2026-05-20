@@ -1,0 +1,9 @@
+{
+  "query": "UPDATE equipment_items SET brand = 'Milwaukee' WHERE id IN (62, 63, 64, 65, 66, 67, 165);\nUPDATE equipment_items SET brand = 'Milwaukee' WHERE id = 68;\nUPDATE equipment_items SET brand = 'Milwaukee' WHERE id = 69;\nUPDATE equipment_items SET brand = 'Crawcon' WHERE id = 75;\nUPDATE equipment_items SET brand = 'Bosch' WHERE id = 82;\nUPDATE equipment_items SET brand = 'Hilti' WHERE id = 90;\nUPDATE equipment_items SET brand = 'Bosch' WHERE id = 92;\nUPDATE equipment_items SET brand = 'Makita' WHERE id = 97;\nUPDATE equipment_items SET brand = 'Makita' WHERE id = 99;\nUPDATE equipment_items SET brand = 'Makita' WHERE id = 100;\nUPDATE equipment_items SET brand = 'Warco' WHERE id = 104;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2B2d1HYRsoiQJMJ.root --database EqJqhhxWWJKtKB68YEvggw --execute UPDATE equipment_items SET brand = 'Milwaukee' WHERE id IN (62, 63, 64, 65, 66, 67, 165);\nUPDATE equipment_items SET brand = 'Milwaukee' WHERE id = 68;\nUPDATE equipment_items SET brand = 'Milwaukee' WHERE id = 69;\nUPDATE equipment_items SET brand = 'Crawcon' WHERE id = 75;\nUPDATE equipment_items SET brand = 'Bosch' WHERE id = 82;\nUPDATE equipment_items SET brand = 'Hilti' WHERE id = 90;\nUPDATE equipment_items SET brand = 'Bosch' WHERE id = 92;\nUPDATE equipment_items SET brand = 'Makita' WHERE id = 97;\nUPDATE equipment_items SET brand = 'Makita' WHERE id = 99;\nUPDATE equipment_items SET brand = 'Makita' WHERE id = 100;\nUPDATE equipment_items SET brand = 'Warco' WHERE id = 104;",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 3901
+}

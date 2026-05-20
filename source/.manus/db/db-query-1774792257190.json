@@ -1,0 +1,322 @@
+{
+  "query": "SELECT ec.id, ec.name AS categoryName, esc.id AS subId, esc.name AS subCategoryName FROM equipment_categories ec LEFT JOIN equipment_sub_categories esc ON ec.id = esc.categoryId ORDER BY ec.name, esc.name;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2B2d1HYRsoiQJMJ.root --database EqJqhhxWWJKtKB68YEvggw --execute SELECT ec.id, ec.name AS categoryName, esc.id AS subId, esc.name AS subCategoryName FROM equipment_categories ec LEFT JOIN equipment_sub_categories esc ON ec.id = esc.categoryId ORDER BY ec.name, esc.name;",
+  "rows": [
+    {
+      "id": "10",
+      "categoryName": "Batteries & Power",
+      "subId": "52",
+      "subCategoryName": "Battery Packs"
+    },
+    {
+      "id": "10",
+      "categoryName": "Batteries & Power",
+      "subId": "53",
+      "subCategoryName": "Chargers"
+    },
+    {
+      "id": "10",
+      "categoryName": "Batteries & Power",
+      "subId": "54",
+      "subCategoryName": "Generators"
+    },
+    {
+      "id": "10",
+      "categoryName": "Batteries & Power",
+      "subId": "55",
+      "subCategoryName": "Power Stations"
+    },
+    {
+      "id": "9",
+      "categoryName": "Chainsaws & Outdoor",
+      "subId": "48",
+      "subCategoryName": "Chainsaws"
+    },
+    {
+      "id": "9",
+      "categoryName": "Chainsaws & Outdoor",
+      "subId": "49",
+      "subCategoryName": "Hedge Trimmers"
+    },
+    {
+      "id": "9",
+      "categoryName": "Chainsaws & Outdoor",
+      "subId": "50",
+      "subCategoryName": "Leaf Blowers"
+    },
+    {
+      "id": "9",
+      "categoryName": "Chainsaws & Outdoor",
+      "subId": "51",
+      "subCategoryName": "Outdoor Power"
+    },
+    {
+      "id": "12",
+      "categoryName": "Compressors & Air",
+      "subId": "63",
+      "subCategoryName": "Air Accessories"
+    },
+    {
+      "id": "12",
+      "categoryName": "Compressors & Air",
+      "subId": "61",
+      "subCategoryName": "Industrial Compressors"
+    },
+    {
+      "id": "12",
+      "categoryName": "Compressors & Air",
+      "subId": "62",
+      "subCategoryName": "Oil-Free Compressors"
+    },
+    {
+      "id": "12",
+      "categoryName": "Compressors & Air",
+      "subId": "60",
+      "subCategoryName": "Portable Compressors"
+    },
+    {
+      "id": "11",
+      "categoryName": "Hand Tools & Accessories",
+      "subId": "59",
+      "subCategoryName": "Blades & Bits"
+    },
+    {
+      "id": "11",
+      "categoryName": "Hand Tools & Accessories",
+      "subId": "58",
+      "subCategoryName": "Clamping & Holding"
+    },
+    {
+      "id": "11",
+      "categoryName": "Hand Tools & Accessories",
+      "subId": "57",
+      "subCategoryName": "Cutting & Shaping"
+    },
+    {
+      "id": "11",
+      "categoryName": "Hand Tools & Accessories",
+      "subId": "56",
+      "subCategoryName": "Striking Tools"
+    },
+    {
+      "id": "7",
+      "categoryName": "Hydraulic Equipment",
+      "subId": "41",
+      "subCategoryName": "Hydraulic Breakers"
+    },
+    {
+      "id": "7",
+      "categoryName": "Hydraulic Equipment",
+      "subId": "43",
+      "subCategoryName": "Hydraulic Hoses"
+    },
+    {
+      "id": "7",
+      "categoryName": "Hydraulic Equipment",
+      "subId": "40",
+      "subCategoryName": "Hydraulic Jacks"
+    },
+    {
+      "id": "7",
+      "categoryName": "Hydraulic Equipment",
+      "subId": "42",
+      "subCategoryName": "Hydraulic Presses"
+    },
+    {
+      "id": "4",
+      "categoryName": "Measuring & Leveling",
+      "subId": "30",
+      "subCategoryName": "Distance & Layout"
+    },
+    {
+      "id": "4",
+      "categoryName": "Measuring & Leveling",
+      "subId": "28",
+      "subCategoryName": "Laser Levels"
+    },
+    {
+      "id": "4",
+      "categoryName": "Measuring & Leveling",
+      "subId": "29",
+      "subCategoryName": "Spirit & Optical Levels"
+    },
+    {
+      "id": "4",
+      "categoryName": "Measuring & Leveling",
+      "subId": "31",
+      "subCategoryName": "Thermal & Detection"
+    },
+    {
+      "id": "6",
+      "categoryName": "Pneumatic Tools",
+      "subId": "36",
+      "subCategoryName": "Air Drills & Grinders"
+    },
+    {
+      "id": "6",
+      "categoryName": "Pneumatic Tools",
+      "subId": "39",
+      "subCategoryName": "Hoses & Fittings"
+    },
+    {
+      "id": "6",
+      "categoryName": "Pneumatic Tools",
+      "subId": "37",
+      "subCategoryName": "Impact Wrenches"
+    },
+    {
+      "id": "6",
+      "categoryName": "Pneumatic Tools",
+      "subId": "38",
+      "subCategoryName": "Nail & Staple Guns"
+    },
+    {
+      "id": "1",
+      "categoryName": "Power Tools",
+      "subId": "16",
+      "subCategoryName": "Drills & Hammer Drills"
+    },
+    {
+      "id": "1",
+      "categoryName": "Power Tools",
+      "subId": "2",
+      "subCategoryName": "Grinders & Sanders"
+    },
+    {
+      "id": "1",
+      "categoryName": "Power Tools",
+      "subId": "19",
+      "subCategoryName": "Impact & Fastening"
+    },
+    {
+      "id": "1",
+      "categoryName": "Power Tools",
+      "subId": "18",
+      "subCategoryName": "Saws & Cutting Tools"
+    },
+    {
+      "id": "8",
+      "categoryName": "Pumps & Fluid Handling",
+      "subId": "46",
+      "subCategoryName": "Chemical Pumps"
+    },
+    {
+      "id": "8",
+      "categoryName": "Pumps & Fluid Handling",
+      "subId": "47",
+      "subCategoryName": "Hoses & Couplings"
+    },
+    {
+      "id": "8",
+      "categoryName": "Pumps & Fluid Handling",
+      "subId": "45",
+      "subCategoryName": "Submersible Pumps"
+    },
+    {
+      "id": "8",
+      "categoryName": "Pumps & Fluid Handling",
+      "subId": "44",
+      "subCategoryName": "Water Pumps"
+    },
+    {
+      "id": "3",
+      "categoryName": "Safety Equipment",
+      "subId": "14",
+      "subCategoryName": "Barriers & Signage"
+    },
+    {
+      "id": "3",
+      "categoryName": "Safety Equipment",
+      "subId": "12",
+      "subCategoryName": "Fall Protection"
+    },
+    {
+      "id": "3",
+      "categoryName": "Safety Equipment",
+      "subId": "15",
+      "subCategoryName": "Gas Detection"
+    },
+    {
+      "id": "3",
+      "categoryName": "Safety Equipment",
+      "subId": "13",
+      "subCategoryName": "PPE & Clothing"
+    },
+    {
+      "id": "2",
+      "categoryName": "Scaffolding & Access",
+      "subId": "8",
+      "subCategoryName": "Aerial Platforms"
+    },
+    {
+      "id": "2",
+      "categoryName": "Scaffolding & Access",
+      "subId": "7",
+      "subCategoryName": "Ladders & Steps"
+    },
+    {
+      "id": "2",
+      "categoryName": "Scaffolding & Access",
+      "subId": "6",
+      "subCategoryName": "Mobile Towers"
+    },
+    {
+      "id": "2",
+      "categoryName": "Scaffolding & Access",
+      "subId": "5",
+      "subCategoryName": "Scaffolding Systems"
+    },
+    {
+      "id": "13",
+      "categoryName": "Specialized Equipment",
+      "subId": "64",
+      "subCategoryName": "Concrete & Masonry"
+    },
+    {
+      "id": "13",
+      "categoryName": "Specialized Equipment",
+      "subId": "65",
+      "subCategoryName": "Lifting & Rigging"
+    },
+    {
+      "id": "13",
+      "categoryName": "Specialized Equipment",
+      "subId": "66",
+      "subCategoryName": "Marine & Diving"
+    },
+    {
+      "id": "13",
+      "categoryName": "Specialized Equipment",
+      "subId": "67",
+      "subCategoryName": "Survey & Detection"
+    },
+    {
+      "id": "5",
+      "categoryName": "Welding & Cutting",
+      "subId": "9",
+      "subCategoryName": "MIG & TIG Welders"
+    },
+    {
+      "id": "5",
+      "categoryName": "Welding & Cutting",
+      "subId": "34",
+      "subCategoryName": "Oxy-Acetylene Sets"
+    },
+    {
+      "id": "5",
+      "categoryName": "Welding & Cutting",
+      "subId": "10",
+      "subCategoryName": "Plasma Cutters"
+    },
+    {
+      "id": "5",
+      "categoryName": "Welding & Cutting",
+      "subId": "35",
+      "subCategoryName": "Welding Accessories"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tcategoryName\tsubId\tsubCategoryName\n10\tBatteries & Power\t52\tBattery Packs\n10\tBatteries & Power\t53\tChargers\n10\tBatteries & Power\t54\tGenerators\n10\tBatteries & Power\t55\tPower Stations\n9\tChainsaws & Outdoor\t48\tChainsaws\n9\tChainsaws & Outdoor\t49\tHedge Trimmers\n9\tChainsaws & Outdoor\t50\tLeaf Blowers\n9\tChainsaws & Outdoor\t51\tOutdoor Power\n12\tCompressors & Air\t63\tAir Accessories\n12\tCompressors & Air\t61\tIndustrial Compressors\n12\tCompressors & Air\t62\tOil-Free Compressors\n12\tCompressors & Air\t60\tPortable Compressors\n11\tHand Tools & Accessories\t59\tBlades & Bits\n11\tHand Tools & Accessories\t58\tClamping & Holding\n11\tHand Tools & Accessories\t57\tCutting & Shaping\n11\tHand Tools & Accessories\t56\tStriking Tools\n7\tHydraulic Equipment\t41\tHydraulic Breakers\n7\tHydraulic Equipment\t43\tHydraulic Hoses\n7\tHydraulic Equipment\t40\tHydraulic Jacks\n7\tHydraulic Equipment\t42\tHydraulic Presses\n4\tMeasuring & Leveling\t30\tDistance & Layout\n4\tMeasuring & Leveling\t28\tLaser Levels\n4\tMeasuring & Leveling\t29\tSpirit & Optical Levels\n4\tMeasuring & Leveling\t31\tThermal & Detection\n6\tPneumatic Tools\t36\tAir Drills & Grinders\n6\tPneumatic Tools\t39\tHoses & Fittings\n6\tPneumatic Tools\t37\tImpact Wrenches\n6\tPneumatic Tools\t38\tNail & Staple Guns\n1\tPower Tools\t16\tDrills & Hammer Drills\n1\tPower Tools\t2\tGrinders & Sanders\n1\tPower Tools\t19\tImpact & Fastening\n1\tPower Tools\t18\tSaws & Cutting Tools\n8\tPumps & Fluid Handling\t46\tChemical Pumps\n8\tPumps & Fluid Handling\t47\tHoses & Couplings\n8\tPumps & Fluid Handling\t45\tSubmersible Pumps\n8\tPumps & Fluid Handling\t44\tWater Pumps\n3\tSafety Equipment\t14\tBarriers & Signage\n3\tSafety Equipment\t12\tFall Protection\n3\tSafety Equipment\t15\tGas Detection\n3\tSafety Equipment\t13\tPPE & Clothing\n2\tScaffolding & Access\t8\tAerial Platforms\n2\tScaffolding & Access\t7\tLadders & Steps\n2\tScaffolding & Access\t6\tMobile Towers\n2\tScaffolding & Access\t5\tScaffolding Systems\n13\tSpecialized Equipment\t64\tConcrete & Masonry\n13\tSpecialized Equipment\t65\tLifting & Rigging\n13\tSpecialized Equipment\t66\tMarine & Diving\n13\tSpecialized Equipment\t67\tSurvey & Detection\n5\tWelding & Cutting\t9\tMIG & TIG Welders\n5\tWelding & Cutting\t34\tOxy-Acetylene Sets\n5\tWelding & Cutting\t10\tPlasma Cutters\n5\tWelding & Cutting\t35\tWelding Accessories\n",
+  "stderr": "",
+  "execution_time_ms": 1663
+}

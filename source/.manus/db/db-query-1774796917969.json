@@ -1,0 +1,13 @@
+{
+  "query": "SELECT COUNT(*) as remaining FROM equipment_items WHERE description LIKE '%Hong Kong%' OR description LIKE '%hong kong%';",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2B2d1HYRsoiQJMJ.root --database EqJqhhxWWJKtKB68YEvggw --execute SELECT COUNT(*) as remaining FROM equipment_items WHERE description LIKE '%Hong Kong%' OR description LIKE '%hong kong%';",
+  "rows": [
+    {
+      "remaining": "0"
+    }
+  ],
+  "messages": [],
+  "stdout": "remaining\n0\n",
+  "stderr": "",
+  "execution_time_ms": 1623
+}

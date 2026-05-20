@@ -1,0 +1,574 @@
+{
+  "query": "\nSELECT ei.id, ei.name, ec.slug as catSlug, ec.name as catName\nFROM equipment_items ei\nJOIN equipment_categories ec ON ei.categoryId = ec.id\nWHERE ei.subCategoryId IS NULL\nORDER BY ec.slug, ei.name\nLIMIT 100;\n",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2B2d1HYRsoiQJMJ.root --database EqJqhhxWWJKtKB68YEvggw --execute \nSELECT ei.id, ei.name, ec.slug as catSlug, ec.name as catName\nFROM equipment_items ei\nJOIN equipment_categories ec ON ei.categoryId = ec.id\nWHERE ei.subCategoryId IS NULL\nORDER BY ec.slug, ei.name\nLIMIT 100;\n",
+  "rows": [
+    {
+      "id": "209",
+      "name": "Makita Dual Charger",
+      "catSlug": "batteries-power",
+      "catName": "Batteries & Power"
+    },
+    {
+      "id": "212",
+      "name": "Air Compressor 100L 3HP",
+      "catSlug": "compressors-air",
+      "catName": "Compressors & Air"
+    },
+    {
+      "id": "213",
+      "name": "Portable Air Fan 20\"",
+      "catSlug": "compressors-air",
+      "catName": "Compressors & Air"
+    },
+    {
+      "id": "211",
+      "name": "Pipe Stand Heavy Duty",
+      "catSlug": "hand-tools-accessories",
+      "catName": "Hand Tools & Accessories"
+    },
+    {
+      "id": "204",
+      "name": "Hydraulic Pump 2HP",
+      "catSlug": "hydraulic-equipment",
+      "catName": "Hydraulic Equipment"
+    },
+    {
+      "id": "198",
+      "name": "Digital Angle Gauge",
+      "catSlug": "measuring-leveling",
+      "catName": "Measuring & Leveling"
+    },
+    {
+      "id": "71",
+      "name": "6 Drawer top tool chest",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "52",
+      "name": "AP Industrial Floor Fan",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "155",
+      "name": "Air Fox 1.5 HP air compressor",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "156",
+      "name": "Air Fox 2 HP aircompressor",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "170",
+      "name": "Air Fox 4 HP air compressor",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "50",
+      "name": "Air Plus Industrial Floor Fan",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "51",
+      "name": "Air Plus Industrial Floor Fans",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "13",
+      "name": "Argon Gas Tank",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "148",
+      "name": "Bauer 5.5 HP Air Compressor",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "176",
+      "name": "Bauer HP compressor",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "157",
+      "name": "Bauer Junior II HP air compressor",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "70",
+      "name": "Beta 5 Drawer Bottom Tool Chest",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "20",
+      "name": "Bora Speed Horse",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "82",
+      "name": "Bosch Wet/Dry Vacuum",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "3",
+      "name": "Cadillac Sand Blaster",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "7",
+      "name": "Cheetah Equipment Battery",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "54",
+      "name": "Diesel Pump Kit",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "142",
+      "name": "Electric Pallet Truck",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "45",
+      "name": "Electrical Winch",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "160",
+      "name": "Falcon 9 Hydraulic Power Pack",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "154",
+      "name": "Fini Amico 2500 air compressor",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "74",
+      "name": "FireFly Motion Sensor",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "182",
+      "name": "Flashing Bender",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "143",
+      "name": "Floor washer attachment",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "96",
+      "name": "Full Clean Chrome Wet/Dry Vacuum",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "94",
+      "name": "Graco Paint Gun",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "95",
+      "name": "Graco True Airless Paint Sprayer",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "183",
+      "name": "Hany IC 310 Concrete Grout Plant",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "1",
+      "name": "Hilti 360* Lazer level",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "166",
+      "name": "IMC 4000 Pressure Washer",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "39",
+      "name": "IMC Power Sprayer",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "23",
+      "name": "ING Welding Rod Warmers",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "9",
+      "name": "Klein Digital Angle Gauge",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "93",
+      "name": "Lavor Pressure Washer",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "167",
+      "name": "Lifan Hydropro 3600 Pressure Washer",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "119",
+      "name": "Makita 1/2\" Big Impact Gun",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "120",
+      "name": "Makita 1/2\" Small Impact Gun",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "105",
+      "name": "Makita Back Pack blower",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "97",
+      "name": "Makita Backpack Garden Sprayer",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "116",
+      "name": "Makita Caulking Gun",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "139",
+      "name": "Makita Concrete Cutter",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "106",
+      "name": "Makita Couple Shaft Power head",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "118",
+      "name": "Makita Dust Blower Gun",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "130",
+      "name": "Makita Dust Extractor",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "58",
+      "name": "Makita Fast Charging Double Charge Station",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "107",
+      "name": "Makita Large Work Light",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "123",
+      "name": "Makita Multitool",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "117",
+      "name": "Makita Rivet Gun",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "108",
+      "name": "Makita Router",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "129",
+      "name": "Makita Router/Trimmer",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "125",
+      "name": "Makita Shear Nibbler",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "99",
+      "name": "Makita Small Circular Concrete/Tile Cutter",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "128",
+      "name": "Makita Small Dust Blower",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "100",
+      "name": "Makita Small Jobsite Fan",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "98",
+      "name": "Makita Small Pressure Washer",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "22",
+      "name": "Makita Tool Briefcase",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "86",
+      "name": "Makita Wood Planner",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "115",
+      "name": "Makita Work Light",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "141",
+      "name": "Manual Pallet Jack",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "178",
+      "name": "Mercedes Vito 116 Van",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "65",
+      "name": "Milwaukie Compact Small Organizer Box",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "40",
+      "name": "Milwaukie Drain Cleaner",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "165",
+      "name": "Milwaukie Dymodril Coring Rig",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "66",
+      "name": "Milwaukie Packout Compact Large Organizer Box",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "68",
+      "name": "Milwaukie Packout Large Tool Box",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "69",
+      "name": "Milwaukie Packout Rolling Base Tool Box",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "67",
+      "name": "Milwaukie Packout Three Drawer Tool Chest",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "185",
+      "name": "Mobile Office 1 (MOBO1)",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "184",
+      "name": "Mobile Office 2 (MOBO2)",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "49",
+      "name": "PU Pump",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "19",
+      "name": "PU Pump Large (Minion)",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "175",
+      "name": "Porta Mix",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "174",
+      "name": "Porta mix",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "181",
+      "name": "Quincy QT 7.5 (Big Blue)",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "85",
+      "name": "Rex Pipe Threader",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "48",
+      "name": "SL PU pump",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "147",
+      "name": "Sanco HL-2  2HP Air Compressor",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "146",
+      "name": "Series 426 5.5 HP air compressor (THE 426)",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "38",
+      "name": "Smith H2O sprayer",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "18",
+      "name": "TD Pro Pipe Stand",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "24",
+      "name": "UWeld Gas Torches",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "12",
+      "name": "Umbilical Flushing and Cleaning Kit",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "179",
+      "name": "Vanguard Hydrapak 23",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "21",
+      "name": "Vespa 3HP air compressor",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "180",
+      "name": "Vespa Compressor",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "168",
+      "name": "White 4 hp compressor",
+      "catSlug": "power-tools",
+      "catName": "Power Tools"
+    },
+    {
+      "id": "206",
+      "name": "Spray Gun HVLP 1.4mm",
+      "catSlug": "pumps-fluid-handling",
+      "catName": "Pumps & Fluid Handling"
+    },
+    {
+      "id": "215",
+      "name": "Electric Winch 1000kg",
+      "catSlug": "specialized-equipment",
+      "catName": "Specialized Equipment"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tname\tcatSlug\tcatName\n209\tMakita Dual Charger\tbatteries-power\tBatteries & Power\n212\tAir Compressor 100L 3HP\tcompressors-air\tCompressors & Air\n213\tPortable Air Fan 20\"\tcompressors-air\tCompressors & Air\n211\tPipe Stand Heavy Duty\thand-tools-accessories\tHand Tools & Accessories\n204\tHydraulic Pump 2HP\thydraulic-equipment\tHydraulic Equipment\n198\tDigital Angle Gauge\tmeasuring-leveling\tMeasuring & Leveling\n71\t6 Drawer top tool chest\tpower-tools\tPower Tools\n52\tAP Industrial Floor Fan\tpower-tools\tPower Tools\n155\tAir Fox 1.5 HP air compressor\tpower-tools\tPower Tools\n156\tAir Fox 2 HP aircompressor\tpower-tools\tPower Tools\n170\tAir Fox 4 HP air compressor\tpower-tools\tPower Tools\n50\tAir Plus Industrial Floor Fan\tpower-tools\tPower Tools\n51\tAir Plus Industrial Floor Fans\tpower-tools\tPower Tools\n13\tArgon Gas Tank\tpower-tools\tPower Tools\n148\tBauer 5.5 HP Air Compressor\tpower-tools\tPower Tools\n176\tBauer HP compressor\tpower-tools\tPower Tools\n157\tBauer Junior II HP air compressor\tpower-tools\tPower Tools\n70\tBeta 5 Drawer Bottom Tool Chest\tpower-tools\tPower Tools\n20\tBora Speed Horse\tpower-tools\tPower Tools\n82\tBosch Wet/Dry Vacuum\tpower-tools\tPower Tools\n3\tCadillac Sand Blaster\tpower-tools\tPower Tools\n7\tCheetah Equipment Battery\tpower-tools\tPower Tools\n54\tDiesel Pump Kit\tpower-tools\tPower Tools\n142\tElectric Pallet Truck\tpower-tools\tPower Tools\n45\tElectrical Winch\tpower-tools\tPower Tools\n160\tFalcon 9 Hydraulic Power Pack\tpower-tools\tPower Tools\n154\tFini Amico 2500 air compressor\tpower-tools\tPower Tools\n74\tFireFly Motion Sensor\tpower-tools\tPower Tools\n182\tFlashing Bender\tpower-tools\tPower Tools\n143\tFloor washer attachment\tpower-tools\tPower Tools\n96\tFull Clean Chrome Wet/Dry Vacuum\tpower-tools\tPower Tools\n94\tGraco Paint Gun\tpower-tools\tPower Tools\n95\tGraco True Airless Paint Sprayer\tpower-tools\tPower Tools\n183\tHany IC 310 Concrete Grout Plant\tpower-tools\tPower Tools\n1\tHilti 360* Lazer level\tpower-tools\tPower Tools\n166\tIMC 4000 Pressure Washer\tpower-tools\tPower Tools\n39\tIMC Power Sprayer\tpower-tools\tPower Tools\n23\tING Welding Rod Warmers\tpower-tools\tPower Tools\n9\tKlein Digital Angle Gauge\tpower-tools\tPower Tools\n93\tLavor Pressure Washer\tpower-tools\tPower Tools\n167\tLifan Hydropro 3600 Pressure Washer\tpower-tools\tPower Tools\n119\tMakita 1/2\" Big Impact Gun\tpower-tools\tPower Tools\n120\tMakita 1/2\" Small Impact Gun\tpower-tools\tPower Tools\n105\tMakita Back Pack blower\tpower-tools\tPower Tools\n97\tMakita Backpack Garden Sprayer\tpower-tools\tPower Tools\n116\tMakita Caulking Gun\tpower-tools\tPower Tools\n139\tMakita Concrete Cutter\tpower-tools\tPower Tools\n106\tMakita Couple Shaft Power head\tpower-tools\tPower Tools\n118\tMakita Dust Blower Gun\tpower-tools\tPower Tools\n130\tMakita Dust Extractor\tpower-tools\tPower Tools\n58\tMakita Fast Charging Double Charge Station\tpower-tools\tPower Tools\n107\tMakita Large Work Light\tpower-tools\tPower Tools\n123\tMakita Multitool\tpower-tools\tPower Tools\n117\tMakita Rivet Gun\tpower-tools\tPower Tools\n108\tMakita Router\tpower-tools\tPower Tools\n129\tMakita Router/Trimmer\tpower-tools\tPower Tools\n125\tMakita Shear Nibbler\tpower-tools\tPower Tools\n99\tMakita Small Circular Concrete/Tile Cutter\tpower-tools\tPower Tools\n128\tMakita Small Dust Blower\tpower-tools\tPower Tools\n100\tMakita Small Jobsite Fan\tpower-tools\tPower Tools\n98\tMakita Small Pressure Washer\tpower-tools\tPower Tools\n22\tMakita Tool Briefcase\tpower-tools\tPower Tools\n86\tMakita Wood Planner\tpower-tools\tPower Tools\n115\tMakita Work Light\tpower-tools\tPower Tools\n141\tManual Pallet Jack\tpower-tools\tPower Tools\n178\tMercedes Vito 116 Van\tpower-tools\tPower Tools\n65\tMilwaukie Compact Small Organizer Box\tpower-tools\tPower Tools\n40\tMilwaukie Drain Cleaner\tpower-tools\tPower Tools\n165\tMilwaukie Dymodril Coring Rig\tpower-tools\tPower Tools\n66\tMilwaukie Packout Compact Large Organizer Box\tpower-tools\tPower Tools\n68\tMilwaukie Packout Large Tool Box\tpower-tools\tPower Tools\n69\tMilwaukie Packout Rolling Base Tool Box\tpower-tools\tPower Tools\n67\tMilwaukie Packout Three Drawer Tool Chest\tpower-tools\tPower Tools\n185\tMobile Office 1 (MOBO1)\tpower-tools\tPower Tools\n184\tMobile Office 2 (MOBO2)\tpower-tools\tPower Tools\n49\tPU Pump\tpower-tools\tPower Tools\n19\tPU Pump Large (Minion)\tpower-tools\tPower Tools\n175\tPorta Mix\tpower-tools\tPower Tools\n174\tPorta mix\tpower-tools\tPower Tools\n181\tQuincy QT 7.5 (Big Blue)\tpower-tools\tPower Tools\n85\tRex Pipe Threader\tpower-tools\tPower Tools\n48\tSL PU pump\tpower-tools\tPower Tools\n147\tSanco HL-2  2HP Air Compressor\tpower-tools\tPower Tools\n146\tSeries 426 5.5 HP air compressor (THE 426)\tpower-tools\tPower Tools\n38\tSmith H2O sprayer\tpower-tools\tPower Tools\n18\tTD Pro Pipe Stand\tpower-tools\tPower Tools\n24\tUWeld Gas Torches\tpower-tools\tPower Tools\n12\tUmbilical Flushing and Cleaning Kit\tpower-tools\tPower Tools\n179\tVanguard Hydrapak 23\tpower-tools\tPower Tools\n21\tVespa 3HP air compressor\tpower-tools\tPower Tools\n180\tVespa Compressor\tpower-tools\tPower Tools\n168\tWhite 4 hp compressor\tpower-tools\tPower Tools\n206\tSpray Gun HVLP 1.4mm\tpumps-fluid-handling\tPumps & Fluid Handling\n215\tElectric Winch 1000kg\tspecialized-equipment\tSpecialized Equipment\n",
+  "stderr": "",
+  "execution_time_ms": 1594
+}

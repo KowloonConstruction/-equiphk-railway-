@@ -1,0 +1,15 @@
+[2026-03-29T13:51:49.754Z] Loaded 271 corrections and 271 items
+[2026-03-29T13:52:53.847Z] 
+=== SUMMARY ===
+[2026-03-29T13:52:53.847Z] Brand updates: 90
+[2026-03-29T13:52:53.848Z] Model updates: 85 (skipped low-confidence)
+[2026-03-29T13:52:53.848Z] Rate updates: 270
+[2026-03-29T13:52:53.848Z] Errors: 0
+[2026-03-29T13:52:53.848Z] Total items modified: 271
+[2026-03-29T13:52:53.849Z] Change log saved to change-log.json
+[2026-03-29T13:52:53.849Z] 
+Markup distribution:
+[2026-03-29T13:52:53.850Z]   30%: 4 items
+[2026-03-29T13:52:53.850Z]   35%: 22 items
+[2026-03-29T13:52:53.850Z]   40%: 185 items
+[2026-03-29T13:52:53.850Z]   50%: 60 items

@@ -1,0 +1,100 @@
+{
+  "query": "SELECT id, name, slug, categoryId FROM equipment_sub_categories WHERE id <= 15 ORDER BY id;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2B2d1HYRsoiQJMJ.root --database EqJqhhxWWJKtKB68YEvggw --execute SELECT id, name, slug, categoryId FROM equipment_sub_categories WHERE id <= 15 ORDER BY id;",
+  "rows": [
+    {
+      "id": "1",
+      "name": "Drills & Hammers",
+      "slug": "drills-hammers",
+      "categoryId": "1"
+    },
+    {
+      "id": "2",
+      "name": "Grinders & Sanders",
+      "slug": "grinders-sanders",
+      "categoryId": "1"
+    },
+    {
+      "id": "3",
+      "name": "Saws & Cutting",
+      "slug": "saws-cutting",
+      "categoryId": "1"
+    },
+    {
+      "id": "4",
+      "name": "Fastening & Nailing",
+      "slug": "fastening-nailing",
+      "categoryId": "1"
+    },
+    {
+      "id": "5",
+      "name": "Scaffolding Systems",
+      "slug": "scaffolding-systems",
+      "categoryId": "2"
+    },
+    {
+      "id": "6",
+      "name": "Mobile Towers",
+      "slug": "mobile-towers",
+      "categoryId": "2"
+    },
+    {
+      "id": "7",
+      "name": "Ladders & Steps",
+      "slug": "ladders-steps",
+      "categoryId": "2"
+    },
+    {
+      "id": "8",
+      "name": "Aerial Platforms",
+      "slug": "aerial-platforms",
+      "categoryId": "2"
+    },
+    {
+      "id": "9",
+      "name": "MIG & TIG Welders",
+      "slug": "mig-tig-welders",
+      "categoryId": "5"
+    },
+    {
+      "id": "10",
+      "name": "Plasma Cutters",
+      "slug": "plasma-cutters",
+      "categoryId": "5"
+    },
+    {
+      "id": "11",
+      "name": "Oxy-Acetylene Sets",
+      "slug": "oxy-acetylene",
+      "categoryId": "5"
+    },
+    {
+      "id": "12",
+      "name": "Fall Protection",
+      "slug": "fall-protection",
+      "categoryId": "3"
+    },
+    {
+      "id": "13",
+      "name": "PPE & Clothing",
+      "slug": "ppe-clothing",
+      "categoryId": "3"
+    },
+    {
+      "id": "14",
+      "name": "Barriers & Signage",
+      "slug": "barriers-signage",
+      "categoryId": "3"
+    },
+    {
+      "id": "15",
+      "name": "Gas Detection",
+      "slug": "gas-detection",
+      "categoryId": "3"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tname\tslug\tcategoryId\n1\tDrills & Hammers\tdrills-hammers\t1\n2\tGrinders & Sanders\tgrinders-sanders\t1\n3\tSaws & Cutting\tsaws-cutting\t1\n4\tFastening & Nailing\tfastening-nailing\t1\n5\tScaffolding Systems\tscaffolding-systems\t2\n6\tMobile Towers\tmobile-towers\t2\n7\tLadders & Steps\tladders-steps\t2\n8\tAerial Platforms\taerial-platforms\t2\n9\tMIG & TIG Welders\tmig-tig-welders\t5\n10\tPlasma Cutters\tplasma-cutters\t5\n11\tOxy-Acetylene Sets\toxy-acetylene\t5\n12\tFall Protection\tfall-protection\t3\n13\tPPE & Clothing\tppe-clothing\t3\n14\tBarriers & Signage\tbarriers-signage\t3\n15\tGas Detection\tgas-detection\t3\n",
+  "stderr": "",
+  "execution_time_ms": 1565
+}

@@ -1,0 +1,28 @@
+{
+  "query": "\nSELECT COUNT(*) as total FROM equipment_sub_categories;\nSELECT id, name, slug, sortOrder FROM equipment_sub_categories WHERE categoryId = 1 ORDER BY sortOrder, id;\n",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2B2d1HYRsoiQJMJ.root --database EqJqhhxWWJKtKB68YEvggw --execute \nSELECT COUNT(*) as total FROM equipment_sub_categories;\nSELECT id, name, slug, sortOrder FROM equipment_sub_categories WHERE categoryId = 1 ORDER BY sortOrder, id;\n",
+  "rows": [
+    {
+      "total": "52"
+    },
+    {
+      "total": "id\tname\tslug\tsortOrder"
+    },
+    {
+      "total": "16\tDrills & Hammer Drills\tdrills-hammer-drills\t1"
+    },
+    {
+      "total": "2\tGrinders & Sanders\tgrinders-sanders\t2"
+    },
+    {
+      "total": "18\tSaws & Cutting Tools\tsaws-cutting-tools\t3"
+    },
+    {
+      "total": "19\tImpact & Fastening\timpact-fastening\t4"
+    }
+  ],
+  "messages": [],
+  "stdout": "total\n52\nid\tname\tslug\tsortOrder\n16\tDrills & Hammer Drills\tdrills-hammer-drills\t1\n2\tGrinders & Sanders\tgrinders-sanders\t2\n18\tSaws & Cutting Tools\tsaws-cutting-tools\t3\n19\tImpact & Fastening\timpact-fastening\t4\n",
+  "stderr": "",
+  "execution_time_ms": 1861
+}

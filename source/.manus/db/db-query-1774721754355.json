@@ -1,0 +1,76 @@
+{
+  "query": "SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'equipment_items' ORDER BY ORDINAL_POSITION;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2B2d1HYRsoiQJMJ.root --database EqJqhhxWWJKtKB68YEvggw --execute SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'equipment_items' ORDER BY ORDINAL_POSITION;",
+  "rows": [
+    {
+      "COLUMN_NAME": "id"
+    },
+    {
+      "COLUMN_NAME": "categoryId"
+    },
+    {
+      "COLUMN_NAME": "name"
+    },
+    {
+      "COLUMN_NAME": "description"
+    },
+    {
+      "COLUMN_NAME": "brand"
+    },
+    {
+      "COLUMN_NAME": "model"
+    },
+    {
+      "COLUMN_NAME": "dailyRate"
+    },
+    {
+      "COLUMN_NAME": "weeklyRate"
+    },
+    {
+      "COLUMN_NAME": "monthlyRate"
+    },
+    {
+      "COLUMN_NAME": "pricingType"
+    },
+    {
+      "COLUMN_NAME": "imageUrl"
+    },
+    {
+      "COLUMN_NAME": "specs"
+    },
+    {
+      "COLUMN_NAME": "condition"
+    },
+    {
+      "COLUMN_NAME": "availability"
+    },
+    {
+      "COLUMN_NAME": "quantity"
+    },
+    {
+      "COLUMN_NAME": "availableQty"
+    },
+    {
+      "COLUMN_NAME": "location"
+    },
+    {
+      "COLUMN_NAME": "isActive"
+    },
+    {
+      "COLUMN_NAME": "isFeatured"
+    },
+    {
+      "COLUMN_NAME": "createdAt"
+    },
+    {
+      "COLUMN_NAME": "updatedAt"
+    },
+    {
+      "COLUMN_NAME": "subCategoryId"
+    }
+  ],
+  "messages": [],
+  "stdout": "COLUMN_NAME\nid\ncategoryId\nname\ndescription\nbrand\nmodel\ndailyRate\nweeklyRate\nmonthlyRate\npricingType\nimageUrl\nspecs\ncondition\navailability\nquantity\navailableQty\nlocation\nisActive\nisFeatured\ncreatedAt\nupdatedAt\nsubCategoryId\n",
+  "stderr": "",
+  "execution_time_ms": 1561
+}

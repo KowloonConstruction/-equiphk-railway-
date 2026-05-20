@@ -1,0 +1,2712 @@
+[
+  {
+    "id": 1,
+    "name": "Hilti 360* Lazer level",
+    "category": "Measuring & Leveling",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "0 → 467",
+    "changes": "Updated rental rates based on market research for advanced laser levels. Brand and model number confirmed as correct."
+  },
+  {
+    "id": 2,
+    "name": "Dr Scaffold Safety Railing 2 Rung Span",
+    "category": "Scaffolding & Access",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "0 → 93",
+    "changes": "Updated rental rates based on market research for scaffolding components. Brand kept as is due to lack of major brand identification. Model number kept with low confidence as it's likely an internal part number. Voltage not applicable."
+  },
+  {
+    "id": 3,
+    "name": "Cadillac Sand Blaster",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "Cadillac → null",
+    "modelChange": null,
+    "dailyRate": "280.00 → 563",
+    "changes": "Brand changed from 'Cadillac' to null as it's not a known sand blaster manufacturer. Model number kept with low confidence due to unknown brand. Updated rental rates based on market research for portable sand blasters. Voltage not applicable as it is a pneumatic tool."
+  },
+  {
+    "id": 4,
+    "name": "Haru Fall Arrester",
+    "category": "Safety Equipment",
+    "markup": "40%",
+    "brandChange": "Haru Co → HARU",
+    "modelChange": null,
+    "dailyRate": "180.00 → 210",
+    "changes": "Corrected brand casing from 'Haru Co' to 'HARU'. Recalculated weekly rate (daily x 5) and monthly rate (daily x 20)."
+  },
+  {
+    "id": 5,
+    "name": "Viraj Fall Arrester",
+    "category": "Safety Equipment",
+    "markup": "40%",
+    "brandChange": "Viraj VSPL group → Viraj",
+    "modelChange": null,
+    "dailyRate": "180.00 → 210",
+    "changes": "Corrected brand casing from 'Viraj VSPL group' to 'Viraj'. Recalculated weekly rate (daily x 5) and monthly rate (daily x 20)."
+  },
+  {
+    "id": 6,
+    "name": "AC Delco Marine Battery",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "AC Delco → ACDelco",
+    "modelChange": null,
+    "dailyRate": "150.00 → 188",
+    "changes": "Corrected brand casing from 'AC Delco' to 'ACDelco'. Recalculated monthly rate (daily x 20)."
+  },
+  {
+    "id": 7,
+    "name": "Cheetah Equipment Battery",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "Cheetah Battery → Cheetah",
+    "modelChange": null,
+    "dailyRate": "0 → 150",
+    "changes": "Brand name confirmed as 'Cheetah Battery'. Model confidence set to high. Daily rental rate estimated as HKD 120 based on marine accessory guidelines, then weekly and monthly rates calculated. Voltage noted as 12V."
+  },
+  {
+    "id": 8,
+    "name": "Laser Level",
+    "category": "Measuring & Leveling",
+    "markup": "40%",
+    "brandChange": "Bosch Tools → Bosch",
+    "modelChange": "GLL-30G professional → GLL 30 G Professional",
+    "dailyRate": "80.00 → 210",
+    "changes": "Brand name corrected to 'Bosch'. Model number formatted to 'GLL 30 G Professional'. Daily rental rate adjusted to HKD 180 based on market research for basic laser levels, then weekly and monthly rates calculated."
+  },
+  {
+    "id": 9,
+    "name": " Digital Angle Gauge",
+    "category": "Measuring & Leveling",
+    "markup": "40%",
+    "brandChange": "Klein → Klein Tools",
+    "modelChange": null,
+    "dailyRate": "80.00 → 117",
+    "changes": "Brand name corrected to 'Klein Tools'. Daily rental rate adjusted to HKD 100 based on market research for small measuring tools, then weekly and monthly rates calculated."
+  },
+  {
+    "id": 10,
+    "name": "Elephant 1T Chain Block",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "Elephant Chain Block Company → Elephant Chain Block Co.",
+    "modelChange": null,
+    "dailyRate": "180.00 → 225",
+    "changes": "Corrected brand name from 'Elephant Chain Block Company' to 'Elephant Chain Block Co.'. Recalculated rental rates based on UK market research and 20% markup. Daily rate remains 180 HKD, weekly rate changed from 850 HKD to 900 HKD, monthly rate changed from 2800 HKD to 3600 HKD."
+  },
+  {
+    "id": 11,
+    "name": "Togoshi Walking Measuring Wheel",
+    "category": "Measuring & Leveling",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "80.00 → 112",
+    "changes": "Recalculated rental rates based on UK market research and 20% markup. Daily rate changed from 80 HKD to 96 HKD, weekly rate changed from 350 HKD to 480 HKD, monthly rate changed from 1000 HKD to 1920 HKD."
+  },
+  {
+    "id": 12,
+    "name": "Umbilical Flushing and Cleaning Kit",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "Guangdong Lingxiao pump industry → Lingxiao",
+    "modelChange": null,
+    "dailyRate": "0 → 450",
+    "changes": "Corrected brand name from 'Guangdong Lingxiao pump industry' to 'Lingxiao'. Model number was empty and could not be identified, set to null with low confidence. Estimated and calculated rental rates based on specialized equipment guidelines."
+  },
+  {
+    "id": 14,
+    "name": "Taiyu 1T chain block",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "160.00 → 225",
+    "changes": "Updated rental rates based on UK market research for 1-ton chain blocks and 20% markup. Daily rate adjusted from 160 to 180 HKD, weekly from 800 to 900 HKD, monthly from 2700 to 3600 HKD."
+  },
+  {
+    "id": 15,
+    "name": "Xcalibre Magnum Hydraulic Drill",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "0 → 1050",
+    "changes": "Calculated new rental rates based on UK market research for hydraulic core drills and 20% markup. Daily rate set to 840 HKD, weekly to 4200 HKD, monthly to 16800 HKD."
+  },
+  {
+    "id": 16,
+    "name": "CP-9 Pneumatic Rock/Concrete Drill/Breaker",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "Unknown → Chicago Pneumatic",
+    "modelChange": null,
+    "dailyRate": "0 → 900",
+    "changes": "Identified brand as Chicago Pneumatic from model number. Calculated new rental rates based on UK market research for pneumatic breakers and 20% markup. Daily rate set to 720 HKD, weekly to 3600 HKD, monthly to 14400 HKD."
+  },
+  {
+    "id": 17,
+    "name": "Toku Pneumatic Breaker",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "0 → 750",
+    "changes": "Rental rates calculated based on UK market rates + 20% markup. Brand and model confirmed as correct."
+  },
+  {
+    "id": 18,
+    "name": "TD Pro Pipe Stand",
+    "category": "Measuring & Leveling",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "0 → 210",
+    "changes": "Rental rates calculated based on UK market rates + 20% markup. Brand kept as is due to lack of specific manufacturer information. Model kept but confidence flagged as low due to unverified brand."
+  },
+  {
+    "id": 19,
+    "name": "PU Pump Large (Minion)",
+    "category": "Pumps & Fluid Handling",
+    "markup": "35%",
+    "brandChange": "Unknown → null",
+    "modelChange": null,
+    "dailyRate": "0 → 473",
+    "changes": "Brand set to null as it was 'Unknown' and could not be identified from name/description. Model kept but confidence flagged as low due to unknown brand. Rental rates calculated based on UK market rates + 20% markup. Voltage noted as unspecified."
+  },
+  {
+    "id": 20,
+    "name": "Bora Speed Horse",
+    "category": "Hand Tools & Accessories",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "0 → 140",
+    "changes": "Brand and model confirmed correct. Rental rates calculated based on 'Small hand tools/accessories' guideline."
+  },
+  {
+    "id": 21,
+    "name": "Vespa 3HP air compressor",
+    "category": "Compressors & Air",
+    "markup": "40%",
+    "brandChange": "Vespa → null",
+    "modelChange": null,
+    "dailyRate": "0 → 443",
+    "changes": "Brand changed to null as 'Vespa' is not a known air compressor brand and no identifiable manufacturer found. Model confidence set to low due to unidentifiable brand. Rental rates calculated based on 'Power tools' guideline for a 3HP portable air compressor. Voltage note added."
+  },
+  {
+    "id": 22,
+    "name": "Makita Tool Briefcase",
+    "category": "Hand Tools & Accessories",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "0 → 105",
+    "changes": "Brand and model confirmed correct. Rental rates calculated based on 'Small hand tools/accessories' guideline."
+  },
+  {
+    "id": 23,
+    "name": "ING Welding Rod Warmers",
+    "category": "Welding & Cutting",
+    "markup": "40%",
+    "brandChange": "Nippon-Alloy electrode → ING",
+    "modelChange": null,
+    "dailyRate": "0 → 280",
+    "changes": "Brand name corrected to 'ING'. Rental rates calculated based on market research for welding rod warmers (UK £20/day converted to HKD with 20% markup)."
+  },
+  {
+    "id": 24,
+    "name": "UWeld Gas Torches",
+    "category": "Welding & Cutting",
+    "markup": "40%",
+    "brandChange": "U-Weld → UWeld",
+    "modelChange": null,
+    "dailyRate": "180.00 → 210",
+    "changes": "Brand name casing corrected to 'UWeld'. Model number 'SEFIC-C17' could not be verified for a UWeld gas torch, confidence set to 'low'. Weekly and monthly rental rates recalculated based on the existing daily rate (HKD 180) and standard rental formulas."
+  },
+  {
+    "id": 25,
+    "name": "Chainsaw 13\"-18\" Bar",
+    "category": "Chainsaws & Outdoor",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "280.00 → 327",
+    "changes": "Brand and model confirmed correct. Weekly and monthly rental rates recalculated based on the existing daily rate (HKD 280) and standard rental formulas."
+  },
+  {
+    "id": 26,
+    "name": "Husqvarna 460 Rancher Chainsaw",
+    "category": "Chainsaws & Outdoor",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "380.00 → 583",
+    "changes": "Updated rental rates based on market research and markup guidelines. Original daily rate was 380 HKD, which was low compared to market. New rates: Daily 500 HKD, Weekly (500*5) 2500 HKD, Monthly (500*20) 10000 HKD."
+  },
+  {
+    "id": 27,
+    "name": "Dr Scaffold Cross Brace",
+    "category": "Scaffolding & Access",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "30.00 → 35",
+    "changes": "Corrected monthly rental rate calculation to daily rate x 20 (30 HKD * 20 = 600 HKD). Brand and model are kept as is, assuming 'Dr Scaffold' is a valid local or house brand and 'SRP-3' is a correct internal model for this specific cross brace."
+  },
+  {
+    "id": 28,
+    "name": "Dr Scaffold Horizontal Brace",
+    "category": "Scaffolding & Access",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "30.00 → 35",
+    "changes": "Corrected monthly rental rate calculation to daily rate x 20 (30 HKD * 20 = 600 HKD). Model number 'SRP-3' is flagged with medium confidence as it is shared with a different type of brace (cross brace, ID 27), which might indicate a potential inaccuracy or a generic system identifier rather than a specific component model."
+  },
+  {
+    "id": 29,
+    "name": "Dr Scaffold Horizontal brace",
+    "category": "Scaffolding & Access",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "30.00 → 35",
+    "changes": "Model set to null as it's a generic scaffolding component. Monthly rental rate corrected based on daily rate x 20."
+  },
+  {
+    "id": 30,
+    "name": "Dr Scaffold Platform",
+    "category": "Scaffolding & Access",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "0 → 82",
+    "changes": "Model set to null as it's a generic scaffolding component. Daily, weekly, and monthly rental rates calculated based on scaffolding component guidelines."
+  },
+  {
+    "id": 31,
+    "name": "Dr Scaffold HD Scaffold Castors",
+    "category": "Scaffolding & Access",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "60.00 → 70",
+    "changes": "Model set to null as it's a generic scaffolding component. Weekly and monthly rental rates corrected based on daily rate x 5 and x 20 respectively."
+  },
+  {
+    "id": 32,
+    "name": "Dr  Scaffold HD Scaffold Castors",
+    "category": "Scaffolding & Access",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "60.00 → 105",
+    "changes": "Brand 'Dr Scaffold' kept as is (assumed internal branding). Model set to null as scaffolding castors typically do not have a distinct model number. Rental rates adjusted based on UK/US market research for heavy-duty scaffold castors, converted to HKD with a 20% markup."
+  },
+  {
+    "id": 33,
+    "name": "Dr Scaffold Outrigger",
+    "category": "Scaffolding & Access",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "80.00 → 140",
+    "changes": "Brand 'Dr Scaffold' kept as is. Model set to null as scaffolding outriggers typically do not have a distinct model number. Rental rates adjusted based on UK/US market research for scaffold outriggers, converted to HKD with a 20% markup."
+  },
+  {
+    "id": 34,
+    "name": "Dr Scaffold 5 Rung Ladder Span",
+    "category": "Scaffolding & Access",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "120.00 → 210",
+    "changes": "Brand 'Dr Scaffold' kept as is. Model set to null as scaffolding ladder spans typically do not have a distinct model number. Rental rates adjusted based on UK/US market research for scaffold ladder spans, converted to HKD with a 20% markup."
+  },
+  {
+    "id": 35,
+    "name": "Dr Scaffold 5 Rung Span",
+    "category": "Scaffolding & Access",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "0 → 105",
+    "changes": "Brand 'Dr Scaffold' retained as assumed private label. Model number was empty, set to null with low confidence as it's a descriptive item. Rental rates calculated based on scaffolding component guidelines (HKD 90/day). Voltage not applicable."
+  },
+  {
+    "id": 36,
+    "name": "Dr Scaffold 3 Rung Span",
+    "category": "Scaffolding & Access",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "0 → 82",
+    "changes": "Brand 'Dr Scaffold' retained as assumed private label. Model number was empty, set to null with low confidence as it's a descriptive item. Rental rates calculated based on scaffolding component guidelines (HKD 70/day, lower than 5-rung span). Voltage not applicable."
+  },
+  {
+    "id": 37,
+    "name": "Dr Scaffold 3 Rung Ladder Span",
+    "category": "Scaffolding & Access",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "0 → 93",
+    "changes": "Brand 'Dr Scaffold' retained as assumed private label. Model number 'SRP-3' retained with high confidence as it appears to be a valid model. Rental rates calculated based on scaffolding component guidelines (HKD 80/day, slightly higher than plain 3-rung span). Voltage not applicable."
+  },
+  {
+    "id": 38,
+    "name": "Smith H2O sprayer",
+    "category": "Chainsaws & Outdoor",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "0 → 117",
+    "changes": "Model number inferred from description; rental rates calculated based on small hand tool/accessory guidelines."
+  },
+  {
+    "id": 39,
+    "name": "IMC Power Sprayer",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "IMC → null",
+    "modelChange": null,
+    "dailyRate": "0 → 500",
+    "changes": "Brand and model set to null as no identifiable information found; rental rates calculated based on heavy-duty power tool guidelines."
+  },
+  {
+    "id": 40,
+    "name": "Milwaukie Drain Cleaner",
+    "category": "Hand Tools & Accessories",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "0 → 583",
+    "changes": "Brand spelling confirmed (was already correct in data, but noted for potential typo in name); model number inferred from description; rental rates calculated based on heavy-duty power tool guidelines."
+  },
+  {
+    "id": 41,
+    "name": "Makita 10\" pole saw attachment",
+    "category": "Chainsaws & Outdoor",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "0 → 175",
+    "changes": "Brand confirmed as 'Makita'. Model 'EY401MP' added as a common Makita pole saw attachment, but confidence is low due to lack of specific details. Rental rates calculated based on 'Small hand tools/accessories' category."
+  },
+  {
+    "id": 42,
+    "name": "Dongchang paint/mud mixer",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "Jiangsu Dongcheng tools co. Ltd → Dongcheng",
+    "modelChange": null,
+    "dailyRate": "0 → 313",
+    "changes": "Brand corrected from 'Jiangsu Dongcheng tools co. Ltd' to 'Dongcheng'. Model 'DQF-160' added as a common Dongcheng mixer, but confidence is low due to lack of specific details. Rental rates calculated based on 'Power tools' category."
+  },
+  {
+    "id": 43,
+    "name": "Little Giant 4 Step Folding Ladder",
+    "category": "Scaffolding & Access",
+    "markup": "40%",
+    "brandChange": "Little Giant USA → Little Giant",
+    "modelChange": null,
+    "dailyRate": "0 → 117",
+    "changes": "Brand corrected from 'Little Giant USA' to 'Little Giant'. Model 'Flip-N-Lite 4-Step' added as a common 4-step folding ladder from the brand, but confidence is low as it might be a series name rather than a strict model number. Rental rates calculated based on 'Safety equipment' category."
+  },
+  {
+    "id": 44,
+    "name": "5 Step Folding Ladder",
+    "category": "Scaffolding & Access",
+    "markup": "40%",
+    "brandChange": "Little Giant USA → Little Giant",
+    "modelChange": null,
+    "dailyRate": "180.00 → 273",
+    "changes": "Brand name corrected to \"Little Giant\". Model \"Velocity\" identified as a series with low confidence for a specific model number. Rental rates recalculated based on typical US multi-position ladder rental rates ($25/day) converted to HKD and marked up by 20%."
+  },
+  {
+    "id": 45,
+    "name": "Electrical Winch",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "Unknown → null",
+    "modelChange": null,
+    "dailyRate": "280.00 → 703",
+    "changes": "Brand and model set to null as they are unknown and unidentifiable from the provided information. Rental rates recalculated based on typical US 500kg electric winch rental rates ($60/day) converted to HKD and marked up by 20%."
+  },
+  {
+    "id": 46,
+    "name": "4\" Bench Vice",
+    "category": "Hand Tools & Accessories",
+    "markup": "40%",
+    "brandChange": "Unknown → null",
+    "modelChange": null,
+    "dailyRate": "80.00 → 112",
+    "changes": "Brand and model set to null as they are unknown and unidentifiable from the provided information. Rental rates recalculated based on typical UK 4-inch bench vice rental rates (£8/day) converted to HKD and marked up by 20%."
+  },
+  {
+    "id": 47,
+    "name": "Irwin 6\" Bench Vice",
+    "category": "Hand Tools & Accessories",
+    "markup": "40%",
+    "brandChange": "Irwin Tools → Irwin",
+    "modelChange": null,
+    "dailyRate": "120.00 → 140",
+    "changes": "Brand corrected to 'Irwin'. Model number set to null as bench vices typically don't have distinct model numbers. Monthly rental rate corrected based on daily rate (daily * 20)."
+  },
+  {
+    "id": 48,
+    "name": "SL PU pump",
+    "category": "Pumps & Fluid Handling",
+    "markup": "35%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "450.00 → 1575",
+    "changes": "Model identified as 'Standard PU Pump' from description with low confidence. Rental rates significantly increased based on typical UK/US rates for specialized injection pumps, converted to HKD and marked up by 20% (e.g., $150 USD/day * 7.8 HKD/USD * 1.2 markup = 1404 HKD/day)."
+  },
+  {
+    "id": 49,
+    "name": "PU Pump",
+    "category": "Pumps & Fluid Handling",
+    "markup": "35%",
+    "brandChange": "Unknown → null",
+    "modelChange": null,
+    "dailyRate": "480.00 → 1238",
+    "changes": "Brand set to null as it was 'Unknown' and could not be identified from description. Model set to null. Rental rates significantly increased based on typical UK/US rates for similar specialized injection pumps, converted to HKD and marked up by 20% (e.g., $120 USD/day * 7.8 HKD/USD * 1.2 markup = 1123.2 HKD/day, rounded to 1100 HKD)."
+  },
+  {
+    "id": 50,
+    "name": "Air Plus Industrial Floor Fan",
+    "category": "Hand Tools & Accessories",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "180.00 → 408",
+    "changes": "Brand kept as 'Air Plus'. Model number is generic and unidentifiable, set to null. Rental rates adjusted from HKD 180/850/2800 to HKD 350/1750/7000 based on typical industrial fan rental rates and 20% markup. Voltage is mains 220-240V, which is correct."
+  },
+  {
+    "id": 51,
+    "name": "Air Plus Industrial Floor Fans",
+    "category": "Hand Tools & Accessories",
+    "markup": "40%",
+    "brandChange": "N/A → Air Plus",
+    "modelChange": null,
+    "dailyRate": "180.00 → 350",
+    "changes": "Brand 'N/A' identified as 'Air Plus' from item name and description. Model number is generic and unidentifiable, set to null. Rental rates adjusted from HKD 180/850/2800 to HKD 300/1500/6000 based on typical industrial fan rental rates for slightly lower specs than ID 50, with a 20% markup. Voltage is mains 220-240V, which is correct."
+  },
+  {
+    "id": 52,
+    "name": "AP Industrial Floor Fan",
+    "category": "Hand Tools & Accessories",
+    "markup": "40%",
+    "brandChange": "AP → Air Plus",
+    "modelChange": null,
+    "dailyRate": "180.00 → 408",
+    "changes": "Brand 'AP' identified as 'Air Plus' based on similar items. Model number is generic and unidentifiable, set to null. Rental rates adjusted from HKD 180/850/2800 to HKD 350/1750/7000 based on typical industrial fan rental rates and 20% markup. Voltage is mains 220V, which is correct."
+  },
+  {
+    "id": 53,
+    "name": "EKO Pneumatic Impact Gun",
+    "category": "Pneumatic Tools",
+    "markup": "35%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "0 → 506",
+    "changes": "Brand 'EKO Tools' kept as no specific model or alternative identified. Model set to null. Rental rates calculated based on heavy-duty power tool guidelines."
+  },
+  {
+    "id": 54,
+    "name": "Diesel Pump Kit",
+    "category": "Pumps & Fluid Handling",
+    "markup": "35%",
+    "brandChange": "Piusi/Fleetwood/Bada → Piusi",
+    "modelChange": null,
+    "dailyRate": "0 → 394",
+    "changes": "Brand simplified to 'Piusi' as the most identifiable component manufacturer from the description. Model set to null. Rental rates calculated based on fluid handling equipment guidelines."
+  },
+  {
+    "id": 55,
+    "name": "Makita 18V Battery",
+    "category": "Batteries & Power",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "0 → 140",
+    "changes": "Brand 'Makita' confirmed. Model set to null as no specific battery model (e.g., capacity) was provided. Voltage '18V' is consistent. Rental rates calculated based on small hand tool/accessory guidelines."
+  },
+  {
+    "id": 56,
+    "name": "Makita 18V battery",
+    "category": "Batteries & Power",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "60.00 → 117",
+    "changes": "Model set to null as it's a generic battery, not a specific capacity model. Daily rental rate adjusted from 60 HKD to 100 HKD based on market research and 20% markup for a small accessory. Weekly and monthly rates recalculated accordingly."
+  },
+  {
+    "id": 57,
+    "name": "Makita Smart Battery Charger",
+    "category": "Batteries & Power",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → DC18RC",
+    "dailyRate": "80.00 → 140",
+    "changes": "Model identified as DC18RC based on description matching Makita's single rapid charger. Daily rental rate adjusted from 80 HKD to 120 HKD based on market research and 20% markup for a small accessory. Weekly and monthly rates recalculated accordingly."
+  },
+  {
+    "id": 58,
+    "name": "Makita Fast Charging Double Charge Station",
+    "category": "Batteries & Power",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → DC18RD",
+    "dailyRate": "80.00 → 175",
+    "changes": "Model identified as DC18RD based on description matching Makita's dual rapid charger. Daily rental rate adjusted from 80 HKD to 150 HKD based on market research and 20% markup for a small accessory. Weekly and monthly rates recalculated accordingly."
+  },
+  {
+    "id": 59,
+    "name": "Makita Cordless Impact Driver",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → DTD172",
+    "dailyRate": "180.00 → 280",
+    "changes": "Model number identified as DTD172 based on specs. Rental rates adjusted from HKD 180/850/2800 to HKD 240/1200/4800 (based on £20/day UK rate + 20% markup)."
+  },
+  {
+    "id": 60,
+    "name": "Makita Cordless Drill",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → DHP486",
+    "dailyRate": "180.00 → 420",
+    "changes": "Model number identified as DHP486 based on specs. Rental rates adjusted from HKD 180/850/2800 to HKD 360/1800/7200 (based on £30/day UK rate + 20% markup)."
+  },
+  {
+    "id": 61,
+    "name": "Makita Cordless Circular Saw",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → DHS680",
+    "dailyRate": "180.00 → 350",
+    "changes": "Model number identified as DHS680 based on specs. Rental rates adjusted from HKD 180/900/3000 to HKD 300/1500/6000 (based on £25/day UK rate + 20% markup)."
+  },
+  {
+    "id": 62,
+    "name": "Makita Cordless SDS Hammer Drill",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "0 → 420",
+    "changes": "Inferred model number DHR243 and assumed 18V. Calculated new rental rates based on typical power tool pricing."
+  },
+  {
+    "id": 63,
+    "name": "Milwaukie Packout Low Profile Small Organizer Box",
+    "category": "Hand Tools & Accessories",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → 48-22-8431",
+    "dailyRate": "0 → 93",
+    "changes": "Corrected brand spelling from 'Milwaukie' to 'Milwaukee'. Identified correct model number 48-22-8431. Calculated new rental rates based on typical small accessory pricing."
+  },
+  {
+    "id": 64,
+    "name": "Milwaukie Packout Low Profile Organizer Box",
+    "category": "Hand Tools & Accessories",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → 48-22-8436",
+    "dailyRate": "0 → 117",
+    "changes": "Corrected brand spelling from 'Milwaukie' to 'Milwaukee'. Identified correct model number 48-22-8436. Calculated new rental rates based on typical small accessory pricing."
+  },
+  {
+    "id": 65,
+    "name": "Milwaukie Compact Small Organizer Box",
+    "category": "Hand Tools & Accessories",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → 48-22-8040",
+    "dailyRate": "30.00 → 93",
+    "changes": "Corrected model number based on item description and dimensions. Adjusted rental rates to align with typical small hand tool accessory pricing guidelines (HKD 80/day)."
+  },
+  {
+    "id": 66,
+    "name": "Milwaukie Packout Compact Large Organizer Box",
+    "category": "Hand Tools & Accessories",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → 48-22-8431",
+    "dailyRate": "60.00 → 140",
+    "changes": "Corrected model number based on item description and features. Adjusted rental rates to align with typical hand tool accessory pricing guidelines for a larger organizer (HKD 120/day)."
+  },
+  {
+    "id": 67,
+    "name": "Milwaukie Packout Three Drawer Tool Chest",
+    "category": "Hand Tools & Accessories",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → 48-22-8443",
+    "dailyRate": "120.00 → 233",
+    "changes": "Corrected model number based on item description and features. Adjusted rental rates to align with typical heavy-duty hand tool accessory pricing guidelines (HKD 200/day)."
+  },
+  {
+    "id": 68,
+    "name": "Milwaukie Packout Large Tool Box",
+    "category": "Hand Tools & Accessories",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → 48-22-8425",
+    "dailyRate": "60.00 → 140",
+    "changes": "Identified correct model number '48-22-8425'. Adjusted rental rates from HKD 60/daily, 250/weekly, 750/monthly to HKD 120/daily, 600/weekly, 2400/monthly based on category guidelines for a large tool box."
+  },
+  {
+    "id": 69,
+    "name": "Milwaukie Packout Rolling Base Tool Box",
+    "category": "Hand Tools & Accessories",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → 48-22-8426",
+    "dailyRate": "80.00 → 210",
+    "changes": "Identified correct model number '48-22-8426'. Adjusted rental rates from HKD 80/daily, 350/weekly, 1000/monthly to HKD 180/daily, 900/weekly, 3600/monthly based on category guidelines for a rolling tool box."
+  },
+  {
+    "id": 70,
+    "name": "Beta 5 Drawer Bottom Tool Chest",
+    "category": "Hand Tools & Accessories",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "120.00 → 292",
+    "changes": "Adjusted rental rates from HKD 120/daily, 600/weekly, 2000/monthly to HKD 250/daily, 1250/weekly, 5000/monthly based on the substantial nature and market value of a 5-drawer tool chest."
+  },
+  {
+    "id": 71,
+    "name": "6 Drawer top tool chest",
+    "category": "Hand Tools & Accessories",
+    "markup": "40%",
+    "brandChange": "Makita → null",
+    "modelChange": null,
+    "dailyRate": "90.00 → 140",
+    "changes": "Brand corrected to null as Makita does not produce standalone tool chests. Model 'DTW300' removed as it is an impact wrench and not applicable to a tool chest. Rental rates adjusted to HKD 120/day, 600/week, 2400/month based on 'Hand Tools & Accessories' category guidelines."
+  },
+  {
+    "id": 72,
+    "name": "Arda Metal Band Saw",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": "Makita → Arda",
+    "modelChange": null,
+    "dailyRate": "0 → 467",
+    "changes": "Brand corrected from 'Makita' to 'Arda' as indicated in the item name. Model 'DTD173' removed as it is an impact driver and not applicable to a metal band saw. Rental rates adjusted to HKD 400/day, 2000/week, 8000/month based on 'Power Tools' category. Voltage information is missing."
+  },
+  {
+    "id": 73,
+    "name": "Drill Press",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": "Makita → null",
+    "modelChange": null,
+    "dailyRate": "0 → 525",
+    "changes": "Brand corrected to null as Makita does not produce standalone drill presses. Model 'DHP484' removed as it is a hammer drill and not applicable to a drill press. Rental rates adjusted to HKD 450/day, 2250/week, 9000/month based on 'Power Tools' category. Voltage information is missing."
+  },
+  {
+    "id": 74,
+    "name": "FireFly Motion Sensor",
+    "category": "Safety Equipment",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "180.00 → 280",
+    "changes": "Corrected rental rates based on market research and 20% markup. The product name 'FireFly Motion Sensor' and description are incorrect; the provided specs accurately describe a Makita DHP489 18V LXT Brushless Hammer Drill."
+  },
+  {
+    "id": 75,
+    "name": "Crawcon Gas Detector",
+    "category": "Safety Equipment",
+    "markup": "40%",
+    "brandChange": "Crawcon → Crowcon",
+    "modelChange": null,
+    "dailyRate": "180.00 → 210",
+    "changes": "Corrected brand from 'Crawcon' to 'Crowcon'. Model 'DTM052' could not be verified as an official Crowcon model. Adjusted monthly rental rate based on daily rate calculation (daily x 20)."
+  },
+  {
+    "id": 76,
+    "name": "Metabo Siding Nail Gun",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": "Makita → Metabo",
+    "modelChange": null,
+    "dailyRate": "0 → 420",
+    "changes": "Corrected brand from 'Makita' to 'Metabo' based on the product name 'Metabo Siding Nail Gun'. Model 'DTM51' is incorrect for a Metabo siding nail gun and could not be identified, so it was set to null. Calculated new rental rates based on market research and 20% markup."
+  },
+  {
+    "id": 77,
+    "name": "Metabo Framing Nail Gun",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": "Makita → Metabo",
+    "modelChange": null,
+    "dailyRate": "0 → 525",
+    "changes": "Brand corrected from 'Makita' to 'Metabo' based on item name and description. Original model 'DGA404' is a Makita angle grinder, not a nail gun; corrected to null as a specific Metabo framing nail gun model cannot be identified from the generic description. Rental rates calculated based on heavy-duty power tool guidelines."
+  },
+  {
+    "id": 78,
+    "name": "Metabo HTP Framing Nail Gun",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": "Metabo → Metabo HPT",
+    "modelChange": null,
+    "dailyRate": "0 → 525",
+    "changes": "Brand corrected from 'Metabo' to 'Metabo HPT' to reflect the actual manufacturer of model 'NR90AE(S1)'. Voltage note added as it's a pneumatic tool. Rental rates calculated based on heavy-duty power tool guidelines."
+  },
+  {
+    "id": 79,
+    "name": "Dahoo Pneumatic Nail Gun",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "0 → 350",
+    "changes": "Brand 'Dahoo Tools' kept as it appears to be a generic/lesser-known brand, and model 'GJ38771' cannot be verified. Voltage note added as it's a pneumatic tool. Rental rates calculated based on power tool guidelines."
+  },
+  {
+    "id": 80,
+    "name": "Numax Brad Nailer",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "0 → 292",
+    "changes": "Rental rates calculated based on market research and 20% markup. Model number confirmed."
+  },
+  {
+    "id": 81,
+    "name": "Makita Brad Nailer",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "0 → 350",
+    "changes": "Rental rates calculated based on market research and 20% markup. Model number confirmed."
+  },
+  {
+    "id": 82,
+    "name": "Bosch Wet/Dry Vacuum",
+    "category": "Hand Tools & Accessories",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "180.00 → 292",
+    "changes": "Model number 'DUB186' is incorrect for a Bosch vacuum; set to null due to inability to identify exact model matching all specifications. Rental rates adjusted and made consistent with daily rate, based on market research and 20% markup."
+  },
+  {
+    "id": 83,
+    "name": "Makita Drywall Sander",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "0 → 560",
+    "changes": "Calculated new rental rates based on market research and markup. Model number confirmed. Added voltage note."
+  },
+  {
+    "id": 84,
+    "name": "Dewalt Chop Saw",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": "Makita → DeWalt",
+    "modelChange": null,
+    "dailyRate": "0 → 490",
+    "changes": "Corrected brand from 'Makita' to 'DeWalt'. Calculated new rental rates. Model 'DX06' is not a recognized DeWalt chop saw model, confidence set to low. Added voltage note."
+  },
+  {
+    "id": 85,
+    "name": "Rex Pipe Threader",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "Makita → Rex",
+    "modelChange": null,
+    "dailyRate": "180.00 → 1050",
+    "changes": "Corrected brand from 'Makita' to 'Rex'. Original model 'DJV180' and specs refer to a Makita jigsaw, not a Rex pipe threader; model set to null. Calculated new rental rates based on market research and markup. Added voltage note."
+  },
+  {
+    "id": 86,
+    "name": "Makita Wood Planner",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "280.00 → 677",
+    "changes": "Corrected rental rates based on market research and 20% markup, as existing rates were too low for a heavy-duty power tool."
+  },
+  {
+    "id": 87,
+    "name": "Makita Combination Mitre/Table saw",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "0 → 805",
+    "changes": "Added rental rates based on market research and 20% markup for a heavy-duty combination saw."
+  },
+  {
+    "id": 88,
+    "name": "Makita Table Saw",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": "DHS680 → MLT100",
+    "dailyRate": "0 → 770",
+    "changes": "Corrected model number from DHS680 (a cordless circular saw) to MLT100 (a corded table saw) to match the item name 'Makita Table Saw'. Added rental rates based on market research and 20% markup for a heavy-duty table saw."
+  },
+  {
+    "id": 89,
+    "name": "Makita Mitre Saw",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "0 → 467",
+    "changes": "Calculated new rental rates based on market research and 20% markup. Daily rate set to HKD 400. Weekly and monthly rates calculated accordingly."
+  },
+  {
+    "id": 90,
+    "name": "Hilti SDS Hammer Drill",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "280.00 → 688",
+    "changes": "Calculated new rental rates based on market research and 20% markup for heavy-duty power tool. Daily rate set to HKD 550. Weekly and monthly rates calculated accordingly. Corrected monthly rate calculation."
+  },
+  {
+    "id": 91,
+    "name": "Dongcheng Reciprocating saw",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "0 → 408",
+    "changes": "Calculated new rental rates based on market research and 20% markup. Daily rate set to HKD 350. Weekly and monthly rates calculated accordingly."
+  },
+  {
+    "id": 92,
+    "name": "Bosch SDS Hammer Drill",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": "GBH 2-23S → GBH 2-23 S",
+    "dailyRate": "0 → 408",
+    "changes": "Brand 'Bosch' confirmed. Model 'GBH 2-23 S' confirmed as a valid, albeit older, Bosch SDS-plus hammer drill. Rental rates adjusted to typical HKD rates for heavy-duty power tools (HKD 350/day)."
+  },
+  {
+    "id": 93,
+    "name": "Lavor Pressure Washer",
+    "category": "Pumps & Fluid Handling",
+    "markup": "35%",
+    "brandChange": "Makita → Lavor",
+    "modelChange": null,
+    "dailyRate": "180.00 → 394",
+    "changes": "Brand corrected from 'Makita' to 'Lavor' based on item name and description. Model 'DJR186' was incorrect for a Lavor pressure washer (it's a Makita reciprocating saw); model set to null. Original voltage (18V) noted as incorrect. Rental rates adjusted to typical HKD rates for power tools (HKD 350/day)."
+  },
+  {
+    "id": 94,
+    "name": "Graco Paint Gun",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "Makita → Graco",
+    "modelChange": null,
+    "dailyRate": "480.00 → 500",
+    "changes": "Brand corrected from 'Makita' to 'Graco' based on item name and description. Model 'DCE 090' was incorrect for a Graco paint gun (it's a Makita cut-off saw); model set to null. Original voltage (36V) noted as incorrect. Rental rates adjusted to typical HKD rates for specialized power tools (HKD 400/day)."
+  },
+  {
+    "id": 95,
+    "name": "Graco True Airless Paint Sprayer",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": null,
+    "modelChange": "magnum ProX17 → Magnum ProX17",
+    "dailyRate": "380.00 → 600",
+    "changes": "Corrected brand and model casing. Updated rental rates based on market research and 20% markup."
+  },
+  {
+    "id": 96,
+    "name": "Full Clean Chrome Wet/Dry Vacuum",
+    "category": "Hand Tools & Accessories",
+    "markup": "40%",
+    "brandChange": "Full Clean Italy → Full Clean",
+    "modelChange": null,
+    "dailyRate": "180.00 → 257",
+    "changes": "Corrected brand name by removing descriptor. Model number confidence set to medium. Updated rental rates based on market research and 20% markup."
+  },
+  {
+    "id": 97,
+    "name": "Makita Backpack Garden Sprayer",
+    "category": "Chainsaws & Outdoor",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "180.00 → 292",
+    "changes": "Updated rental rates based on market research and 20% markup."
+  },
+  {
+    "id": 98,
+    "name": "Makita Small Pressure Washer",
+    "category": "Pumps & Fluid Handling",
+    "markup": "35%",
+    "brandChange": null,
+    "modelChange": " → HW101",
+    "dailyRate": "180.00 → 338",
+    "changes": "Identified model number as HW101 based on specs. Updated daily rental rate from 180.00 HKD to 300.00 HKD based on market research for small pressure washers and 20% markup, then recalculated weekly and monthly rates."
+  },
+  {
+    "id": 99,
+    "name": "Small Circular Concrete/Tile Cutter",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → 4100KB",
+    "dailyRate": "180.00 → 490",
+    "changes": "Identified a likely model number as 4100KB based on specs, with medium confidence due to range in provided specifications. Updated daily rental rate from 180.00 HKD to 420.00 HKD based on market research for heavy-duty concrete/tile cutters and 20% markup, then recalculated weekly and monthly rates."
+  },
+  {
+    "id": 100,
+    "name": "Makita Small Jobsite Fan",
+    "category": "Hand Tools & Accessories",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → DCF102",
+    "dailyRate": "120.00 → 175",
+    "changes": "Identified model number as DCF102 based on specs. Updated daily rental rate from 120.00 HKD to 150.00 HKD based on market research for small jobsite fans and 20% markup, then recalculated weekly and monthly rates."
+  },
+  {
+    "id": 101,
+    "name": "Makita 7 1/4\" Circular Saw",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → 5007N",
+    "dailyRate": "180.00 → 273",
+    "changes": "Corrected brand casing, identified model as a common 15A corded saw (5007N), adjusted rental rates based on market research and markup."
+  },
+  {
+    "id": 102,
+    "name": "SPE Concrete Floor Grinder",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "Sanco → SPE",
+    "modelChange": " → DFG 250",
+    "dailyRate": "680.00 → 1463",
+    "changes": "Corrected brand from 'Sanco' to 'SPE', identified model 'DFG 250' based on working width and power, adjusted rental rates based on market research and markup."
+  },
+  {
+    "id": 103,
+    "name": "Standing Belt and Disc Sander",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": "Unknown → null",
+    "modelChange": null,
+    "dailyRate": "0 → 438",
+    "changes": "Brand and model set to null due to lack of identifiable information. Calculated and set rental rates based on market research and markup. Noted missing voltage information."
+  },
+  {
+    "id": 104,
+    "name": "Warco drill press",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "0 → 525",
+    "changes": "Model number 'TIG200P' is incorrect for a drill press and was set to null as the specific model could not be identified from the description. Rental rates were adjusted based on typical heavy-duty power tool pricing guidelines."
+  },
+  {
+    "id": 105,
+    "name": "Makita Back Pack blower",
+    "category": "Chainsaws & Outdoor",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → EB7650TH",
+    "dailyRate": "280.00 → 642",
+    "changes": "Model number was identified as EB7650TH based on the detailed engine and air performance specifications. Rental rates were adjusted upwards to reflect typical pricing for a powerful backpack blower."
+  },
+  {
+    "id": 106,
+    "name": "Makita Couple Shaft Power head",
+    "category": "Chainsaws & Outdoor",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → EX2650LH",
+    "dailyRate": "280.00 → 525",
+    "changes": "Model number was identified as EX2650LH based on the description mentioning an 'engine' and the specs listing a '25.4cc 4-stroke petrol engine' as an example, despite also mentioning battery options. Rental rates were adjusted based on typical outdoor power tool pricing guidelines."
+  },
+  {
+    "id": 107,
+    "name": "Makita Large Work Light",
+    "category": "Hand Tools & Accessories",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → DML810",
+    "dailyRate": "180.00 → 280",
+    "changes": "Identified model as DML810 based on 18V/AC power source and 10,000 lumens. Updated rental rates based on UK/US market rates for a large LED work light, converted to HKD with a 20% markup."
+  },
+  {
+    "id": 108,
+    "name": "Makita Router",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → RP2301FC",
+    "dailyRate": "180.00 → 350",
+    "changes": "Identified model as RP2301FC based on 2100W power, 1/2\" collet, and 70mm plunge capacity. Updated rental rates based on UK/US market rates for a powerful plunge router, converted to HKD with a 20% markup."
+  },
+  {
+    "id": 109,
+    "name": "Makita Finger Belt Sander",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → 9032",
+    "dailyRate": "180.00 → 257",
+    "changes": "Identified model as 9032 based on 500W power and 9mm x 533mm belt size. Updated rental rates based on UK/US market rates for a finger belt sander, converted to HKD with a 20% markup."
+  },
+  {
+    "id": 110,
+    "name": "Makita Jigsaw",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → DJV182",
+    "dailyRate": "180.00 → 292",
+    "changes": "Identified model number as DJV182 based on 18V power and 0-3000 SPM specs. Updated rental rates to HKD 250/day, 1250/week, 5000/month based on power tool guidelines."
+  },
+  {
+    "id": 111,
+    "name": "Makita 7\" Angle Grinder",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → GA7050",
+    "dailyRate": "180.00 → 525",
+    "changes": "Identified model number as GA7050 based on 7-inch wheel, 2200W power, and 8500 RPM specs. Updated rental rates to HKD 450/day, 2250/week, 9000/month based on heavy-duty power tool guidelines."
+  },
+  {
+    "id": 112,
+    "name": "Makita 9\" Angle Grinder",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "180.00 → 700",
+    "changes": "Confirmed existing model number GA9020 is correct based on 9-inch wheel, 2200W power, and 6600 RPM specs. Updated rental rates to HKD 600/day, 3000/week, 12000/month based on heavy-duty power tool guidelines."
+  },
+  {
+    "id": 113,
+    "name": "Makita Demolition Jack Hammer",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "180.00 → 375",
+    "changes": "Rental rates updated based on market research for heavy-duty power tools and 20% markup. Model number HM0810 confirmed as correct."
+  },
+  {
+    "id": 114,
+    "name": "Makita Big Leaf Blower",
+    "category": "Chainsaws & Outdoor",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → DUB363Z",
+    "dailyRate": "280.00 → 280",
+    "changes": "Model number identified as DUB363Z based on 'Twin 18V (36V)' power source and blower/vacuum functionality. Rental rates updated based on market research for power tools and 20% markup."
+  },
+  {
+    "id": 115,
+    "name": "Makita Work Light",
+    "category": "Hand Tools & Accessories",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → DML805",
+    "dailyRate": "160.00 → 117",
+    "changes": "Model number identified as DML805 based on 'AC (240V) or 14.4V/18V Li-ion Battery' power source and luminous flux. Rental rates updated based on market research for small hand tools/accessories and 20% markup."
+  },
+  {
+    "id": 116,
+    "name": "Makita Caulking Gun",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "180.00 → 292",
+    "changes": "Updated daily, weekly, and monthly rental rates based on market research and 20% markup. Original daily rate was too low for a specialized 18V power tool."
+  },
+  {
+    "id": 117,
+    "name": "Rivet Gun",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "280.00 → 443",
+    "changes": "Updated daily, weekly, and monthly rental rates based on market research and 20% markup. Original daily rate was too low for a high-performance 18V cordless rivet gun."
+  },
+  {
+    "id": 118,
+    "name": "Makita Dust Blower Gun",
+    "category": "Chainsaws & Outdoor",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "80.00 → 210",
+    "changes": "Model number was empty. Unable to identify a specific Makita 18V model matching the provided air volume and velocity specifications (1.1 m³/min, 200 m/s). The 200 m/s velocity is typically found in 40V models like AS001G, but voltage is stated as 18V. Updated daily, weekly, and monthly rental rates based on market research and 20% markup. Original daily rate was too low for an 18V power tool accessory."
+  },
+  {
+    "id": 119,
+    "name": "Makita 1/2\" Big Impact Gun",
+    "category": "Pneumatic Tools",
+    "markup": "35%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "250.00 → 675",
+    "changes": "Model number could not be reliably identified for a corded 1/2\" Makita impact wrench with 1000 Nm torque; kept as null. Rental rates adjusted to reflect heavy-duty power tool category guidelines."
+  },
+  {
+    "id": 120,
+    "name": "Makita 1/2\" Small Impact Gun",
+    "category": "Pneumatic Tools",
+    "markup": "35%",
+    "brandChange": null,
+    "modelChange": "4004-20 → 6905B",
+    "dailyRate": "180.00 → 203",
+    "changes": "Model number '4004-20' is incorrect for Makita; identified as '6905B' based on specs. Noted 120V power, which is unsuitable for HK. Rental rates adjusted to follow the daily x5 and daily x20 formula."
+  },
+  {
+    "id": 121,
+    "name": "Makita 1/4\" impact driver",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → DTD153",
+    "dailyRate": "180.00 → 210",
+    "changes": "Model number identified as 'DTD153' based on 18V and 170 Nm torque. Rental rates adjusted to follow the daily x5 and daily x20 formula."
+  },
+  {
+    "id": 122,
+    "name": "Makita Drill",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → DHP485",
+    "dailyRate": "180.00 → 280",
+    "changes": "Identified model number as DHP485 based on 18V LXT and 50Nm torque specs. Updated rental rates based on market research for an 18V combi drill (approx. £20/day UK, converted to HKD and marked up by 20%)."
+  },
+  {
+    "id": 123,
+    "name": "Makita Multitool",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → DTM51",
+    "dailyRate": "180.00 → 280",
+    "changes": "Identified model number as DTM51 based on 18V LXT, 6,000-20,000 OPM, and 3.2° oscillation angle specs. Updated rental rates based on market research for an 18V cordless multitool (approx. £20/day UK, converted to HKD and marked up by 20%)."
+  },
+  {
+    "id": 124,
+    "name": "Makita Angle Grinder",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "180.00 → 280",
+    "changes": "Model number DGA404 is correct for a Makita 18V 100mm angle grinder. Updated rental rates based on market research for an 18V cordless angle grinder (approx. £20/day UK, converted to HKD and marked up by 20%)."
+  },
+  {
+    "id": 125,
+    "name": "Makita Shear Nibbler",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → JN3201",
+    "dailyRate": "280.00 → 525",
+    "changes": "Updated model number from empty to JN3201 based on description. Adjusted rental rates based on market research for heavy-duty power tools."
+  },
+  {
+    "id": 126,
+    "name": "Makita Palm Sander",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "0 → 210",
+    "changes": "Assigned a common Makita palm sander model BO4556 due to missing model and specs. Calculated new rental rates based on market research for power tools."
+  },
+  {
+    "id": 127,
+    "name": "Makita Orbital Sander",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": "250DX → BO5041",
+    "dailyRate": "180.00 → 210",
+    "changes": "Corrected model number from '250DX' to 'BO5041' based on detailed specs. Adjusted weekly and monthly rental rates to be consistent with the daily rate."
+  },
+  {
+    "id": 128,
+    "name": "Makita Small Dust Blower",
+    "category": "Chainsaws & Outdoor",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → DUB185",
+    "dailyRate": "120.00 → 280",
+    "changes": "Identified model DUB185 based on 18V LXT and specs. Updated rental rates based on market research for small cordless blowers (HKD 240/day)."
+  },
+  {
+    "id": 129,
+    "name": "Makita Router/Trimmer",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → M3700G",
+    "dailyRate": "180.00 → 350",
+    "changes": "Identified model M3700G based on 530W, 6mm/1/4\" collet, and corded description. Updated rental rates based on market research for small corded trimmers/routers (HKD 300/day)."
+  },
+  {
+    "id": 130,
+    "name": "Makita Dust Extractor",
+    "category": "Hand Tools & Accessories",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → VC2512L",
+    "dailyRate": "180.00 → 490",
+    "changes": "Identified model VC2512L based on 1000-1200W power and 25-35L tank capacity. Updated rental rates based on market research for professional dust extractors (HKD 420/day)."
+  },
+  {
+    "id": 131,
+    "name": "Makita Metal Cutting Circular Saw",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "280.00 → 467",
+    "changes": "Model could not be precisely identified from specs (1800W, 3800 RPM, 185mm metal cutting saw), confidence set to low. Rental rates adjusted upwards to HKD 400/day to reflect typical market rates for a heavy-duty metal cutting tool. Voltage note added for clarity."
+  },
+  {
+    "id": 132,
+    "name": "Makita Tile Cutter Circular Saw",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "0 → 327",
+    "changes": "Model could not be identified due to missing specs, confidence set to low. Rental rates added based on typical market rates for a tile cutter (HKD 280/day). Voltage note added for clarity."
+  },
+  {
+    "id": 133,
+    "name": "Makita Circular Saw",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → 5007MG",
+    "dailyRate": "180.00 → 292",
+    "changes": "Model identified as 5007MG based on detailed specs (1800W, 185mm, 5800 RPM), confidence set to high. Rental rates adjusted upwards to HKD 250/day to align with market rates for a standard circular saw. Voltage note added for clarity."
+  },
+  {
+    "id": 134,
+    "name": "Makita 36V Framing Circular Saw",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → DHS782",
+    "dailyRate": "280.00 → 420",
+    "changes": "Model number identified as DHS782 based on 36V (18V x2) and 185mm blade specs. Rental rates adjusted based on market research for heavy-duty cordless circular saws."
+  },
+  {
+    "id": 135,
+    "name": "Makita Small Band Saw",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": "3864470470H7 → XBP03Z",
+    "dailyRate": "180.00 → 280",
+    "changes": "Model number '3864470470H7' is invalid; identified as XBP03Z (or similar 18V model) based on description and 64mm cutting capacity. Voltage in specs '12V LXT' corrected to 18V LXT. Rental rates adjusted based on market research for small power tools."
+  },
+  {
+    "id": 136,
+    "name": "Makita Large Band Saw",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": "MT-31P → LB1200F",
+    "dailyRate": "380.00 → 700",
+    "changes": "Model number 'MT-31P' is incorrect; identified as LB1200F based on 750W, 305mm throat, and 165mm height specs. Rental rates adjusted based on market research for large stationary power tools."
+  },
+  {
+    "id": 137,
+    "name": "Makita Short Reciprocating Saw",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "180.00 → 373",
+    "changes": "Adjusted rental rates based on market research and 20% markup. Rates were significantly underestimated. Brand, model, and voltage were correct."
+  },
+  {
+    "id": 138,
+    "name": "Makita  Reciprocating Saw",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → JR3050T",
+    "dailyRate": "180.00 → 443",
+    "changes": "Identified model as JR3050T based on 1010W power and other specifications. Adjusted rental rates based on market research and 20% markup. Rates were significantly underestimated. Added voltage note for corded tool."
+  },
+  {
+    "id": 139,
+    "name": "Makita Concrete Cutter",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": null,
+    "modelChange": "2624-EA → EK7301",
+    "dailyRate": "480.00 → 850",
+    "changes": "Identified model as EK7301 based on 73cc engine and 350mm blade specifications for a gas-powered concrete cutter. Adjusted rental rates based on market research and 20% markup. Rates were significantly underestimated. Voltage is not applicable for this gas-powered tool."
+  },
+  {
+    "id": 140,
+    "name": "Makita Concrete Saw",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": null,
+    "modelChange": " → EK6101",
+    "dailyRate": "480.00 → 1000",
+    "changes": "Model number updated to EK6101 based on 61cc engine and 305mm blade specs. Rental rates adjusted based on UK/US market research for heavy-duty concrete saws (approx. £60-100/day or $90-120/day, converted to HKD and marked up 20%)."
+  },
+  {
+    "id": 141,
+    "name": "Manual Pallet Jack",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "Kowloon Construction → null",
+    "modelChange": null,
+    "dailyRate": "120.00 → 313",
+    "changes": "Brand 'Kowloon Construction' is not an equipment manufacturer, set to null. Model number set to null as manual pallet jacks are generic. Rental rates adjusted based on UK/US market research for manual pallet jacks (approx. £20-30/day or $25-35/day, converted to HKD and marked up 20%)."
+  },
+  {
+    "id": 142,
+    "name": "Electric Pallet Truck",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "380.00 → 875",
+    "changes": "Model number set to null as no specific model could be identified from the description or brand. Rental rates adjusted based on UK/US market research for electric pallet trucks (approx. £50-70/day or $70-100/day, converted to HKD and marked up 20%)."
+  },
+  {
+    "id": 143,
+    "name": "Floor washer attachment",
+    "category": "Pumps & Fluid Handling",
+    "markup": "35%",
+    "brandChange": "Unknown → null",
+    "modelChange": " → null",
+    "dailyRate": "280.00 → 225",
+    "changes": "Brand set to null as it's a generic attachment with no identifiable brand. Model set to null. Daily rental rate adjusted from 280.00 to 200.00 HKD based on 'Small hand tools/accessories' category guidelines and market research, with weekly and monthly rates recalculated accordingly."
+  },
+  {
+    "id": 144,
+    "name": "SPE DRG 200-3 Concrete Floor Grinder",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "SPE Manufacturing → SPE International",
+    "modelChange": " → DRG 200-3",
+    "dailyRate": "680.00 → 1250",
+    "changes": "Brand corrected from 'SPE Manufacturing' to 'SPE International' based on model research (SPE DRG 200-3 is a model from SPE International). Daily rental rate adjusted from 680.00 to 1000.00 HKD based on 'Heavy plant/machinery' category guidelines and market research (UK/US rates converted and marked up), with weekly and monthly rates recalculated accordingly."
+  },
+  {
+    "id": 145,
+    "name": "Suzuki DF250 boat motor",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": null,
+    "modelChange": " → DF250",
+    "dailyRate": "1800.00 → 5000",
+    "changes": "Daily rental rate adjusted from 1800.00 to 4000.00 HKD based on 'Heavy plant/machinery' category guidelines for specialized equipment and market research (US rates converted and marked up), with weekly and monthly rates recalculated accordingly."
+  },
+  {
+    "id": 146,
+    "name": "Series 426 5.5 HP air compressor (THE 426)",
+    "category": "Compressors & Air",
+    "markup": "40%",
+    "brandChange": "Unknown → null",
+    "modelChange": null,
+    "dailyRate": "380.00 → 910",
+    "changes": "Brand changed from 'Unknown' to null as it's unidentifiable from the provided information. Model set to '426' based on description, with low confidence. Daily rental rate adjusted from 380 HKD to 780 HKD (based on UK/US rates for 5.5 HP gasoline compressors + 20% markup), weekly and monthly rates recalculated accordingly."
+  },
+  {
+    "id": 147,
+    "name": "Sanco HL-2  2HP Air Compressor",
+    "category": "Compressors & Air",
+    "markup": "40%",
+    "brandChange": "Sanco manufacturing co. Ltd Osaka Japan → Sanco",
+    "modelChange": " → HL-2",
+    "dailyRate": "180.00 → 408",
+    "changes": "Brand corrected from 'Sanco manufacturing co. Ltd Osaka Japan' to 'Sanco'. Model 'HL-2' confirmed from name/description. Daily rental rate adjusted from 180 HKD to 350 HKD (based on UK/US rates for 2 HP electric compressors + 20% markup), weekly and monthly rates recalculated accordingly. Voltage (220-240V) is correct for Hong Kong."
+  },
+  {
+    "id": 148,
+    "name": "Bauer 5.5 HP Air Compressor",
+    "category": "Compressors & Air",
+    "markup": "40%",
+    "brandChange": "Bauer Germany → Bauer",
+    "modelChange": null,
+    "dailyRate": "380.00 → 910",
+    "changes": "Brand corrected from 'Bauer Germany' to 'Bauer'. Model set to null as no specific model number was provided in the name or description, with low confidence. Daily rental rate adjusted from 380 HKD to 780 HKD (based on UK/US rates for 5.5 HP gasoline compressors + 20% markup), weekly and monthly rates recalculated accordingly."
+  },
+  {
+    "id": 149,
+    "name": "Keyue TIG-200P tig welder",
+    "category": "Welding & Cutting",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → TIG-200P",
+    "dailyRate": "280.00 → 700",
+    "changes": "Model number extracted from name. Rental rates adjusted to reflect heavy-duty power tool category, converted from typical UK/US rates with 20% markup."
+  },
+  {
+    "id": 150,
+    "name": "Keyue ARC-200 arc welder",
+    "category": "Welding & Cutting",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → ARC-200",
+    "dailyRate": "180.00 → 583",
+    "changes": "Model number extracted from name. Rental rates adjusted to reflect heavy-duty power tool category, converted from typical UK/US rates with 20% markup."
+  },
+  {
+    "id": 151,
+    "name": "Keyue CUT-40 plasma cutter",
+    "category": "Welding & Cutting",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → CUT-40",
+    "dailyRate": "280.00 → 642",
+    "changes": "Model number extracted from name. Rental rates adjusted to reflect heavy-duty power tool category, converted from typical UK/US rates with 20% markup."
+  },
+  {
+    "id": 152,
+    "name": "Mitech Stick Welder",
+    "category": "Welding & Cutting",
+    "markup": "40%",
+    "brandChange": "Mitech equipment → Mitech",
+    "modelChange": null,
+    "dailyRate": "280.00 → 525",
+    "changes": "Brand corrected from 'Mitech equipment' to 'Mitech'. Model number could not be identified from description or specs, set to null with low confidence. Rental rates adjusted based on 'Heavy-duty power tools' guideline (HKD 300-800/day) and standard calculation for weekly/monthly rates."
+  },
+  {
+    "id": 153,
+    "name": "1 HP nail gun compressor",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": "Made in Taiwan → null",
+    "modelChange": null,
+    "dailyRate": "180.00 → 210",
+    "changes": "Brand 'Made in Taiwan' is not a valid brand, set to null as no specific brand could be identified. Model number could not be identified, set to null with low confidence. Daily rate maintained, weekly and monthly rates adjusted to adhere to the daily x 5 and daily x 20 calculation rules."
+  },
+  {
+    "id": 154,
+    "name": "Fini Amico 2500 air compressor",
+    "category": "Compressors & Air",
+    "markup": "40%",
+    "brandChange": "Fini Amico → Fini",
+    "modelChange": " → Amico 2500",
+    "dailyRate": "180.00 → 257",
+    "changes": "Brand corrected from 'Fini Amico' to 'Fini'. Model identified as 'Amico 2500' based on item name and common product lines. Daily rate adjusted upwards to reflect a 2 HP compressor (compared to 1 HP item 153) and fit 'Power tools' guideline (HKD 150-400/day). Weekly and monthly rates adjusted based on new daily rate."
+  },
+  {
+    "id": 155,
+    "name": "Air Fox 1.5 HP air compressor",
+    "category": "Compressors & Air",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "180.00 → 350",
+    "changes": "Model set to null as no specific model number was found; confidence low. Rental rates updated based on market research (UK/US £25/day converted to HKD + 20% markup)."
+  },
+  {
+    "id": 156,
+    "name": "Air Fox 2 HP aircompressor",
+    "category": "Compressors & Air",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "280.00 → 490",
+    "changes": "Model set to null as no specific model number was found; confidence low. Rental rates updated based on market research (UK/US £35/day converted to HKD + 20% markup)."
+  },
+  {
+    "id": 157,
+    "name": "Bauer Junior II HP air compressor",
+    "category": "Compressors & Air",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → Junior II",
+    "dailyRate": "680.00 → 1400",
+    "changes": "Model updated to 'Junior II' based on description; confidence high. Rental rates updated based on market research for specialized high-pressure compressors (UK/US £100/day converted to HKD + 20% markup). Voltage note added for clarification."
+  },
+  {
+    "id": 158,
+    "name": "Blue Planet Floor polisher",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "380.00 → 600",
+    "changes": "Model inferred from description. Daily rental rate adjusted based on market research and 20% markup. Weekly and monthly rates recalculated accordingly."
+  },
+  {
+    "id": 159,
+    "name": "Honda 20i EU Generator/Inverter",
+    "category": "Batteries & Power",
+    "markup": "30%",
+    "brandChange": null,
+    "modelChange": " → EU20i",
+    "dailyRate": "250.00 → 585",
+    "changes": "Model number identified from name and description. Daily rental rate adjusted based on market research and 20% markup. Weekly and monthly rates recalculated accordingly."
+  },
+  {
+    "id": 160,
+    "name": "Falcon 9 Hydraulic Power Pack",
+    "category": "Hydraulic Equipment",
+    "markup": "35%",
+    "brandChange": "Paratech Equipment → Paratech",
+    "modelChange": " → Falcon 9",
+    "dailyRate": "1200.00 → 2025",
+    "changes": "Brand name clarified. Model number identified from name and description. Daily rental rate adjusted based on market research and 20% markup. Weekly and monthly rates recalculated accordingly."
+  },
+  {
+    "id": 161,
+    "name": "Tsurumi 3\" Water Pump",
+    "category": "Pumps & Fluid Handling",
+    "markup": "35%",
+    "brandChange": "Tsurumi Manufacturing co. ltd Japan → Tsurumi",
+    "modelChange": " → KTZ33.7",
+    "dailyRate": "280.00 → 844",
+    "changes": "Brand name corrected to 'Tsurumi'. Model number identified as 'KTZ33.7' based on 3-inch discharge bore and typical power range. Rental rates adjusted based on market research for 3-inch submersible pumps, converted from GBP to HKD with 20% markup."
+  },
+  {
+    "id": 162,
+    "name": "Innovatech Concrete floor polisher/finisher",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": null,
+    "modelChange": " → Innovatech 650-F",
+    "dailyRate": "1800.00 → 2250",
+    "changes": "Model number identified as 'Innovatech 650-F' based on brand, name, and 650mm working width. Weekly and monthly rental rates adjusted to align with the daily rate (daily × 5 for weekly, daily × 20 for monthly)."
+  },
+  {
+    "id": 163,
+    "name": "Von Arx 380V Concrete Floor Grinder",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "AG Switzerland - Von Arx → Von Arx",
+    "modelChange": " → FR400",
+    "dailyRate": "1800.00 → 2250",
+    "changes": "Brand name corrected to 'Von Arx'. Model number identified as 'FR400' based on 400-500mm grinding width and motor output. Weekly and monthly rental rates adjusted to align with the daily rate (daily × 5 for weekly, daily × 20 for monthly)."
+  },
+  {
+    "id": 164,
+    "name": "Von Arx 380V Concrete floor grinder",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "AG Switzerland -Von Arx → Von Arx",
+    "modelChange": null,
+    "dailyRate": "1800.00 → 4750",
+    "changes": "Corrected brand to 'Von Arx', identified potential model 'FR600' with low confidence based on 600mm grinding width, and adjusted rental rates based on market research for heavy plant/machinery."
+  },
+  {
+    "id": 165,
+    "name": "Milwaukie Dymodril Coring Rig",
+    "category": "Hand Tools & Accessories",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": " → DD 3-250 X",
+    "dailyRate": "680.00 → 1750",
+    "changes": "Corrected brand spelling (from 'Milwaukie' in name) to 'Milwaukee', identified model 'DD 3-250 X' based on specifications, and adjusted rental rates based on market research for heavy-duty power tools."
+  },
+  {
+    "id": 166,
+    "name": "IMC 4000 Pressure Washer",
+    "category": "Pumps & Fluid Handling",
+    "markup": "35%",
+    "brandChange": "IMC motor Japan co. Ltd → IMC",
+    "modelChange": " → 4000",
+    "dailyRate": "680.00 → 2025",
+    "changes": "Corrected brand to 'IMC' (from 'IMC motor Japan co. Ltd'), identified model '4000' based on PSI rating in the name and description, and adjusted rental rates based on market research for heavy-duty power tools."
+  },
+  {
+    "id": 167,
+    "name": "Lifan Hydropro 3600 Pressure Washer",
+    "category": "Pumps & Fluid Handling",
+    "markup": "35%",
+    "brandChange": "Lifan USA Power → Lifan",
+    "modelChange": " → Hydropro 3600",
+    "dailyRate": "480.00 → 945",
+    "changes": "Brand corrected from 'Lifan USA Power' to 'Lifan'. Model identified as 'Hydropro 3600' from the name. Rental rates adjusted based on typical commercial pressure washer rates (approx. $90 USD/day -> 702 HKD -> 842.4 HKD after 20% markup, rounded to 840 HKD)."
+  },
+  {
+    "id": 168,
+    "name": "White 4 hp compressor",
+    "category": "Compressors & Air",
+    "markup": "40%",
+    "brandChange": " → null",
+    "modelChange": null,
+    "dailyRate": "0 → 758",
+    "changes": "Brand identified as null as 'White' is a color, not a brand, and no other identifying information was available. Model identified as null due to lack of brand and specific model number. Rental rates adjusted based on typical 4hp portable compressor rates (approx. $70 USD/day -> 546 HKD -> 655.2 HKD after 20% markup, rounded to 650 HKD)."
+  },
+  {
+    "id": 169,
+    "name": "EleMax Power Generator/Inverter",
+    "category": "Batteries & Power",
+    "markup": "30%",
+    "brandChange": "EleMax → Elemax",
+    "modelChange": null,
+    "dailyRate": "280.00 → 813",
+    "changes": "Brand casing corrected from 'EleMax' to 'Elemax'. Model identified as null because the kVA range (2.0-3.0 kVA) implies multiple potential models, and no specific model was provided. Rental rates adjusted based on typical 2-3 kVA inverter generator rates (approx. $80 USD/day -> 624 HKD -> 748.8 HKD after 20% markup, rounded to 750 HKD)."
+  },
+  {
+    "id": 170,
+    "name": "Air Fox 4 HP air compressor",
+    "category": "Compressors & Air",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "280.00 → 467",
+    "changes": "Model number was empty and could not be confidently identified from description, set to null. Daily rental rate adjusted from 280 HKD to 400 HKD based on market research for a 4 HP air compressor, then weekly and monthly rates recalculated."
+  },
+  {
+    "id": 171,
+    "name": "Miller Syncrowave 250DX welder",
+    "category": "Welding & Cutting",
+    "markup": "40%",
+    "brandChange": "Miller Manufacturing USA → Miller Electric",
+    "modelChange": " → Syncrowave 250DX",
+    "dailyRate": "650.00 → 2217",
+    "changes": "Brand name corrected from 'Miller Manufacturing USA' to 'Miller Electric'. Model number identified as 'Syncrowave 250DX' from item name and description. Daily rental rate significantly adjusted from 650 HKD to 1900 HKD based on market research for a professional TIG welder (approx. $200 USD/day + 20% markup), then weekly and monthly rates recalculated."
+  },
+  {
+    "id": 172,
+    "name": "Feiyu STO 140 Cement Mixer",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "Zhengzhou Feiyu Machinery Equipment Co., LTD. → Feiyu",
+    "modelChange": " → STO 140",
+    "dailyRate": "180.00 → 563",
+    "changes": "Brand name corrected from 'Zhengzhou Feiyu Machinery Equipment Co., LTD.' to 'Feiyu'. Model number identified as 'STO 140' from item name and description. Daily rental rate adjusted from 180 HKD to 450 HKD based on market research for a 140L cement mixer (approx. £40 GBP/day + 20% markup), then weekly and monthly rates recalculated."
+  },
+  {
+    "id": 173,
+    "name": "MiniMix 150 Cement Mixer",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "Feiyu → Belle",
+    "modelChange": " → Minimix 150",
+    "dailyRate": "180.00 → 413",
+    "changes": "Brand corrected from 'Feiyu' to 'Belle' based on product description. Model identified as 'Minimix 150'. Daily rental rate adjusted from 180.00 to 330.00 HKD based on market research for small cement mixers (UK/US average £28-35 / $35-45, converted and marked up 20%). Weekly and monthly rates recalculated based on new daily rate (daily x 5, daily x 20)."
+  },
+  {
+    "id": 174,
+    "name": "Porta mix",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "Eibenstock Germany → Eibenstock",
+    "modelChange": " → Porta Mix Standard",
+    "dailyRate": "480.00 → 563",
+    "changes": "Brand corrected from 'Eibenstock Germany' to 'Eibenstock'. Model identified as 'Porta Mix Standard' from description, confidence set to medium as it's a descriptive name rather than a specific Eibenstock model number. Daily rental rate adjusted from 480.00 to 450.00 HKD based on market research for heavy-duty paddle mixers (UK/US average £30-40 / $40-60, converted and marked up 20%). Weekly and monthly rates recalculated based on new daily rate (daily x 5, daily x 20)."
+  },
+  {
+    "id": 175,
+    "name": "Porta Mix",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "Eibenstock Germany → Eibenstock",
+    "modelChange": " → Porta Mix Standard",
+    "dailyRate": "450.00 → 563",
+    "changes": "Brand corrected from 'Eibenstock Germany' to 'Eibenstock'. Model identified as 'Porta Mix Standard' from description, confidence set to medium as it's a descriptive name rather than a specific Eibenstock model number. Daily rental rate maintained at 450.00 HKD as it aligns with market research for heavy-duty paddle mixers (UK/US average £30-40 / $40-60, converted and marked up 20%). Weekly and monthly rates recalculated based on the daily rate (daily x 5, daily x 20)."
+  },
+  {
+    "id": 176,
+    "name": "Bauer HP compressor",
+    "category": "Compressors & Air",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "880.00 → 2333",
+    "changes": "Brand 'Bauer' confirmed. Model set to null as no specific model number could be identified from the description or specs. Rental rates adjusted significantly upwards based on market research for similar industrial high-pressure compressors (UK/US converted to HKD + 20% markup)."
+  },
+  {
+    "id": 177,
+    "name": "9M Open Cruiser Speed Boat",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "Unknown → null",
+    "modelChange": null,
+    "dailyRate": "12000.00 → 15000",
+    "changes": "Brand and model confirmed as unidentifiable and set to null. Monthly rental rate adjusted to strictly follow the daily rate multiplied by 20 formula."
+  },
+  {
+    "id": 178,
+    "name": "Mercedes Vito 116 Van",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "Mercedes → Mercedes-Benz",
+    "modelChange": " → Vito 116",
+    "dailyRate": "850.00 → 1125",
+    "changes": "Brand corrected from 'Mercedes' to 'Mercedes-Benz' for official naming. Model 'Vito 116' confirmed. Rental rates adjusted based on market research for similar commercial vans (UK/US converted to HKD + 20% markup) and strict application of weekly (daily × 5) and monthly (daily × 20) formulas."
+  },
+  {
+    "id": 179,
+    "name": "Vanguard Hydrapak 23",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "Vanguard USA → Vanguard",
+    "modelChange": " → Hydrapak 23",
+    "dailyRate": "550.00 → 1750",
+    "changes": "Brand corrected from 'Vanguard USA' to 'Vanguard'. Model 'Hydrapak 23' identified from item name. Rental rates adjusted based on heavy-duty equipment guidelines (1400 HKD/day)."
+  },
+  {
+    "id": 180,
+    "name": "Vespa Compressor",
+    "category": "Compressors & Air",
+    "markup": "40%",
+    "brandChange": "Vespa → Ming Tyan Iron Works",
+    "modelChange": null,
+    "dailyRate": "280.00 → 490",
+    "changes": "Brand corrected from 'Vespa' to 'Ming Tyan Iron Works' based on description. Model 'Vespa Compressor' identified from item name and description with low confidence. Rental rates adjusted based on power tool guidelines (420 HKD/day)."
+  },
+  {
+    "id": 181,
+    "name": "Quincy QT 7.5 (Big Blue)",
+    "category": "Compressors & Air",
+    "markup": "40%",
+    "brandChange": "Quincy USA → Quincy Compressor",
+    "modelChange": " → QT 7.5",
+    "dailyRate": "680.00 → 1983",
+    "changes": "Brand corrected from 'Quincy USA' to 'Quincy Compressor'. Model 'QT 7.5' identified from item name. Rental rates adjusted based on heavy plant/machinery guidelines (1700 HKD/day)."
+  },
+  {
+    "id": 182,
+    "name": "Flashing Bender",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "Anhui Runbang Heavy Industry Machinery → Anhui Runbang",
+    "modelChange": null,
+    "dailyRate": "550.00 → 2250",
+    "changes": "Brand confirmed. Model number could not be confidently identified; set to null. Rental rates adjusted based on market research for a 2m sheet metal folder, converted from GBP to HKD with 20% markup. Voltage note not applicable as it's a manual/foot-operated machine."
+  },
+  {
+    "id": 183,
+    "name": "Hany IC 310 Concrete Grout Plant",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "Hany AG Switzerland → Hany AG",
+    "modelChange": " → IC 310",
+    "dailyRate": "2800.00 → 12000",
+    "changes": "Brand corrected to 'Hany AG'. Model number identified as 'IC 310' from the item name. Rental rates adjusted based on market research for a large concrete grout plant, converted from GBP to HKD with 20% markup. Voltage confirmed as 400V, no specific note needed."
+  },
+  {
+    "id": 184,
+    "name": "Mobile Office 2 (MOBO2)",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "Kowloon Construction → null",
+    "modelChange": " → MOBO2",
+    "dailyRate": "800.00 → 1750",
+    "changes": "Brand identified as generic/internal, set to null. Model number 'MOBO2' confirmed from item name. Rental rates adjusted based on market research for a 20ft equipped mobile office, converted from USD to HKD with 20% markup."
+  },
+  {
+    "id": 185,
+    "name": "Mobile Office 1 (MOBO1)",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "Kowloon Construction → null",
+    "modelChange": null,
+    "dailyRate": "1200.00 → 1500",
+    "changes": "Brand 'Kowloon Construction' is not a manufacturer, set to null. Model 'MOBO1' is likely an internal identifier, confidence set to low. Recalculated weekly rate (1200 * 5 = 6000) and monthly rate (1200 * 20 = 24000) based on the existing daily rate which was within the suggested range for specialized equipment."
+  },
+  {
+    "id": 186,
+    "name": "Dive Spread 1 (DS1)",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "Kowloon Construction → null",
+    "modelChange": null,
+    "dailyRate": "480.00 → 600",
+    "changes": "Brand 'Kowloon Construction' is not a manufacturer, set to null. Model 'DS1' is likely an internal identifier, confidence set to low. Noted discrepancy between description (drilling/breaking) and specs (submersible pump). Recalculated monthly rate (480 * 20 = 9600) based on the existing daily rate which was within the suggested range for heavy-duty power tools/small heavy plant."
+  },
+  {
+    "id": 187,
+    "name": "Makita 18V Cordless Drill",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "25.00 → 292",
+    "changes": "Brand 'Makita' confirmed. Model 'DTD172' is an 18V Impact Driver, not a drill, but the model number is correct for the brand and voltage, confidence high. Original daily rate (25.00) was significantly too low for a power tool; set new daily rate to 250.00 HKD (within 150-400 HKD range). Recalculated weekly rate (250 * 5 = 1250) and monthly rate (250 * 20 = 5000)."
+  },
+  {
+    "id": 188,
+    "name": "DeWalt Circular Saw",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": "DCS391D1 → DCS391",
+    "dailyRate": "35.00 → 385",
+    "changes": "Model number corrected from 'DCS391D1' to 'DCS391' as 'D1' typically denotes a kit. Rental rates updated based on US market conversion and 20% markup. Daily rate changed from 35.00 to 330.0 HKD; weekly from 160.00 to 1650.0 HKD; monthly from 500.00 to 6600.0 HKD."
+  },
+  {
+    "id": 189,
+    "name": "Bosch Reciprocating Saw",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "40.00 → 327",
+    "changes": "Model number 'RS20' retained but flagged due to low confidence as it does not align with standard Bosch Professional cordless model numbering conventions. Rental rates updated based on US market conversion and 20% markup. Daily rate changed from 40.00 to 280.0 HKD; weekly from 180.00 to 1400.0 HKD; monthly from 550.00 to 5600.0 HKD. Voltage note added."
+  },
+  {
+    "id": 190,
+    "name": "Makita Angle Grinder",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "30.00 → 222",
+    "changes": "Brand and model number confirmed as correct. Rental rates updated based on US market conversion and 20% markup. Daily rate changed from 30.00 to 190.0 HKD; weekly from 140.00 to 950.0 HKD; monthly from 450.00 to 3800.0 HKD. Voltage note added for clarity on corded tool."
+  },
+  {
+    "id": 215,
+    "name": "Electric Winch 1000kg",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "60.00 → 775",
+    "changes": "Updated daily, weekly, and monthly rental rates based on market research for 1-ton electric winches (UK/US converted to HKD + 20% markup). Rates increased significantly from previous values."
+  },
+  {
+    "id": 30001,
+    "name": "Dr Scaffold SRP-3 Cross Brace 2200mm",
+    "category": "Scaffolding & Access",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "15.00 → 35",
+    "changes": "Updated daily, weekly, and monthly rental rates based on market research for scaffolding components (UK/US converted to HKD + 20% markup). Rates increased from previous values."
+  },
+  {
+    "id": 30002,
+    "name": "Dr Scaffold SRP-3 Horizontal Brace 2000mm",
+    "category": "Scaffolding & Access",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "12.00 → 35",
+    "changes": "Updated daily, weekly, and monthly rental rates based on market research for scaffolding components (UK/US converted to HKD + 20% markup). Rates increased from previous values."
+  },
+  {
+    "id": 30003,
+    "name": "Dr Scaffold SRP-3 Extendable Outrigger 3200mm",
+    "category": "Scaffolding & Access",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "20.00 → 88",
+    "changes": "Adjusted rental rates based on market research (approx. US$8/day converted to HKD with 20% markup) and category guidelines (HKD 30-100/day for scaffolding components). Model 'SRP-3' retained with high confidence as it appears to be the specific model for this outrigger within the Dr Scaffold system."
+  },
+  {
+    "id": 30004,
+    "name": "Dr Scaffold 3 Rung Ladder Span 1400mm",
+    "category": "Scaffolding & Access",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "18.00 → 88",
+    "changes": "Adjusted rental rates based on market research (approx. US$8/day converted to HKD with 20% markup) and category guidelines (HKD 30-100/day for scaffolding components). Model 'SRP-3' retained but confidence set to low as it likely refers to a system or series rather than the specific 3-rung ladder span component."
+  },
+  {
+    "id": 30005,
+    "name": "Dr Scaffold 5 Rung Ladder Span 2300mm",
+    "category": "Scaffolding & Access",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "22.00 → 111",
+    "changes": "Adjusted rental rates based on market research (approx. US$10/day converted to HKD with 20% markup) and category guidelines (HKD 30-100/day for scaffolding components). A higher rate was applied due to its larger size (5-rung vs 3-rung). Model 'SRP-3' retained but confidence set to low as it likely refers to a system or series rather than the specific 5-rung ladder span component."
+  },
+  {
+    "id": 30006,
+    "name": "Dr Scaffold Safety Railing 2 Rung Span",
+    "category": "Scaffolding & Access",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "15.00 → 93",
+    "changes": "Updated rental rates based on scaffolding components guideline (HKD 30-100/day). Brand and model confirmed."
+  },
+  {
+    "id": 30007,
+    "name": "Haru Fall Arrester",
+    "category": "Safety Equipment",
+    "markup": "40%",
+    "brandChange": "Haru Co. → Haru",
+    "modelChange": null,
+    "dailyRate": "50.00 → 58",
+    "changes": "Recalculated weekly and monthly rental rates based on daily rate (daily x 5, daily x 20). Brand and model confirmed."
+  },
+  {
+    "id": 30008,
+    "name": "Viraj Fall Arrester",
+    "category": "Safety Equipment",
+    "markup": "40%",
+    "brandChange": "Viraj VSPL Group → Viraj",
+    "modelChange": null,
+    "dailyRate": "50.00 → 58",
+    "changes": "Recalculated weekly and monthly rental rates based on daily rate (daily x 5, daily x 20). Brand and model confirmed."
+  },
+  {
+    "id": 30009,
+    "name": "Firefly Battery Operated Motion Sensor",
+    "category": "Safety Equipment",
+    "markup": "40%",
+    "brandChange": "Firefly MSA Company → MSA",
+    "modelChange": null,
+    "dailyRate": "80.00 → 140",
+    "changes": "Corrected brand to MSA. Model confidence set to low as exact model could not be verified. Recalculated rental rates based on market research for small safety equipment."
+  },
+  {
+    "id": 30010,
+    "name": "Crawcon Battery Operated Gas Detector",
+    "category": "Safety Equipment",
+    "markup": "40%",
+    "brandChange": "Crawcon UK → Crowcon",
+    "modelChange": "null → Gas-Pro",
+    "dailyRate": "80.00 → 327",
+    "changes": "Corrected brand spelling to Crowcon. Identified 'Gas-Pro' as a plausible common model for a battery-operated gas detector. Recalculated rental rates based on market research for specialized gas detectors."
+  },
+  {
+    "id": 30011,
+    "name": "Paratech Air Lifting Bag",
+    "category": "Safety Equipment",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "120.00 → 1633",
+    "changes": "Identified 'Maxiforce' as a plausible model for Paratech air lifting bags, model confidence set to low. Recalculated rental rates based on market research for specialized rescue equipment."
+  },
+  {
+    "id": 30012,
+    "name": "Hilti Multiple Line Laser Level",
+    "category": "Measuring & Leveling",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "180.00 → 350",
+    "changes": "Rental rates adjusted to align with market rates for professional laser levels and company guidelines."
+  },
+  {
+    "id": 30013,
+    "name": "Air Fox 4 HP Low Pressure Air Compressor",
+    "category": "Compressors & Air",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "120.00 → 642",
+    "changes": "Model number could not be identified. Rental rates adjusted to align with market rates for 4 HP air compressors and company guidelines."
+  },
+  {
+    "id": 30014,
+    "name": "Air Fox 6L 1/5 HP Air Compressor",
+    "category": "Compressors & Air",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "80.00 → 210",
+    "changes": "Model number could not be identified. Rental rates adjusted to align with market rates for small portable air compressors and company guidelines."
+  },
+  {
+    "id": 30015,
+    "name": "Air Fox 8L 2 HP Air Compressor",
+    "category": "Compressors & Air",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "100.00 → 350",
+    "changes": "Brand kept as 'Air Fox'. Model is unidentifiable from description. Voltage 220-240V is appropriate for HK. Rental rates updated based on market research for small portable compressors (£25/day UK equivalent, converted to HKD and marked up 20%)."
+  },
+  {
+    "id": 30016,
+    "name": "Fini Amico 6L 2 HP Air Compressor",
+    "category": "Compressors & Air",
+    "markup": "40%",
+    "brandChange": "Fini Amico → Fini",
+    "modelChange": null,
+    "dailyRate": "100.00 → 350",
+    "changes": "Brand corrected from 'Fini Amico' to 'Fini' (Amico is a product line). Model is unidentifiable from description. Voltage 230V is appropriate for HK. Rental rates updated based on market research for small portable compressors (£25/day UK equivalent, converted to HKD and marked up 20%)."
+  },
+  {
+    "id": 30017,
+    "name": "6L 1 HP Nail Gun Compressor",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "80.00 → 257",
+    "changes": "Brand is unidentifiable from description. Model is unidentifiable from description. Voltage information is missing from specs, a note has been added. Rental rates updated based on market research for smaller portable compressors (£18/day UK equivalent, converted to HKD and marked up 20%, then rounded to nearest 10)."
+  },
+  {
+    "id": 30018,
+    "name": "Bauer 5.5 HP High Pressure Compressor (Breathing Air)",
+    "category": "Compressors & Air",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": "null → Junior II-G",
+    "dailyRate": "350.00 → 1867",
+    "changes": "Identified model number as Bauer Junior II-G based on 5.5 HP Honda gasoline engine and pressure/flow specifications, and significantly increased rental rates to align with market value for specialized high-pressure breathing air compressors."
+  },
+  {
+    "id": 30019,
+    "name": "5.5 HP High Pressure Compressor for Filling Breathing Air Tanks",
+    "category": "Compressors & Air",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": "null → Junior II-G",
+    "dailyRate": "350.00 → 1867",
+    "changes": "Identified model number as Bauer Junior II-G based on 5.5 HP gasoline engine and pressure/flow specifications, and significantly increased rental rates to align with market value for specialized high-pressure breathing air compressors."
+  },
+  {
+    "id": 30020,
+    "name": "CP-9 Pneumatic Rock and Concrete Drill/Breaker",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "null → Chicago Pneumatic",
+    "modelChange": null,
+    "dailyRate": "200.00 → 1000",
+    "changes": "Identified brand as Chicago Pneumatic based on the common 'CP' model prefix for rock drills, confirmed model number, and adjusted rental rates to reflect market value for heavy-duty pneumatic rock drills/breakers."
+  },
+  {
+    "id": 30021,
+    "name": "Toku Pneumatic Demolition Hammer/Breaker",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "Toku Corp Japan → TOKU",
+    "modelChange": null,
+    "dailyRate": "180.00 → 600",
+    "changes": "Brand name corrected to 'TOKU'. Model 'TCA-7' confirmed. Daily rental rate adjusted from HKD 180 to HKD 480, based on UK/US market rates for heavy-duty pneumatic demolition hammers (£40/day) converted to HKD and marked up by 20%. Weekly and monthly rates recalculated accordingly."
+  },
+  {
+    "id": 30022,
+    "name": "Xcalibre Magnum Hydraulic Drill",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "220.00 → 1050",
+    "changes": "Brand name 'Xcalibre' confirmed. Model 'Mag 15' confirmed. Daily rental rate adjusted from HKD 220 to HKD 840, based on UK/US market rates for specialized hydraulic drills (£70/day) converted to HKD and marked up by 20%. Weekly and monthly rates recalculated accordingly."
+  },
+  {
+    "id": 30023,
+    "name": "Elephant 1 Ton Chain Block",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "Elephant Company Japan → ELEPHANT",
+    "modelChange": null,
+    "dailyRate": "80.00 → 225",
+    "changes": "Brand name corrected to 'ELEPHANT'. Model 'C-21' confirmed. Daily rental rate adjusted from HKD 80 to HKD 180, based on UK/US market rates for 1-ton chain blocks (£15/day) converted to HKD and marked up by 20%. Weekly and monthly rates recalculated accordingly."
+  },
+  {
+    "id": 30024,
+    "name": "240V Electrical Winch 150kg / 300 lbs",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "150.00 → 475",
+    "changes": "Brand and model remain null as unidentifiable from description. Rental rates were significantly underestimated for a 150kg electrical winch. New rates calculated based on UK/US market rates for similar lifting equipment, converted to HKD with a 20% markup. Daily rate adjusted from 150.00 to 380.00 HKD, weekly from 450.00 to 1900.00 HKD, and monthly from 1200.00 to 7600.00 HKD."
+  },
+  {
+    "id": 30025,
+    "name": "23 HP Hydraulic Power Pack",
+    "category": "Hydraulic Equipment",
+    "markup": "35%",
+    "brandChange": "Vanguard USA → Vanguard",
+    "modelChange": null,
+    "dailyRate": "400.00 → 2081",
+    "changes": "Brand name corrected to 'Vanguard' for consistency (from 'Vanguard USA'). Model number was confirmed from the description and is considered highly confident. Rental rates were significantly underestimated for a 23 HP hydraulic power pack. New rates calculated based on UK/US market rates for heavy plant/machinery, converted to HKD with a 20% markup. Daily rate adjusted from 400.00 to 1850.00 HKD, weekly from 1200.00 to 9250.00 HKD, and monthly from 3200.00 to 37000.00 HKD."
+  },
+  {
+    "id": 30026,
+    "name": "9 HP Hydraulic Power Pack",
+    "category": "Hydraulic Equipment",
+    "markup": "35%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "300.00 → 1294",
+    "changes": "Brand and model remain null as unidentifiable from description. Rental rates were significantly underestimated for a 9 HP hydraulic power pack. New rates calculated based on UK/US market rates for heavy plant/machinery, converted to HKD with a 20% markup. Daily rate adjusted from 300.00 to 1150.00 HKD, weekly from 900.00 to 5750.00 HKD, and monthly from 2400.00 to 23000.00 HKD."
+  },
+  {
+    "id": 30027,
+    "name": "High Pressure Polyurethane Grout Pump",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "null → MPX",
+    "modelChange": "MPX 3251 → 3251",
+    "dailyRate": "350.00 → 938",
+    "changes": "Brand identified as 'MPX' from description. Model confirmed as '3251'. Rental rates adjusted from HKD 350/day to HKD 750/day based on UK/US market research for high-pressure grout pumps and a 20% markup, falling within the heavy-duty power tools guideline."
+  },
+  {
+    "id": 30028,
+    "name": "240V Single Phase Small Batch Cement Mixer",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "Belle Equipment → Belle",
+    "modelChange": "null → Minimix 150",
+    "dailyRate": "120.00 → 375",
+    "changes": "Brand name corrected to 'Belle'. Model inferred as 'Minimix 150' based on drum capacity and common Belle models. Rental rates adjusted from HKD 120/day to HKD 300/day based on UK/US market research for small cement mixers and a 20% markup, aligning with power tool guidelines."
+  },
+  {
+    "id": 30029,
+    "name": "Von Arx 380V 3 Phase Electric Concrete Floor Grinder",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": null,
+    "modelChange": "null → FR 500",
+    "dailyRate": "350.00 → 2250",
+    "changes": "Brand 'Von Arx' confirmed. Model inferred as 'FR 500' based on power, working width, and common Von Arx models. Rental rates adjusted significantly from HKD 350/day to HKD 1800/day based on UK/US market research for large 3-phase concrete floor grinders and a 20% markup, aligning with heavy plant/machinery guidelines."
+  },
+  {
+    "id": 30030,
+    "name": "Blue Planet 240V Electric Floor Scrubber/Polisher",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "200.00 → 563",
+    "changes": "Updated rental rates based on industry guidelines for heavy-duty power tools."
+  },
+  {
+    "id": 30031,
+    "name": "Wacker Neuson Plate Compactor",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": null,
+    "modelChange": "null → VP1550A",
+    "dailyRate": "180.00 → 750",
+    "changes": "Identified model number as VP1550A based on specs; updated rental rates based on industry guidelines for heavy-duty power tools/small plant."
+  },
+  {
+    "id": 30032,
+    "name": "Concrete Grout Mixer and Pump",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "Hany AG Switzerland → Hany AG",
+    "modelChange": null,
+    "dailyRate": "400.00 → 3000",
+    "changes": "Updated rental rates based on industry guidelines for heavy plant/machinery."
+  },
+  {
+    "id": 30033,
+    "name": "Electric Flashing Bending Machine",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "200.00 → 3000",
+    "changes": "Brand name confirmed. Model remains null as it's model-dependent and not specified, confidence set to low. Voltage (220V) confirmed. Rental rates significantly increased from HKD 200/day to HKD 2400/day based on market research for heavy plant/machinery and 20% markup."
+  },
+  {
+    "id": 30034,
+    "name": "Adra 240V Electric Metal Band Saw on Stand",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": "Arda Manufacturing → Arda",
+    "modelChange": null,
+    "dailyRate": "180.00 → 700",
+    "changes": "Brand corrected from 'Arda Manufacturing' to 'Arda' (common official name). Model '128' confirmed as correct for Arda metal band saws, confidence set to high. Voltage (240V) confirmed. Rental rates significantly increased from HKD 180/day to HKD 600/day based on market research for heavy-duty power tools and 20% markup."
+  },
+  {
+    "id": 30035,
+    "name": "Lavor Electric 230V High Pressure Washer",
+    "category": "Pumps & Fluid Handling",
+    "markup": "35%",
+    "brandChange": "Lavor Italy → Lavor",
+    "modelChange": null,
+    "dailyRate": "150.00 → 675",
+    "changes": "Brand corrected from 'Lavor Italy' to 'Lavor'. Model 'Vertigo 20 Pro' confirmed as correct, confidence set to high. Voltage (230V) confirmed. Rental rates significantly increased from HKD 150/day to HKD 600/day based on market research for heavy-duty power tools and 20% markup."
+  },
+  {
+    "id": 30036,
+    "name": "Gas Powered Pressure Washer to 3600 PSI",
+    "category": "Pumps & Fluid Handling",
+    "markup": "35%",
+    "brandChange": "Lifan USA Power → Lifan",
+    "modelChange": null,
+    "dailyRate": "200.00 → 956",
+    "changes": "Brand name corrected to 'Lifan'. Model number remains null as a specific unit model is not identifiable. Rental rates significantly increased based on market research for a 3600 PSI gas pressure washer (approx. US$90/day -> HKD 850/day)."
+  },
+  {
+    "id": 30037,
+    "name": "Sanco 240V Electric Pressure Washer",
+    "category": "Pumps & Fluid Handling",
+    "markup": "35%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "150.00 → 585",
+    "changes": "Model number remains null as a specific unit model is not identifiable. Rental rates significantly increased based on market research for a 2320 PSI electric pressure washer (approx. US$55/day -> HKD 520/day). Voltage '240V' is consistent with specs."
+  },
+  {
+    "id": 30038,
+    "name": "Bosch 230V Electric Wet or Dry Vacuum",
+    "category": "Hand Tools & Accessories",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": "GAS15PS → GAS 15 PS",
+    "dailyRate": "120.00 → 385",
+    "changes": "Model number 'GAS15PS' corrected to 'GAS 15 PS' for proper formatting and confirmed as correct. Rental rates significantly increased based on market research for a professional wet/dry vacuum (approx. US$35/day -> HKD 330/day). Voltage '230V' is consistent with the model."
+  },
+  {
+    "id": 30039,
+    "name": "Cadillac Recirculating/Recovering Portable Sandblaster",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "Cadillac Products USA → Cadillac",
+    "modelChange": null,
+    "dailyRate": "300.00 → 1200",
+    "changes": "Model confidence set to low as brand and model could not be definitively verified for a sandblaster. Rental rates significantly adjusted based on market research for specialized industrial sandblasters and a 20% markup."
+  },
+  {
+    "id": 30040,
+    "name": "2.0Kva Gas Powered Generator ",
+    "category": "Batteries & Power",
+    "markup": "30%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "250.00 → 598",
+    "changes": "Rental rates significantly adjusted based on market research for small inverter generators and a 20% markup."
+  },
+  {
+    "id": 30041,
+    "name": "EleMax Gasoline Powered Generator/Inverter",
+    "category": "Batteries & Power",
+    "markup": "30%",
+    "brandChange": null,
+    "modelChange": "null → SHX2300",
+    "dailyRate": "250.00 → 676",
+    "changes": "Model number identified as SHX2300 based on specifications. Rental rates significantly adjusted based on market research for small inverter generators and a 20% markup."
+  },
+  {
+    "id": 30042,
+    "name": "Tsurumi Submersible Pump",
+    "category": "Pumps & Fluid Handling",
+    "markup": "35%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "180.00 → 844",
+    "changes": "Model number 'TE5-80H' is not a standard Tsurumi model; keeping existing but flagged low confidence. Rental rates significantly increased based on market research for a 5HP industrial submersible pump (UK £75/day converted to HKD 750/day with 20% markup)."
+  },
+  {
+    "id": 30043,
+    "name": "Diesel Pump Kit",
+    "category": "Pumps & Fluid Handling",
+    "markup": "35%",
+    "brandChange": null,
+    "modelChange": "null → Cube 70",
+    "dailyRate": "150.00 → 394",
+    "changes": "Model number inferred as 'Cube 70' based on flow rate (50-70 L/min) and 'kit' description, with medium confidence. Rental rates updated based on market research for a professional diesel transfer pump kit (UK £35/day converted to HKD 350/day with 20% markup)."
+  },
+  {
+    "id": 30044,
+    "name": "Large PU Pump for 1-2\" Hose",
+    "category": "Pumps & Fluid Handling",
+    "markup": "35%",
+    "brandChange": "null → MPX",
+    "modelChange": null,
+    "dailyRate": "200.00 → 506",
+    "changes": "Brand inferred as 'MPX' from the model number 'MPX 3251' and description. Rental rates updated based on market research for a 1HP 2-inch submersible utility pump (UK £45/day converted to HKD 450/day with 20% markup)."
+  },
+  {
+    "id": 30045,
+    "name": "Umbilical Flushing and Cleaning Kit",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "150.00 → 250",
+    "changes": "Brand and model set to null as it's a generic item. Rental rates adjusted based on guidelines for specialized marine accessories (HKD 200/day) and standard weekly/monthly multipliers."
+  },
+  {
+    "id": 30047,
+    "name": "9M Speed Boat",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": "Kowloon Construction → null",
+    "modelChange": null,
+    "dailyRate": "2000.00 → 10000",
+    "changes": "Brand set to null as 'Kowloon Construction' is not a recognized boat brand. Model set to null as no specific model was identifiable. Rental rates significantly increased to align with guidelines for marine vessels (HKD 8000/day) and standard weekly/monthly multipliers."
+  },
+  {
+    "id": 30048,
+    "name": "Suzuki DF250 4-Stroke Boat Motor",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "800.00 → 1750",
+    "changes": "Rental rates adjusted significantly based on market research for 250HP outboard motors (HKD 1400/day) and standard weekly/monthly multipliers. Brand and model were already correct."
+  },
+  {
+    "id": 30050,
+    "name": "20ft Container Mobile Office",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "800.00 → 1875",
+    "changes": "Adjusted rental rates based on 'Heavy plant/machinery' guidelines. Brand and model remain unchanged as appropriate for a specialized, locally-sourced item."
+  },
+  {
+    "id": 30051,
+    "name": "Bora Quick Set Up Speed Saw Horse",
+    "category": "Hand Tools & Accessories",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "60.00 → 117",
+    "changes": "Adjusted rental rates to align with 'Small hand tools & accessories' guidelines. Brand and model confirmed."
+  },
+  {
+    "id": 30052,
+    "name": "Warco Drill Press",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "150.00 → 350",
+    "changes": "Model number confidence set to 'low' as no specific model was provided or identifiable. Adjusted rental rates to align with 'Power tools' guidelines, considering it's a stationary drill press."
+  },
+  {
+    "id": 30053,
+    "name": "Drill Press Electric Shot Stand",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "120.00 → 817",
+    "changes": "Brand and model remain null as unidentifiable. Daily rental rate adjusted from 120 to 700 HKD based on market research for heavy-duty power tool accessories (e.g., magnetic drill stand), with weekly and monthly rates recalculated accordingly."
+  },
+  {
+    "id": 30054,
+    "name": "Dewalt 230V Electric Chop Saw",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": "Dewalt → DeWalt",
+    "modelChange": null,
+    "dailyRate": "150.00 → 490",
+    "changes": "Brand corrected from 'Dewalt' to 'DeWalt' (casing). Model 'D28720-B101' confirmed as correct. Daily rental rate adjusted from 150 to 420 HKD based on market research for heavy-duty chop saws, with weekly and monthly rates recalculated accordingly. Voltage 230V is acceptable for Hong Kong."
+  },
+  {
+    "id": 30055,
+    "name": "Husqvarna 440 2-Stroke Gasoline Chainsaw",
+    "category": "Chainsaws & Outdoor",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "200.00 → 560",
+    "changes": "Brand 'Husqvarna' and model '440 E-series' confirmed as correct. Daily rental rate adjusted from 200 to 480 HKD based on market research for mid-range gasoline chainsaws, with weekly and monthly rates recalculated accordingly. Voltage is not applicable for a gasoline-powered tool."
+  },
+  {
+    "id": 30056,
+    "name": "Husqvarna 460 Rancher Chainsaw",
+    "category": "Chainsaws & Outdoor",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "220.00 → 560",
+    "changes": "Rental rates adjusted based on typical UK/US rates for a 60cc chainsaw, converted to HKD, and marked up by 20%. Model number confirmed."
+  },
+  {
+    "id": 30057,
+    "name": "Stihl Chainsaw",
+    "category": "Chainsaws & Outdoor",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": "null → MS 250",
+    "dailyRate": "200.00 → 490",
+    "changes": "Model number identified as 'MS 250' from description and specs. Rental rates adjusted based on typical UK/US rates for a 45cc chainsaw, converted to HKD, and marked up by 20%."
+  },
+  {
+    "id": 30058,
+    "name": "Makita 9\" Angle Grinder",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "120.00 → 490",
+    "changes": "Rental rates adjusted based on typical UK/US rates for a 9\" angle grinder, converted to HKD, and marked up by 20%. Model number confirmed."
+  },
+  {
+    "id": 30059,
+    "name": "Standing Belt and Disc Sander",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "150.00 → 443",
+    "changes": "Brand and model remain null as they are unidentifiable. Rental rates updated from HKD 150/day to HKD 380/day based on heavy-duty power tool guidelines (UK/US research + 20% markup)."
+  },
+  {
+    "id": 30060,
+    "name": "Graco 20V Cordless Paint Gun",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "200.00 → 650",
+    "changes": "Brand and model confirmed correct. Voltage 20V confirmed correct. Rental rates updated from HKD 200/day to HKD 520/day based on specialized power tool guidelines (UK/US research + 20% markup)."
+  },
+  {
+    "id": 30061,
+    "name": "IMC 4-Stroke Gasoline Powered Sprayer",
+    "category": "Specialized Equipment",
+    "markup": "50%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "180.00 → 563",
+    "changes": "Brand and model confirmed correct. This is a gasoline-powered tool, so voltage is not applicable. Rental rates updated from HKD 180/day to HKD 450/day based on heavy-duty power tool guidelines (UK/US research + 20% markup)."
+  },
+  {
+    "id": 30062,
+    "name": "Makita 18V Cordless Circular Saw",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "100.00 → 408",
+    "changes": "Corrected rental rates based on market research for cordless metal cutting circular saws (UK/US £20-£25/day, converted to HKD and marked up by 20%). Model number and brand confirmed as accurate."
+  },
+  {
+    "id": 30063,
+    "name": "Makita 18V Cordless Jigsaw",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "100.00 → 233",
+    "changes": "Corrected rental rates based on market research for cordless jigsaws (UK/US £15-£20/day, converted to HKD and marked up by 20%). Model number and brand confirmed as accurate."
+  },
+  {
+    "id": 30064,
+    "name": "Makita 18V Cordless Multi-Tool",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "100.00 → 292",
+    "changes": "Corrected rental rates based on market research for cordless multi-tools (UK/US £18-£25/day, converted to HKD and marked up by 20%). Model number and brand confirmed as accurate."
+  },
+  {
+    "id": 30065,
+    "name": "Makita 18V Cordless Planer",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "100.00 → 350",
+    "changes": "Model number DKP181 confirmed as a valid Makita 18V planer model. Rental rates adjusted based on UK market research (£25/day converted to HKD and marked up by 20%)."
+  },
+  {
+    "id": 30066,
+    "name": "Makita 18V Cordless Router",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "100.00 → 350",
+    "changes": "Model number DRT50 confirmed as a valid Makita 18V router model. Rental rates adjusted based on UK market research (£25/day converted to HKD and marked up by 20%)."
+  },
+  {
+    "id": 30067,
+    "name": "Makita 18V Cordless Sander",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "80.00 → 280",
+    "changes": "Model number DBO180 confirmed as a valid Makita 18V random orbit sander model. Rental rates adjusted based on UK market research (£20/day converted to HKD and marked up by 20%)."
+  },
+  {
+    "id": 30068,
+    "name": "Makita 18V Cordless Screwdriver",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "80.00 → 210",
+    "changes": "Corrected voltage discrepancy in item name; updated daily, weekly, and monthly rental rates based on market value for a small 12V cordless driver drill."
+  },
+  {
+    "id": 30069,
+    "name": "Makita 18V Cordless Vacuum",
+    "category": "Hand Tools & Accessories",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "80.00 → 233",
+    "changes": "Updated daily, weekly, and monthly rental rates based on market value for an 18V cordless vacuum."
+  },
+  {
+    "id": 30070,
+    "name": "36V Cordless Hammer Drill",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "150.00 → 467",
+    "changes": "Corrected significant voltage discrepancy in item name, description, and specs; updated daily, weekly, and monthly rental rates based on market value for an 18V heavy-duty SDS-Plus rotary hammer."
+  },
+  {
+    "id": 30071,
+    "name": "Makita 36V Cordless Reciprocating Saw",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "150.00 → 525",
+    "changes": "Brand and model confirmed correct. Voltage (18V x 2 = 36V equivalent) confirmed correct. Rental rates updated based on heavy-duty power tool guidelines and market research (UK/US £40/day -> 400 HKD + 20% markup = 480 HKD, adjusted to 450 HKD)."
+  },
+  {
+    "id": 30072,
+    "name": "36V Cordless Slide Compound Mitre Saw ",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "200.00 → 793",
+    "changes": "Brand and model confirmed correct. Voltage (18V x 2 = 36V equivalent) confirmed correct. Rental rates updated based on heavy-duty power tool guidelines and market research (UK/US £60/day -> 600 HKD + 20% markup = 720 HKD, adjusted to 680 HKD)."
+  },
+  {
+    "id": 30073,
+    "name": "Milwaukee M18 Battery 5.0Ah",
+    "category": "Batteries & Power",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "40.00 → 117",
+    "changes": "Brand and model confirmed correct. Voltage (18V) confirmed correct. Rental rates updated based on small hand tools/accessories guidelines and market research (UK/US £8/day -> 80 HKD + 20% markup = 96 HKD, adjusted to 100 HKD)."
+  },
+  {
+    "id": 30074,
+    "name": "Milwaukee M18 Charger",
+    "category": "Batteries & Power",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "30.00 → 140",
+    "changes": "Brand and model are correct. Voltage is correctly stated as 18V output. Rental rates were significantly low and have been adjusted based on market research for charger rentals (approx. $15 USD/day + 20% markup)."
+  },
+  {
+    "id": 30075,
+    "name": "Milwaukee M18 Drill Driver",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "100.00 → 233",
+    "changes": "Brand and model are correct. Voltage is correctly stated as 18V. Rental rates were low for a professional-grade M18 drill driver and have been adjusted based on market research (approx. $25 USD/day + 20% markup)."
+  },
+  {
+    "id": 30076,
+    "name": "Milwaukee M18 Impact Driver",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "100.00 → 233",
+    "changes": "Brand and model are correct. Voltage is inferred as 18V from the product name. Rental rates were low for a professional-grade M18 impact driver and have been adjusted based on market research (approx. $25 USD/day + 20% markup)."
+  },
+  {
+    "id": 30077,
+    "name": "Milwaukee M18 Reciprocating Saw",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "120.00 → 350",
+    "changes": "Brand and model confirmed correct. Rental rates adjusted based on market research (UK/US converted to HKD + 20% markup) for a power tool."
+  },
+  {
+    "id": 30078,
+    "name": "Milwaukee M18 SDS Drill",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "130.00 → 490",
+    "changes": "Brand and model confirmed correct. Rental rates adjusted based on market research (UK/US converted to HKD + 20% markup) for a heavy-duty power tool."
+  },
+  {
+    "id": 30079,
+    "name": "Milwaukee M18 Circular Saw",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "120.00 → 350",
+    "changes": "Brand and model confirmed correct. Rental rates adjusted based on market research (UK/US converted to HKD + 20% markup) for a power tool."
+  },
+  {
+    "id": 30080,
+    "name": "Milwaukee M18 Angle Grinder",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "120.00 → 408",
+    "changes": "Brand and model number confirmed as correct. Rental rates adjusted based on typical UK/US rates for heavy-duty power tools (M18 FUEL grinder) converted to HKD with a 20% markup. Daily rate set to 350 HKD (original was 120 HKD)."
+  },
+  {
+    "id": 30081,
+    "name": "Milwaukee M18 Jigsaw",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "100.00 → 233",
+    "changes": "Brand and model number confirmed as correct. Rental rates adjusted based on typical UK/US rates for power tools (M18 FUEL jigsaw) converted to HKD with a 20% markup. Daily rate set to 200 HKD (original was 100 HKD)."
+  },
+  {
+    "id": 30082,
+    "name": "Milwaukee M18 Multi-Tool",
+    "category": "Power Tools",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "100.00 → 233",
+    "changes": "Brand and model number confirmed as correct. Rental rates adjusted based on typical UK/US rates for power tools (M18 FUEL multi-tool) converted to HKD with a 20% markup. Daily rate set to 200 HKD (original was 100 HKD)."
+  },
+  {
+    "id": 30083,
+    "name": "Milwaukee M18 Vacuum",
+    "category": "Hand Tools & Accessories",
+    "markup": "40%",
+    "brandChange": null,
+    "modelChange": null,
+    "dailyRate": "80.00 → 292",
+    "changes": "Brand 'Milwaukee' and model '0882-20' were confirmed correct. Rental rates were recalculated based on UK/US market rates for a compact cordless vacuum (approx. 25 GBP/day) converted to HKD (250 HKD/day after markup) and applied the x5 weekly and x20 monthly multipliers. Original rates were too low and did not follow the correct multiplier rules."
+  }
+]

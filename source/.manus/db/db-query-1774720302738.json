@@ -1,0 +1,16 @@
+{
+  "query": "SELECT \n  COUNT(*) as total,\n  SUM(CASE WHEN model IS NOT NULL AND model != '' THEN 1 ELSE 0 END) as has_model,\n  SUM(CASE WHEN brand IS NOT NULL AND brand != '' THEN 1 ELSE 0 END) as has_brand,\n  SUM(CASE WHEN (model IS NULL OR model = '') THEN 1 ELSE 0 END) as no_model\nFROM equipment_items;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2B2d1HYRsoiQJMJ.root --database EqJqhhxWWJKtKB68YEvggw --execute SELECT \n  COUNT(*) as total,\n  SUM(CASE WHEN model IS NOT NULL AND model != '' THEN 1 ELSE 0 END) as has_model,\n  SUM(CASE WHEN brand IS NOT NULL AND brand != '' THEN 1 ELSE 0 END) as has_brand,\n  SUM(CASE WHEN (model IS NULL OR model = '') THEN 1 ELSE 0 END) as no_model\nFROM equipment_items;",
+  "rows": [
+    {
+      "total": "214",
+      "has_model": "93",
+      "has_brand": "213",
+      "no_model": "121"
+    }
+  ],
+  "messages": [],
+  "stdout": "total\thas_model\thas_brand\tno_model\n214\t93\t213\t121\n",
+  "stderr": "",
+  "execution_time_ms": 1665
+}

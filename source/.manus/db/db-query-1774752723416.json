@@ -1,0 +1,2730 @@
+{
+  "query": "\nSELECT \n  ei.id,\n  ei.name,\n  ei.brand,\n  ei.model,\n  c.name AS category,\n  c.slug AS category_slug,\n  esc.name AS sub_category,\n  esc.slug AS sub_category_slug\nFROM equipment_items ei\nLEFT JOIN equipment_categories c ON ei.categoryId = c.id\nLEFT JOIN equipment_sub_categories esc ON ei.subCategoryId = esc.id\nORDER BY c.name, esc.name, ei.name\nLIMIT 300;\n",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2B2d1HYRsoiQJMJ.root --database EqJqhhxWWJKtKB68YEvggw --execute \nSELECT \n  ei.id,\n  ei.name,\n  ei.brand,\n  ei.model,\n  c.name AS category,\n  c.slug AS category_slug,\n  esc.name AS sub_category,\n  esc.slug AS sub_category_slug\nFROM equipment_items ei\nLEFT JOIN equipment_categories c ON ei.categoryId = c.id\nLEFT JOIN equipment_sub_categories esc ON ei.subCategoryId = esc.id\nORDER BY c.name, esc.name, ei.name\nLIMIT 300;\n",
+  "rows": [
+    {
+      "id": "30040",
+      "name": "2.0Kva Gas Powered Generator ",
+      "brand": "Honda",
+      "model": "EU2000i",
+      "category": "Batteries & Power",
+      "category_slug": "batteries-power",
+      "sub_category": "Chemical Pumps",
+      "sub_category_slug": "chemical-pumps"
+    },
+    {
+      "id": "30041",
+      "name": "EleMax Gasoline Powered Generator/Inverter",
+      "brand": "EleMax",
+      "model": "NULL",
+      "category": "Batteries & Power",
+      "category_slug": "batteries-power",
+      "sub_category": "Chemical Pumps",
+      "sub_category_slug": "chemical-pumps"
+    },
+    {
+      "id": "30038",
+      "name": "Bosch 230V Electric Wet or Dry Vacuum",
+      "brand": "Bosch",
+      "model": "GAS15PS",
+      "category": "Chainsaws & Outdoor",
+      "category_slug": "chainsaws-outdoor",
+      "sub_category": "Hydraulic Breakers",
+      "sub_category_slug": "hydraulic-breakers"
+    },
+    {
+      "id": "30069",
+      "name": "Makita 18V Cordless Vacuum",
+      "brand": "Makita",
+      "model": "DCL180",
+      "category": "Chainsaws & Outdoor",
+      "category_slug": "chainsaws-outdoor",
+      "sub_category": "Hydraulic Breakers",
+      "sub_category_slug": "hydraulic-breakers"
+    },
+    {
+      "id": "30083",
+      "name": "Milwaukee M18 Vacuum",
+      "brand": "Milwaukee",
+      "model": "0882-20",
+      "category": "Chainsaws & Outdoor",
+      "category_slug": "chainsaws-outdoor",
+      "sub_category": "Hydraulic Breakers",
+      "sub_category_slug": "hydraulic-breakers"
+    },
+    {
+      "id": "30039",
+      "name": "Cadillac Recirculating/Recovering Portable Sandblaster",
+      "brand": "Cadillac Products USA",
+      "model": "QB7-V002",
+      "category": "Chainsaws & Outdoor",
+      "category_slug": "chainsaws-outdoor",
+      "sub_category": "Hydraulic Hoses",
+      "sub_category_slug": "hydraulic-hoses"
+    },
+    {
+      "id": "30060",
+      "name": "Graco 20V Cordless Paint Gun",
+      "brand": "Graco",
+      "model": "17M363",
+      "category": "Chainsaws & Outdoor",
+      "category_slug": "chainsaws-outdoor",
+      "sub_category": "Hydraulic Hoses",
+      "sub_category_slug": "hydraulic-hoses"
+    },
+    {
+      "id": "30061",
+      "name": "IMC 4-Stroke Gasoline Powered Sprayer",
+      "brand": "IMC",
+      "model": "PSH 350",
+      "category": "Chainsaws & Outdoor",
+      "category_slug": "chainsaws-outdoor",
+      "sub_category": "Hydraulic Hoses",
+      "sub_category_slug": "hydraulic-hoses"
+    },
+    {
+      "id": "30036",
+      "name": "Gas Powered Pressure Washer to 3600 PSI",
+      "brand": "Lifan USA Power",
+      "model": "NULL",
+      "category": "Chainsaws & Outdoor",
+      "category_slug": "chainsaws-outdoor",
+      "sub_category": "Hydraulic Jacks",
+      "sub_category_slug": "hydraulic-jacks"
+    },
+    {
+      "id": "30035",
+      "name": "Lavor Electric 230V High Pressure Washer",
+      "brand": "Lavor Italy",
+      "model": "Vertigo 20 Pro",
+      "category": "Chainsaws & Outdoor",
+      "category_slug": "chainsaws-outdoor",
+      "sub_category": "Hydraulic Jacks",
+      "sub_category_slug": "hydraulic-jacks"
+    },
+    {
+      "id": "30037",
+      "name": "Sanco 240V Electric Pressure Washer",
+      "brand": "Sanco",
+      "model": "NULL",
+      "category": "Chainsaws & Outdoor",
+      "category_slug": "chainsaws-outdoor",
+      "sub_category": "Hydraulic Jacks",
+      "sub_category_slug": "hydraulic-jacks"
+    },
+    {
+      "id": "30047",
+      "name": "9M Speed Boat",
+      "brand": "Kowloon Construction",
+      "model": "NULL",
+      "category": "Compressors & Air",
+      "category_slug": "compressors-air",
+      "sub_category": "Chargers",
+      "sub_category_slug": "battery-chargers"
+    },
+    {
+      "id": "30048",
+      "name": "Suzuki DF250 4-Stroke Boat Motor",
+      "brand": "Suzuki",
+      "model": "DF250",
+      "category": "Compressors & Air",
+      "category_slug": "compressors-air",
+      "sub_category": "Chargers",
+      "sub_category_slug": "battery-chargers"
+    },
+    {
+      "id": "30042",
+      "name": "Tsurumi Submersible Pump",
+      "brand": "Tsurumi",
+      "model": "TE5-80H",
+      "category": "Hand Tools & Accessories",
+      "category_slug": "hand-tools-accessories",
+      "sub_category": "Chainsaws",
+      "sub_category_slug": "chainsaws"
+    },
+    {
+      "id": "30043",
+      "name": "Diesel Pump Kit",
+      "brand": "Piusi",
+      "model": "NULL",
+      "category": "Hand Tools & Accessories",
+      "category_slug": "hand-tools-accessories",
+      "sub_category": "Hedge Trimmers",
+      "sub_category_slug": "hedge-trimmers"
+    },
+    {
+      "id": "30044",
+      "name": "Large PU Pump for 1-2\" Hose",
+      "brand": "NULL",
+      "model": "MPX 3251",
+      "category": "Hand Tools & Accessories",
+      "category_slug": "hand-tools-accessories",
+      "sub_category": "Leaf Blowers",
+      "sub_category_slug": "leaf-blowers"
+    },
+    {
+      "id": "30045",
+      "name": "Umbilical Flushing and Cleaning Kit",
+      "brand": "NULL",
+      "model": "NULL",
+      "category": "Hand Tools & Accessories",
+      "category_slug": "hand-tools-accessories",
+      "sub_category": "Outdoor Power",
+      "sub_category_slug": "outdoor-power"
+    },
+    {
+      "id": "30025",
+      "name": "23 HP Hydraulic Power Pack",
+      "brand": "Vanguard USA",
+      "model": "3864470470H7",
+      "category": "Hydraulic Equipment",
+      "category_slug": "hydraulic-equipment",
+      "sub_category": "NULL",
+      "sub_category_slug": "NULL"
+    },
+    {
+      "id": "30024",
+      "name": "240V Electrical Winch 150kg / 300 lbs",
+      "brand": "NULL",
+      "model": "NULL",
+      "category": "Hydraulic Equipment",
+      "category_slug": "hydraulic-equipment",
+      "sub_category": "NULL",
+      "sub_category_slug": "NULL"
+    },
+    {
+      "id": "30026",
+      "name": "9 HP Hydraulic Power Pack",
+      "brand": "NULL",
+      "model": "NULL",
+      "category": "Hydraulic Equipment",
+      "category_slug": "hydraulic-equipment",
+      "sub_category": "NULL",
+      "sub_category_slug": "NULL"
+    },
+    {
+      "id": "30023",
+      "name": "Elephant 1 Ton Chain Block",
+      "brand": "Elephant Company Japan",
+      "model": "C-21",
+      "category": "Hydraulic Equipment",
+      "category_slug": "hydraulic-equipment",
+      "sub_category": "NULL",
+      "sub_category_slug": "NULL"
+    },
+    {
+      "id": "30027",
+      "name": "High Pressure Polyurethane Grout Pump",
+      "brand": "NULL",
+      "model": "MPX 3251",
+      "category": "Hydraulic Equipment",
+      "category_slug": "hydraulic-equipment",
+      "sub_category": "NULL",
+      "sub_category_slug": "NULL"
+    },
+    {
+      "id": "30012",
+      "name": "Hilti Multiple Line Laser Level",
+      "brand": "Hilti",
+      "model": "PM 4-M",
+      "category": "Measuring & Leveling",
+      "category_slug": "measuring-leveling",
+      "sub_category": "Laser Levels",
+      "sub_category_slug": "laser-levels"
+    },
+    {
+      "id": "30019",
+      "name": "5.5 HP High Pressure Compressor for Filling Breathing Air Tanks",
+      "brand": "Bauer",
+      "model": "NULL",
+      "category": "Pneumatic Tools",
+      "category_slug": "pneumatic-tools",
+      "sub_category": "NULL",
+      "sub_category_slug": "NULL"
+    },
+    {
+      "id": "30017",
+      "name": "6L 1 HP Nail Gun Compressor",
+      "brand": "NULL",
+      "model": "NULL",
+      "category": "Pneumatic Tools",
+      "category_slug": "pneumatic-tools",
+      "sub_category": "NULL",
+      "sub_category_slug": "NULL"
+    },
+    {
+      "id": "30013",
+      "name": "Air Fox 4 HP Low Pressure Air Compressor",
+      "brand": "Air Fox",
+      "model": "NULL",
+      "category": "Pneumatic Tools",
+      "category_slug": "pneumatic-tools",
+      "sub_category": "NULL",
+      "sub_category_slug": "NULL"
+    },
+    {
+      "id": "30014",
+      "name": "Air Fox 6L 1/5 HP Air Compressor",
+      "brand": "Air Fox",
+      "model": "NULL",
+      "category": "Pneumatic Tools",
+      "category_slug": "pneumatic-tools",
+      "sub_category": "NULL",
+      "sub_category_slug": "NULL"
+    },
+    {
+      "id": "30015",
+      "name": "Air Fox 8L 2 HP Air Compressor",
+      "brand": "Air Fox",
+      "model": "NULL",
+      "category": "Pneumatic Tools",
+      "category_slug": "pneumatic-tools",
+      "sub_category": "NULL",
+      "sub_category_slug": "NULL"
+    },
+    {
+      "id": "30018",
+      "name": "Bauer 5.5 HP High Pressure Compressor (Breathing Air)",
+      "brand": "Bauer",
+      "model": "NULL",
+      "category": "Pneumatic Tools",
+      "category_slug": "pneumatic-tools",
+      "sub_category": "NULL",
+      "sub_category_slug": "NULL"
+    },
+    {
+      "id": "30020",
+      "name": "CP-9 Pneumatic Rock and Concrete Drill/Breaker",
+      "brand": "NULL",
+      "model": "CP-9",
+      "category": "Pneumatic Tools",
+      "category_slug": "pneumatic-tools",
+      "sub_category": "NULL",
+      "sub_category_slug": "NULL"
+    },
+    {
+      "id": "30016",
+      "name": "Fini Amico 6L 2 HP Air Compressor",
+      "brand": "Fini Amico",
+      "model": "NULL",
+      "category": "Pneumatic Tools",
+      "category_slug": "pneumatic-tools",
+      "sub_category": "NULL",
+      "sub_category_slug": "NULL"
+    },
+    {
+      "id": "30021",
+      "name": "Toku Pneumatic Demolition Hammer/Breaker",
+      "brand": "Toku Corp Japan",
+      "model": "TCA-7",
+      "category": "Pneumatic Tools",
+      "category_slug": "pneumatic-tools",
+      "sub_category": "NULL",
+      "sub_category_slug": "NULL"
+    },
+    {
+      "id": "30022",
+      "name": "Xcalibre Magnum Hydraulic Drill",
+      "brand": "Xcalibre",
+      "model": "Mag 15",
+      "category": "Pneumatic Tools",
+      "category_slug": "pneumatic-tools",
+      "sub_category": "NULL",
+      "sub_category_slug": "NULL"
+    },
+    {
+      "id": "55",
+      "name": "Makita 18V Battery",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Battery Packs",
+      "sub_category_slug": "battery-packs"
+    },
+    {
+      "id": "56",
+      "name": "Makita 18V battery",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Battery Packs",
+      "sub_category_slug": "battery-packs"
+    },
+    {
+      "id": "57",
+      "name": "Makita Smart Battery Charger",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Chargers",
+      "sub_category_slug": "battery-chargers"
+    },
+    {
+      "id": "46",
+      "name": "4\" Bench Vice",
+      "brand": "Unknown",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Clamping & Holding",
+      "sub_category_slug": "clamping-holding"
+    },
+    {
+      "id": "71",
+      "name": "6 Drawer top tool chest",
+      "brand": "Makita",
+      "model": "DTW300",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Clamping & Holding",
+      "sub_category_slug": "clamping-holding"
+    },
+    {
+      "id": "70",
+      "name": "Beta 5 Drawer Bottom Tool Chest",
+      "brand": "Beta Tools",
+      "model": "C24S-5",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Clamping & Holding",
+      "sub_category_slug": "clamping-holding"
+    },
+    {
+      "id": "47",
+      "name": "Irwin 6\" Bench Vice",
+      "brand": "Irwin Tools",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Clamping & Holding",
+      "sub_category_slug": "clamping-holding"
+    },
+    {
+      "id": "68",
+      "name": "Milwaukie Packout Large Tool Box",
+      "brand": "Milwaukee",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Clamping & Holding",
+      "sub_category_slug": "clamping-holding"
+    },
+    {
+      "id": "69",
+      "name": "Milwaukie Packout Rolling Base Tool Box",
+      "brand": "Milwaukee",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Clamping & Holding",
+      "sub_category_slug": "clamping-holding"
+    },
+    {
+      "id": "67",
+      "name": "Milwaukie Packout Three Drawer Tool Chest",
+      "brand": "Milwaukee",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Clamping & Holding",
+      "sub_category_slug": "clamping-holding"
+    },
+    {
+      "id": "42",
+      "name": "Dongchang paint/mud mixer",
+      "brand": "Jiangsu Dongcheng tools co. Ltd",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Concrete & Masonry",
+      "sub_category_slug": "concrete-masonry-tools"
+    },
+    {
+      "id": "172",
+      "name": "Feiyu STO 140 Cement Mixer",
+      "brand": "Zhengzhou Feiyu Machinery Equipment Co., LTD.",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Concrete & Masonry",
+      "sub_category_slug": "concrete-masonry-tools"
+    },
+    {
+      "id": "173",
+      "name": "MiniMix 150 Cement Mixer",
+      "brand": "Feiyu",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Concrete & Masonry",
+      "sub_category_slug": "concrete-masonry-tools"
+    },
+    {
+      "id": "17",
+      "name": "Toku Pneumatic Breaker",
+      "brand": "Toku",
+      "model": "TCA-7",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Concrete & Masonry",
+      "sub_category_slug": "concrete-masonry-tools"
+    },
+    {
+      "id": "64",
+      "name": "Milwaukie Packout Low Profile Organizer Box",
+      "brand": "Milwaukee",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Cutting & Shaping",
+      "sub_category_slug": "cutting-shaping"
+    },
+    {
+      "id": "63",
+      "name": "Milwaukie Packout Low Profile Small Organizer Box",
+      "brand": "Milwaukee",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Cutting & Shaping",
+      "sub_category_slug": "cutting-shaping"
+    },
+    {
+      "id": "11",
+      "name": "Togoshi Walking Measuring Wheel",
+      "brand": "Togoshi",
+      "model": "TWM-130",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Distance & Layout",
+      "sub_category_slug": "distance-layout"
+    },
+    {
+      "id": "52",
+      "name": "AP Industrial Floor Fan",
+      "brand": "AP",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "50",
+      "name": "Air Plus Industrial Floor Fan",
+      "brand": "Air Plus",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "51",
+      "name": "Air Plus Industrial Floor Fans",
+      "brand": "N/A",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "20",
+      "name": "Bora Speed Horse",
+      "brand": "Bora",
+      "model": "PM4550T",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "92",
+      "name": "Bosch SDS Hammer Drill",
+      "brand": "Bosch",
+      "model": "GBH 2-23S",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "16",
+      "name": "CP-9 Pneumatic Rock/Concrete Drill/Breaker",
+      "brand": "Unknown",
+      "model": "CP-9",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "3",
+      "name": "Cadillac Sand Blaster",
+      "brand": "Cadillac",
+      "model": "QB7-V002",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "7",
+      "name": "Cheetah Equipment Battery",
+      "brand": "Cheetah Battery",
+      "model": "NS40ZL",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "54",
+      "name": "Diesel Pump Kit",
+      "brand": "Piusi/Fleetwood/Bada",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "73",
+      "name": "Drill Press",
+      "brand": "Makita",
+      "model": "DHP484",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "30053",
+      "name": "Drill Press Electric Shot Stand",
+      "brand": "NULL",
+      "model": "NULL",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "142",
+      "name": "Electric Pallet Truck",
+      "brand": "Zhejiang Gongzhong",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "45",
+      "name": "Electrical Winch",
+      "brand": "Unknown",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "160",
+      "name": "Falcon 9 Hydraulic Power Pack",
+      "brand": "Paratech Equipment",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "74",
+      "name": "FireFly Motion Sensor",
+      "brand": "Makita",
+      "model": "DHP489",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "182",
+      "name": "Flashing Bender",
+      "brand": "Anhui Runbang Heavy Industry Machinery",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "143",
+      "name": "Floor washer attachment",
+      "brand": "Unknown",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "94",
+      "name": "Graco Paint Gun",
+      "brand": "Makita",
+      "model": "DCE 090",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "95",
+      "name": "Graco True Airless Paint Sprayer",
+      "brand": "Graco",
+      "model": "magnum ProX17",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "183",
+      "name": "Hany IC 310 Concrete Grout Plant",
+      "brand": "Hany AG Switzerland",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "1",
+      "name": "Hilti 360* Lazer level",
+      "brand": "Hilti",
+      "model": "PM 4-M",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "90",
+      "name": "Hilti SDS Hammer Drill",
+      "brand": "Hilti",
+      "model": "TE500X",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "166",
+      "name": "IMC 4000 Pressure Washer",
+      "brand": "IMC motor Japan co. Ltd",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "39",
+      "name": "IMC Power Sprayer",
+      "brand": "IMC",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "23",
+      "name": "ING Welding Rod Warmers",
+      "brand": "Nippon-Alloy electrode",
+      "model": "K-110-A",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "9",
+      "name": "Klein Digital Angle Gauge",
+      "brand": "Klein",
+      "model": "935DAGL",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "93",
+      "name": "Lavor Pressure Washer",
+      "brand": "Makita",
+      "model": "DJR186",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "167",
+      "name": "Lifan Hydropro 3600 Pressure Washer",
+      "brand": "Lifan USA Power",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "119",
+      "name": "Makita 1/2\" Big Impact Gun",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "120",
+      "name": "Makita 1/2\" Small Impact Gun",
+      "brand": "Makita",
+      "model": "4004-20",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "121",
+      "name": "Makita 1/4\" impact driver",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "187",
+      "name": "Makita 18V Cordless Drill",
+      "brand": "Makita",
+      "model": "DTD172",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "30070",
+      "name": "Makita 36V Cordless Hammer Drill",
+      "brand": "Makita",
+      "model": "DHR243",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "105",
+      "name": "Makita Back Pack blower",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "97",
+      "name": "Makita Backpack Garden Sprayer",
+      "brand": "Makita",
+      "model": "DUS054",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "116",
+      "name": "Makita Caulking Gun",
+      "brand": "Makita",
+      "model": "DCG180",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "139",
+      "name": "Makita Concrete Cutter",
+      "brand": "Makita",
+      "model": "2624-EA",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "60",
+      "name": "Makita Cordless Drill",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "59",
+      "name": "Makita Cordless Impact Driver",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "62",
+      "name": "Makita Cordless SDS Hammer Drill",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "106",
+      "name": "Makita Couple Shaft Power head",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "122",
+      "name": "Makita Drill",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "118",
+      "name": "Makita Dust Blower Gun",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "130",
+      "name": "Makita Dust Extractor",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "58",
+      "name": "Makita Fast Charging Double Charge Station",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "107",
+      "name": "Makita Large Work Light",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "123",
+      "name": "Makita Multitool",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "117",
+      "name": "Makita Rivet Gun",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "108",
+      "name": "Makita Router",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "129",
+      "name": "Makita Router/Trimmer",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "125",
+      "name": "Makita Shear Nibbler",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "99",
+      "name": "Makita Small Circular Concrete/Tile Cutter",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "128",
+      "name": "Makita Small Dust Blower",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "100",
+      "name": "Makita Small Jobsite Fan",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "98",
+      "name": "Makita Small Pressure Washer",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "22",
+      "name": "Makita Tool Briefcase",
+      "brand": "Makita",
+      "model": "823300-9",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "86",
+      "name": "Makita Wood Planner",
+      "brand": "Makita",
+      "model": "2012 NB",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "115",
+      "name": "Makita Work Light",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "141",
+      "name": "Manual Pallet Jack",
+      "brand": "Kowloon Construction",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "178",
+      "name": "Mercedes Vito 116 Van",
+      "brand": "Mercedes",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "30075",
+      "name": "Milwaukee M18 Drill Driver",
+      "brand": "Milwaukee",
+      "model": "2801-20",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "30078",
+      "name": "Milwaukee M18 SDS Drill",
+      "brand": "Milwaukee",
+      "model": "2712-20",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "65",
+      "name": "Milwaukie Compact Small Organizer Box",
+      "brand": "Milwaukee",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "40",
+      "name": "Milwaukie Drain Cleaner",
+      "brand": "Milwaukee",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "165",
+      "name": "Milwaukie Dymodril Coring Rig",
+      "brand": "Milwaukee",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "66",
+      "name": "Milwaukie Packout Compact Large Organizer Box",
+      "brand": "Milwaukee",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "185",
+      "name": "Mobile Office 1 (MOBO1)",
+      "brand": "Kowloon Construction",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "184",
+      "name": "Mobile Office 2 (MOBO2)",
+      "brand": "Kowloon Construction",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "49",
+      "name": "PU Pump",
+      "brand": "Unknown",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "19",
+      "name": "PU Pump Large (Minion)",
+      "brand": "Unknown",
+      "model": "MPX 3251",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "175",
+      "name": "Porta Mix",
+      "brand": "Eibenstock Germany",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "174",
+      "name": "Porta mix",
+      "brand": "Eibenstock Germany",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "181",
+      "name": "Quincy QT 7.5 (Big Blue)",
+      "brand": "Quincy USA",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "85",
+      "name": "Rex Pipe Threader",
+      "brand": "Makita",
+      "model": "DJV180",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "48",
+      "name": "SL PU pump",
+      "brand": "SL Company",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "38",
+      "name": "Smith H2O sprayer",
+      "brand": "Smith Performance",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "18",
+      "name": "TD Pro Pipe Stand",
+      "brand": "TD Company",
+      "model": "TD1108AP",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "12",
+      "name": "Umbilical Flushing and Cleaning Kit",
+      "brand": "Guangdong Lingxiao pump industry",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "179",
+      "name": "Vanguard Hydrapak 23",
+      "brand": "Vanguard USA",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "30052",
+      "name": "Warco Drill Press",
+      "brand": "Warco",
+      "model": "NULL",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "104",
+      "name": "Warco drill press",
+      "brand": "Warco",
+      "model": "TIG200P",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "15",
+      "name": "Xcalibre Magnum Hydraulic Drill",
+      "brand": "Xcalibre",
+      "model": "Mag 15",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Drills & Hammer Drills",
+      "sub_category_slug": "drills-hammer-drills"
+    },
+    {
+      "id": "4",
+      "name": "Haru Fall Arrester",
+      "brand": "Haru Co",
+      "model": "HE-6N",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Fall Protection",
+      "sub_category_slug": "fall-protection"
+    },
+    {
+      "id": "5",
+      "name": "Viraj Fall Arrester",
+      "brand": "Viraj VSPL group",
+      "model": "SF-RFA-6W",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Fall Protection",
+      "sub_category_slug": "fall-protection"
+    },
+    {
+      "id": "75",
+      "name": "Crawcon Gas Detector",
+      "brand": "Crawcon",
+      "model": "DTM052",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Gas Detection",
+      "sub_category_slug": "gas-detection"
+    },
+    {
+      "id": "169",
+      "name": "EleMax Power Generator/Inverter",
+      "brand": "EleMax",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Generators",
+      "sub_category_slug": "portable-generators"
+    },
+    {
+      "id": "159",
+      "name": "Honda 20i EU Generator/Inverter",
+      "brand": "Honda",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Generators",
+      "sub_category_slug": "portable-generators"
+    },
+    {
+      "id": "158",
+      "name": "Blue Planet Floor polisher",
+      "brand": "Blue Planet",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Grinders & Sanders",
+      "sub_category_slug": "grinders-sanders"
+    },
+    {
+      "id": "82",
+      "name": "Bosch Wet/Dry Vacuum",
+      "brand": "Bosch",
+      "model": "DUB186",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Grinders & Sanders",
+      "sub_category_slug": "grinders-sanders"
+    },
+    {
+      "id": "96",
+      "name": "Full Clean Chrome Wet/Dry Vacuum",
+      "brand": "Full Clean Italy",
+      "model": "FC-301",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Grinders & Sanders",
+      "sub_category_slug": "grinders-sanders"
+    },
+    {
+      "id": "162",
+      "name": "Innovatech Concrete floor polisher/finisher",
+      "brand": "Bartell Global",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Grinders & Sanders",
+      "sub_category_slug": "grinders-sanders"
+    },
+    {
+      "id": "30066",
+      "name": "Makita 18V Cordless Router",
+      "brand": "Makita",
+      "model": "DRT50",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Grinders & Sanders",
+      "sub_category_slug": "grinders-sanders"
+    },
+    {
+      "id": "30067",
+      "name": "Makita 18V Cordless Sander",
+      "brand": "Makita",
+      "model": "DBO180",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Grinders & Sanders",
+      "sub_category_slug": "grinders-sanders"
+    },
+    {
+      "id": "111",
+      "name": "Makita 7\" Angle Grinder",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Grinders & Sanders",
+      "sub_category_slug": "grinders-sanders"
+    },
+    {
+      "id": "30058",
+      "name": "Makita 9\" Angle Grinder",
+      "brand": "Makita",
+      "model": "GA9020",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Grinders & Sanders",
+      "sub_category_slug": "grinders-sanders"
+    },
+    {
+      "id": "112",
+      "name": "Makita 9\" Angle Grinder",
+      "brand": "Makita",
+      "model": "GA9020",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Grinders & Sanders",
+      "sub_category_slug": "grinders-sanders"
+    },
+    {
+      "id": "190",
+      "name": "Makita Angle Grinder",
+      "brand": "Makita",
+      "model": "GA5030",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Grinders & Sanders",
+      "sub_category_slug": "grinders-sanders"
+    },
+    {
+      "id": "124",
+      "name": "Makita Angle Grinder",
+      "brand": "Makita",
+      "model": "DGA404",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Grinders & Sanders",
+      "sub_category_slug": "grinders-sanders"
+    },
+    {
+      "id": "83",
+      "name": "Makita Drywall Sander",
+      "brand": "Makita",
+      "model": "DSL801",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Grinders & Sanders",
+      "sub_category_slug": "grinders-sanders"
+    },
+    {
+      "id": "109",
+      "name": "Makita Finger Belt Sander",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Grinders & Sanders",
+      "sub_category_slug": "grinders-sanders"
+    },
+    {
+      "id": "127",
+      "name": "Makita Orbital Sander",
+      "brand": "Makita",
+      "model": "250DX",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Grinders & Sanders",
+      "sub_category_slug": "grinders-sanders"
+    },
+    {
+      "id": "126",
+      "name": "Makita Palm Sander",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Grinders & Sanders",
+      "sub_category_slug": "grinders-sanders"
+    },
+    {
+      "id": "30080",
+      "name": "Milwaukee M18 Angle Grinder",
+      "brand": "Milwaukee",
+      "model": "2780-20",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Grinders & Sanders",
+      "sub_category_slug": "grinders-sanders"
+    },
+    {
+      "id": "102",
+      "name": "SPE Concrete Floor Grinder",
+      "brand": "Sanco",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Grinders & Sanders",
+      "sub_category_slug": "grinders-sanders"
+    },
+    {
+      "id": "144",
+      "name": "SPE DRG 200-3 Concrete Floor Grinder",
+      "brand": "SPE Manufacturing",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Grinders & Sanders",
+      "sub_category_slug": "grinders-sanders"
+    },
+    {
+      "id": "103",
+      "name": "Standing Belt and Disc Sander",
+      "brand": "Unknown",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Grinders & Sanders",
+      "sub_category_slug": "grinders-sanders"
+    },
+    {
+      "id": "30059",
+      "name": "Standing Belt and Disc Sander",
+      "brand": "NULL",
+      "model": "NULL",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Grinders & Sanders",
+      "sub_category_slug": "grinders-sanders"
+    },
+    {
+      "id": "163",
+      "name": "Von Arx 380V Concrete Floor Grinder",
+      "brand": "AG Switzerland - Von Arx",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Grinders & Sanders",
+      "sub_category_slug": "grinders-sanders"
+    },
+    {
+      "id": "164",
+      "name": "Von Arx 380V Concrete floor grinder",
+      "brand": "AG Switzerland -Von Arx",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Grinders & Sanders",
+      "sub_category_slug": "grinders-sanders"
+    },
+    {
+      "id": "153",
+      "name": "1 HP nail gun compressor",
+      "brand": "Made in Taiwan",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Impact & Fastening",
+      "sub_category_slug": "impact-fastening"
+    },
+    {
+      "id": "79",
+      "name": "Dahoo Pneumatic Nail Gun",
+      "brand": "Dahoo Tools",
+      "model": "GJ38771",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Impact & Fastening",
+      "sub_category_slug": "impact-fastening"
+    },
+    {
+      "id": "30064",
+      "name": "Makita 18V Cordless Multi-Tool",
+      "brand": "Makita",
+      "model": "DTM52",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Impact & Fastening",
+      "sub_category_slug": "impact-fastening"
+    },
+    {
+      "id": "30068",
+      "name": "Makita 18V Cordless Screwdriver",
+      "brand": "Makita",
+      "model": "DF333D",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Impact & Fastening",
+      "sub_category_slug": "impact-fastening"
+    },
+    {
+      "id": "81",
+      "name": "Makita Brad Nailer",
+      "brand": "Makita",
+      "model": "DBN500",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Impact & Fastening",
+      "sub_category_slug": "impact-fastening"
+    },
+    {
+      "id": "77",
+      "name": "Metabo Framing Nail Gun",
+      "brand": "Makita",
+      "model": "DGA404",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Impact & Fastening",
+      "sub_category_slug": "impact-fastening"
+    },
+    {
+      "id": "78",
+      "name": "Metabo HTP Framing Nail Gun",
+      "brand": "Metabo",
+      "model": "NR90AE(S1)",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Impact & Fastening",
+      "sub_category_slug": "impact-fastening"
+    },
+    {
+      "id": "76",
+      "name": "Metabo Siding Nail Gun",
+      "brand": "Makita",
+      "model": "DTM51",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Impact & Fastening",
+      "sub_category_slug": "impact-fastening"
+    },
+    {
+      "id": "30073",
+      "name": "Milwaukee M18 Battery 5.0Ah",
+      "brand": "Milwaukee",
+      "model": "48-11-1850",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Impact & Fastening",
+      "sub_category_slug": "impact-fastening"
+    },
+    {
+      "id": "30074",
+      "name": "Milwaukee M18 Charger",
+      "brand": "Milwaukee",
+      "model": "48-59-1812",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Impact & Fastening",
+      "sub_category_slug": "impact-fastening"
+    },
+    {
+      "id": "30076",
+      "name": "Milwaukee M18 Impact Driver",
+      "brand": "Milwaukee",
+      "model": "2853-20",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Impact & Fastening",
+      "sub_category_slug": "impact-fastening"
+    },
+    {
+      "id": "30082",
+      "name": "Milwaukee M18 Multi-Tool",
+      "brand": "Milwaukee",
+      "model": "2836-20",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Impact & Fastening",
+      "sub_category_slug": "impact-fastening"
+    },
+    {
+      "id": "80",
+      "name": "Numax Brad Nailer",
+      "brand": "Numax",
+      "model": "S20VFST50",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Impact & Fastening",
+      "sub_category_slug": "impact-fastening"
+    },
+    {
+      "id": "53",
+      "name": "EKO Pneumatic Impact Gun",
+      "brand": "EKO Tools",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Impact Wrenches",
+      "sub_category_slug": "impact-wrenches"
+    },
+    {
+      "id": "43",
+      "name": "Little Giant 4 Step Folding Ladder",
+      "brand": "Little Giant USA",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Ladders & Steps",
+      "sub_category_slug": "ladders-steps"
+    },
+    {
+      "id": "44",
+      "name": "Little Giant 5 Step Folding Ladder",
+      "brand": "Little Giant USA",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Ladders & Steps",
+      "sub_category_slug": "ladders-steps"
+    },
+    {
+      "id": "8",
+      "name": "Bosch Laser Level",
+      "brand": "Bosch Tools",
+      "model": "GLL-30G professional",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Laser Levels",
+      "sub_category_slug": "laser-levels"
+    },
+    {
+      "id": "114",
+      "name": "Makita Big Leaf Blower",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Leaf Blowers",
+      "sub_category_slug": "leaf-blowers"
+    },
+    {
+      "id": "10",
+      "name": "Elephant 1T Chain Block",
+      "brand": "Elephant Chain Block Company",
+      "model": "C-21",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Lifting & Rigging",
+      "sub_category_slug": "lifting-rigging-tools"
+    },
+    {
+      "id": "14",
+      "name": "Taiyu 1T chain block",
+      "brand": "Taiyu",
+      "model": "HSZ-VT",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Lifting & Rigging",
+      "sub_category_slug": "lifting-rigging-tools"
+    },
+    {
+      "id": "150",
+      "name": "Keyue ARC-200 arc welder",
+      "brand": "Keyue",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "MIG & TIG Welders",
+      "sub_category_slug": "mig-tig-welders"
+    },
+    {
+      "id": "149",
+      "name": "Keyue TIG-200P tig welder",
+      "brand": "Keyue",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "MIG & TIG Welders",
+      "sub_category_slug": "mig-tig-welders"
+    },
+    {
+      "id": "171",
+      "name": "Miller Syncrowave 250DX welder",
+      "brand": "Miller Manufacturing USA",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "MIG & TIG Welders",
+      "sub_category_slug": "mig-tig-welders"
+    },
+    {
+      "id": "152",
+      "name": "Mitech Stick Welder",
+      "brand": "Mitech equipment",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "MIG & TIG Welders",
+      "sub_category_slug": "mig-tig-welders"
+    },
+    {
+      "id": "177",
+      "name": "9M Open Cruiser Speed Boat",
+      "brand": "Unknown",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Marine & Diving",
+      "sub_category_slug": "marine-diving-tools"
+    },
+    {
+      "id": "6",
+      "name": "AC Delco Marine Battery",
+      "brand": "AC Delco",
+      "model": "M24-75",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Marine & Diving",
+      "sub_category_slug": "marine-diving-tools"
+    },
+    {
+      "id": "186",
+      "name": "Dive Spread 1 (DS1)",
+      "brand": "Kowloon Construction",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Marine & Diving",
+      "sub_category_slug": "marine-diving-tools"
+    },
+    {
+      "id": "145",
+      "name": "Suzuki DF250 boat motor",
+      "brand": "Suzuki",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Marine & Diving",
+      "sub_category_slug": "marine-diving-tools"
+    },
+    {
+      "id": "151",
+      "name": "Keyue CUT-40 plasma cutter",
+      "brand": "Keyue",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Plasma Cutters",
+      "sub_category_slug": "plasma-cutters"
+    },
+    {
+      "id": "155",
+      "name": "Air Fox 1.5 HP air compressor",
+      "brand": "Air Fox",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Portable Compressors",
+      "sub_category_slug": "portable-compressors"
+    },
+    {
+      "id": "156",
+      "name": "Air Fox 2 HP aircompressor",
+      "brand": "Air Fox",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Portable Compressors",
+      "sub_category_slug": "portable-compressors"
+    },
+    {
+      "id": "170",
+      "name": "Air Fox 4 HP air compressor",
+      "brand": "Air Fox",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Portable Compressors",
+      "sub_category_slug": "portable-compressors"
+    },
+    {
+      "id": "148",
+      "name": "Bauer 5.5 HP Air Compressor",
+      "brand": "Bauer Germany",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Portable Compressors",
+      "sub_category_slug": "portable-compressors"
+    },
+    {
+      "id": "176",
+      "name": "Bauer HP compressor",
+      "brand": "Bauer",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Portable Compressors",
+      "sub_category_slug": "portable-compressors"
+    },
+    {
+      "id": "157",
+      "name": "Bauer Junior II HP air compressor",
+      "brand": "Bauer",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Portable Compressors",
+      "sub_category_slug": "portable-compressors"
+    },
+    {
+      "id": "154",
+      "name": "Fini Amico 2500 air compressor",
+      "brand": "Fini Amico",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Portable Compressors",
+      "sub_category_slug": "portable-compressors"
+    },
+    {
+      "id": "147",
+      "name": "Sanco HL-2  2HP Air Compressor",
+      "brand": "Sanco manufacturing co. Ltd Osaka Japan",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Portable Compressors",
+      "sub_category_slug": "portable-compressors"
+    },
+    {
+      "id": "146",
+      "name": "Series 426 5.5 HP air compressor (THE 426)",
+      "brand": "Unknown",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Portable Compressors",
+      "sub_category_slug": "portable-compressors"
+    },
+    {
+      "id": "21",
+      "name": "Vespa 3HP air compressor",
+      "brand": "Vespa",
+      "model": "OTS-1500",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Portable Compressors",
+      "sub_category_slug": "portable-compressors"
+    },
+    {
+      "id": "180",
+      "name": "Vespa Compressor",
+      "brand": "Vespa",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Portable Compressors",
+      "sub_category_slug": "portable-compressors"
+    },
+    {
+      "id": "168",
+      "name": "White 4 hp compressor",
+      "brand": "",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Portable Compressors",
+      "sub_category_slug": "portable-compressors"
+    },
+    {
+      "id": "72",
+      "name": "Arda Metal Band Saw",
+      "brand": "Makita",
+      "model": "DTD173",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "189",
+      "name": "Bosch Reciprocating Saw",
+      "brand": "Bosch",
+      "model": "RS20",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "188",
+      "name": "DeWalt Circular Saw",
+      "brand": "DeWalt",
+      "model": "DCS391D1",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "30054",
+      "name": "Dewalt 230V Electric Chop Saw",
+      "brand": "Dewalt",
+      "model": "D28720-B101",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "84",
+      "name": "Dewalt Chop Saw",
+      "brand": "Makita",
+      "model": "DX06",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "91",
+      "name": "Dongcheng Reciprocating saw",
+      "brand": "Dongcheng",
+      "model": "DJF 30",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "30055",
+      "name": "Husqvarna 440 2-Stroke Gasoline Chainsaw",
+      "brand": "Husqvarna",
+      "model": "440 E-series",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "25",
+      "name": "Husqvarna 440 Chainsaw",
+      "brand": "Husqvarna",
+      "model": "440 E-series",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "30056",
+      "name": "Husqvarna 460 Rancher Chainsaw",
+      "brand": "Husqvarna",
+      "model": "460 Rancher",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "26",
+      "name": "Husqvarna 460 Rancher Chainsaw",
+      "brand": "Husqvarna",
+      "model": "460 Rancher",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "138",
+      "name": "Makita  Reciprocating Saw",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "41",
+      "name": "Makita 10\" pole saw attachment",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "30062",
+      "name": "Makita 18V Cordless Circular Saw",
+      "brand": "Makita",
+      "model": "DCS553",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "30063",
+      "name": "Makita 18V Cordless Jigsaw",
+      "brand": "Makita",
+      "model": "DJV182",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "30065",
+      "name": "Makita 18V Cordless Planer",
+      "brand": "Makita",
+      "model": "DKP181",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "30071",
+      "name": "Makita 36V Cordless Reciprocating Saw",
+      "brand": "Makita",
+      "model": "DJR187",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "30072",
+      "name": "Makita 36V Cordless Table Saw",
+      "brand": "Makita",
+      "model": "DLS714",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "134",
+      "name": "Makita 36V Framing Circular Saw",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "101",
+      "name": "Makita 7 1/4\" Circular Saw",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "133",
+      "name": "Makita Circular Saw",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "87",
+      "name": "Makita Combination Mitre/Table saw",
+      "brand": "Makita",
+      "model": "LH1201FL",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "140",
+      "name": "Makita Concrete Saw",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "61",
+      "name": "Makita Cordless Circular Saw",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "110",
+      "name": "Makita Jigsaw",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "136",
+      "name": "Makita Large Band Saw",
+      "brand": "Makita",
+      "model": "MT-31P",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "131",
+      "name": "Makita Metal Cutting Circular Saw",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "89",
+      "name": "Makita Mitre Saw",
+      "brand": "Makita",
+      "model": "XSR01",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "137",
+      "name": "Makita Short Reciprocating Saw",
+      "brand": "Makita",
+      "model": "DJR188",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "135",
+      "name": "Makita Small Band Saw",
+      "brand": "Makita",
+      "model": "3864470470H7",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "88",
+      "name": "Makita Table Saw",
+      "brand": "Makita",
+      "model": "DHS680",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "132",
+      "name": "Makita Tile Cutter Circular Saw",
+      "brand": "Makita",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "30079",
+      "name": "Milwaukee M18 Circular Saw",
+      "brand": "Milwaukee",
+      "model": "2730-20",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "30081",
+      "name": "Milwaukee M18 Jigsaw",
+      "brand": "Milwaukee",
+      "model": "2737-20",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "30077",
+      "name": "Milwaukee M18 Reciprocating Saw",
+      "brand": "Milwaukee",
+      "model": "2720-20",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "30057",
+      "name": "Stihl Chainsaw",
+      "brand": "Stihl",
+      "model": "NULL",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Saws & Cutting Tools",
+      "sub_category_slug": "saws-cutting-tools"
+    },
+    {
+      "id": "32",
+      "name": "Dr  Scaffold HD Scaffold Castors",
+      "brand": "Dr Scaffold",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Scaffolding Systems",
+      "sub_category_slug": "scaffolding-systems"
+    },
+    {
+      "id": "37",
+      "name": "Dr Scaffold 3 Rung Ladder Span",
+      "brand": "Dr Scaffold",
+      "model": "SRP-3",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Scaffolding Systems",
+      "sub_category_slug": "scaffolding-systems"
+    },
+    {
+      "id": "36",
+      "name": "Dr Scaffold 3 Rung Span",
+      "brand": "Dr Scaffold",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Scaffolding Systems",
+      "sub_category_slug": "scaffolding-systems"
+    },
+    {
+      "id": "34",
+      "name": "Dr Scaffold 5 Rung Ladder Span",
+      "brand": "Dr Scaffold",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Scaffolding Systems",
+      "sub_category_slug": "scaffolding-systems"
+    },
+    {
+      "id": "35",
+      "name": "Dr Scaffold 5 Rung Span",
+      "brand": "Dr Scaffold",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Scaffolding Systems",
+      "sub_category_slug": "scaffolding-systems"
+    },
+    {
+      "id": "27",
+      "name": "Dr Scaffold Cross Brace",
+      "brand": "Dr Scaffold",
+      "model": "SRP-3",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Scaffolding Systems",
+      "sub_category_slug": "scaffolding-systems"
+    },
+    {
+      "id": "31",
+      "name": "Dr Scaffold HD Scaffold Castors",
+      "brand": "Dr Scaffold",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Scaffolding Systems",
+      "sub_category_slug": "scaffolding-systems"
+    },
+    {
+      "id": "28",
+      "name": "Dr Scaffold Horizontal Brace",
+      "brand": "Dr Scaffold",
+      "model": "SRP-3",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Scaffolding Systems",
+      "sub_category_slug": "scaffolding-systems"
+    },
+    {
+      "id": "29",
+      "name": "Dr Scaffold Horizontal brace",
+      "brand": "Dr Scaffold",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Scaffolding Systems",
+      "sub_category_slug": "scaffolding-systems"
+    },
+    {
+      "id": "33",
+      "name": "Dr Scaffold Outrigger",
+      "brand": "Dr Scaffold",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Scaffolding Systems",
+      "sub_category_slug": "scaffolding-systems"
+    },
+    {
+      "id": "30",
+      "name": "Dr Scaffold Platform",
+      "brand": "Dr Scaffold",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Scaffolding Systems",
+      "sub_category_slug": "scaffolding-systems"
+    },
+    {
+      "id": "2",
+      "name": "Dr Scaffold Safety Railing 2 Rung Span",
+      "brand": "Dr Scaffold",
+      "model": "SRP-3",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Scaffolding Systems",
+      "sub_category_slug": "scaffolding-systems"
+    },
+    {
+      "id": "113",
+      "name": "Makita Demolition Jack Hammer",
+      "brand": "Makita",
+      "model": "HM0810",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Striking Tools",
+      "sub_category_slug": "striking-tools"
+    },
+    {
+      "id": "161",
+      "name": "Tsurumi 3\" Water Pump",
+      "brand": "Tsurumi Manufacturing co. ltd Japan",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Water Pumps",
+      "sub_category_slug": "water-pumps"
+    },
+    {
+      "id": "13",
+      "name": "Argon Gas Tank",
+      "brand": "Unknown",
+      "model": "",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Welding Accessories",
+      "sub_category_slug": "welding-accessories"
+    },
+    {
+      "id": "24",
+      "name": "UWeld Gas Torches",
+      "brand": "U-Weld",
+      "model": "SEFIC-C17",
+      "category": "Power Tools",
+      "category_slug": "power-tools",
+      "sub_category": "Welding Accessories",
+      "sub_category_slug": "welding-accessories"
+    },
+    {
+      "id": "30028",
+      "name": "240V Single Phase Small Batch Cement Mixer",
+      "brand": "Belle Equipment",
+      "model": "NULL",
+      "category": "Pumps & Fluid Handling",
+      "category_slug": "pumps-fluid-handling",
+      "sub_category": "Air Drills & Grinders",
+      "sub_category_slug": "air-drills-grinders"
+    },
+    {
+      "id": "30032",
+      "name": "Concrete Grout Mixer and Pump",
+      "brand": "Hany AG Switzerland",
+      "model": "2624-EA",
+      "category": "Pumps & Fluid Handling",
+      "category_slug": "pumps-fluid-handling",
+      "sub_category": "Air Drills & Grinders",
+      "sub_category_slug": "air-drills-grinders"
+    },
+    {
+      "id": "30031",
+      "name": "Wacker Neuson Plate Compactor",
+      "brand": "Wacker Neuson",
+      "model": "NULL",
+      "category": "Pumps & Fluid Handling",
+      "category_slug": "pumps-fluid-handling",
+      "sub_category": "Hoses & Fittings",
+      "sub_category_slug": "air-hoses-fittings"
+    },
+    {
+      "id": "30033",
+      "name": "Electric Flashing Bending Machine",
+      "brand": "Anhui Runbang",
+      "model": "NULL",
+      "category": "Pumps & Fluid Handling",
+      "category_slug": "pumps-fluid-handling",
+      "sub_category": "Hydraulic Hoses",
+      "sub_category_slug": "hydraulic-hoses"
+    },
+    {
+      "id": "30030",
+      "name": "Blue Planet 240V Electric Floor Scrubber/Polisher",
+      "brand": "Blue Planet",
+      "model": "JB-168",
+      "category": "Pumps & Fluid Handling",
+      "category_slug": "pumps-fluid-handling",
+      "sub_category": "Impact Wrenches",
+      "sub_category_slug": "impact-wrenches"
+    },
+    {
+      "id": "30029",
+      "name": "Von Arx 380V 3 Phase Electric Concrete Floor Grinder",
+      "brand": "Von Arx",
+      "model": "NULL",
+      "category": "Pumps & Fluid Handling",
+      "category_slug": "pumps-fluid-handling",
+      "sub_category": "Impact Wrenches",
+      "sub_category_slug": "impact-wrenches"
+    },
+    {
+      "id": "30034",
+      "name": "Adra 240V Electric Metal Band Saw on Stand",
+      "brand": "Arda Manufacturing",
+      "model": "128",
+      "category": "Pumps & Fluid Handling",
+      "category_slug": "pumps-fluid-handling",
+      "sub_category": "Nail & Staple Guns",
+      "sub_category_slug": "nail-staple-guns"
+    },
+    {
+      "id": "30007",
+      "name": "Haru Fall Arrester",
+      "brand": "Haru Co.",
+      "model": "HE-6N",
+      "category": "Safety Equipment",
+      "category_slug": "safety-equipment",
+      "sub_category": "Fall Protection",
+      "sub_category_slug": "fall-protection"
+    },
+    {
+      "id": "30008",
+      "name": "Viraj Fall Arrester",
+      "brand": "Viraj VSPL Group",
+      "model": "SF-RFA-6W",
+      "category": "Safety Equipment",
+      "category_slug": "safety-equipment",
+      "sub_category": "Fall Protection",
+      "sub_category_slug": "fall-protection"
+    },
+    {
+      "id": "30010",
+      "name": "Crawcon Battery Operated Gas Detector",
+      "brand": "Crawcon UK",
+      "model": "NULL",
+      "category": "Safety Equipment",
+      "category_slug": "safety-equipment",
+      "sub_category": "Gas Detection",
+      "sub_category_slug": "gas-detection"
+    },
+    {
+      "id": "30009",
+      "name": "Firefly Battery Operated Motion Sensor",
+      "brand": "Firefly MSA Company",
+      "model": "Firefly 11",
+      "category": "Safety Equipment",
+      "category_slug": "safety-equipment",
+      "sub_category": "Gas Detection",
+      "sub_category_slug": "gas-detection"
+    },
+    {
+      "id": "30011",
+      "name": "Paratech Air Lifting Bag",
+      "brand": "Paratech",
+      "model": "NULL",
+      "category": "Safety Equipment",
+      "category_slug": "safety-equipment",
+      "sub_category": "PPE & Clothing",
+      "sub_category_slug": "ppe-clothing"
+    },
+    {
+      "id": "30004",
+      "name": "Dr Scaffold 3 Rung Ladder Span 1400mm",
+      "brand": "Dr Scaffold",
+      "model": "SRP-3",
+      "category": "Scaffolding & Access",
+      "category_slug": "scaffolding-access",
+      "sub_category": "Scaffolding Systems",
+      "sub_category_slug": "scaffolding-systems"
+    },
+    {
+      "id": "30005",
+      "name": "Dr Scaffold 5 Rung Ladder Span 2300mm",
+      "brand": "Dr Scaffold",
+      "model": "SRP-3",
+      "category": "Scaffolding & Access",
+      "category_slug": "scaffolding-access",
+      "sub_category": "Scaffolding Systems",
+      "sub_category_slug": "scaffolding-systems"
+    },
+    {
+      "id": "30001",
+      "name": "Dr Scaffold SRP-3 Cross Brace 2200mm",
+      "brand": "Dr Scaffold",
+      "model": "SRP-3",
+      "category": "Scaffolding & Access",
+      "category_slug": "scaffolding-access",
+      "sub_category": "Scaffolding Systems",
+      "sub_category_slug": "scaffolding-systems"
+    },
+    {
+      "id": "30003",
+      "name": "Dr Scaffold SRP-3 Extendable Outrigger 3200mm",
+      "brand": "Dr Scaffold",
+      "model": "SRP-3",
+      "category": "Scaffolding & Access",
+      "category_slug": "scaffolding-access",
+      "sub_category": "Scaffolding Systems",
+      "sub_category_slug": "scaffolding-systems"
+    },
+    {
+      "id": "30002",
+      "name": "Dr Scaffold SRP-3 Horizontal Brace 2000mm",
+      "brand": "Dr Scaffold",
+      "model": "SRP-3",
+      "category": "Scaffolding & Access",
+      "category_slug": "scaffolding-access",
+      "sub_category": "Scaffolding Systems",
+      "sub_category_slug": "scaffolding-systems"
+    },
+    {
+      "id": "30006",
+      "name": "Dr Scaffold Safety Railing 2 Rung Span",
+      "brand": "Dr Scaffold",
+      "model": "SRP-3",
+      "category": "Scaffolding & Access",
+      "category_slug": "scaffolding-access",
+      "sub_category": "Scaffolding Systems",
+      "sub_category_slug": "scaffolding-systems"
+    },
+    {
+      "id": "30051",
+      "name": "Bora Quick Set Up Speed Saw Horse",
+      "brand": "Bora",
+      "model": "PM4550T",
+      "category": "Specialized Equipment",
+      "category_slug": "specialized-equipment",
+      "sub_category": "Blades & Bits",
+      "sub_category_slug": "blades-bits"
+    },
+    {
+      "id": "215",
+      "name": "Electric Winch 1000kg",
+      "brand": "Elephant",
+      "model": "EW1000",
+      "category": "Specialized Equipment",
+      "category_slug": "specialized-equipment",
+      "sub_category": "Concrete & Masonry",
+      "sub_category_slug": "concrete-masonry-tools"
+    },
+    {
+      "id": "30050",
+      "name": "20ft Container Mobile Office",
+      "brand": "Kowloon Construction",
+      "model": "NULL",
+      "category": "Specialized Equipment",
+      "category_slug": "specialized-equipment",
+      "sub_category": "Cutting & Shaping",
+      "sub_category_slug": "cutting-shaping"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tname\tbrand\tmodel\tcategory\tcategory_slug\tsub_category\tsub_category_slug\n30040\t2.0Kva Gas Powered Generator \tHonda\tEU2000i\tBatteries & Power\tbatteries-power\tChemical Pumps\tchemical-pumps\n30041\tEleMax Gasoline Powered Generator/Inverter\tEleMax\tNULL\tBatteries & Power\tbatteries-power\tChemical Pumps\tchemical-pumps\n30038\tBosch 230V Electric Wet or Dry Vacuum\tBosch\tGAS15PS\tChainsaws & Outdoor\tchainsaws-outdoor\tHydraulic Breakers\thydraulic-breakers\n30069\tMakita 18V Cordless Vacuum\tMakita\tDCL180\tChainsaws & Outdoor\tchainsaws-outdoor\tHydraulic Breakers\thydraulic-breakers\n30083\tMilwaukee M18 Vacuum\tMilwaukee\t0882-20\tChainsaws & Outdoor\tchainsaws-outdoor\tHydraulic Breakers\thydraulic-breakers\n30039\tCadillac Recirculating/Recovering Portable Sandblaster\tCadillac Products USA\tQB7-V002\tChainsaws & Outdoor\tchainsaws-outdoor\tHydraulic Hoses\thydraulic-hoses\n30060\tGraco 20V Cordless Paint Gun\tGraco\t17M363\tChainsaws & Outdoor\tchainsaws-outdoor\tHydraulic Hoses\thydraulic-hoses\n30061\tIMC 4-Stroke Gasoline Powered Sprayer\tIMC\tPSH 350\tChainsaws & Outdoor\tchainsaws-outdoor\tHydraulic Hoses\thydraulic-hoses\n30036\tGas Powered Pressure Washer to 3600 PSI\tLifan USA Power\tNULL\tChainsaws & Outdoor\tchainsaws-outdoor\tHydraulic Jacks\thydraulic-jacks\n30035\tLavor Electric 230V High Pressure Washer\tLavor Italy\tVertigo 20 Pro\tChainsaws & Outdoor\tchainsaws-outdoor\tHydraulic Jacks\thydraulic-jacks\n30037\tSanco 240V Electric Pressure Washer\tSanco\tNULL\tChainsaws & Outdoor\tchainsaws-outdoor\tHydraulic Jacks\thydraulic-jacks\n30047\t9M Speed Boat\tKowloon Construction\tNULL\tCompressors & Air\tcompressors-air\tChargers\tbattery-chargers\n30048\tSuzuki DF250 4-Stroke Boat Motor\tSuzuki\tDF250\tCompressors & Air\tcompressors-air\tChargers\tbattery-chargers\n30042\tTsurumi Submersible Pump\tTsurumi\tTE5-80H\tHand Tools & Accessories\thand-tools-accessories\tChainsaws\tchainsaws\n30043\tDiesel Pump Kit\tPiusi\tNULL\tHand Tools & Accessories\thand-tools-accessories\tHedge Trimmers\thedge-trimmers\n30044\tLarge PU Pump for 1-2\" Hose\tNULL\tMPX 3251\tHand Tools & Accessories\thand-tools-accessories\tLeaf Blowers\tleaf-blowers\n30045\tUmbilical Flushing and Cleaning Kit\tNULL\tNULL\tHand Tools & Accessories\thand-tools-accessories\tOutdoor Power\toutdoor-power\n30025\t23 HP Hydraulic Power Pack\tVanguard USA\t3864470470H7\tHydraulic Equipment\thydraulic-equipment\tNULL\tNULL\n30024\t240V Electrical Winch 150kg / 300 lbs\tNULL\tNULL\tHydraulic Equipment\thydraulic-equipment\tNULL\tNULL\n30026\t9 HP Hydraulic Power Pack\tNULL\tNULL\tHydraulic Equipment\thydraulic-equipment\tNULL\tNULL\n30023\tElephant 1 Ton Chain Block\tElephant Company Japan\tC-21\tHydraulic Equipment\thydraulic-equipment\tNULL\tNULL\n30027\tHigh Pressure Polyurethane Grout Pump\tNULL\tMPX 3251\tHydraulic Equipment\thydraulic-equipment\tNULL\tNULL\n30012\tHilti Multiple Line Laser Level\tHilti\tPM 4-M\tMeasuring & Leveling\tmeasuring-leveling\tLaser Levels\tlaser-levels\n30019\t5.5 HP High Pressure Compressor for Filling Breathing Air Tanks\tBauer\tNULL\tPneumatic Tools\tpneumatic-tools\tNULL\tNULL\n30017\t6L 1 HP Nail Gun Compressor\tNULL\tNULL\tPneumatic Tools\tpneumatic-tools\tNULL\tNULL\n30013\tAir Fox 4 HP Low Pressure Air Compressor\tAir Fox\tNULL\tPneumatic Tools\tpneumatic-tools\tNULL\tNULL\n30014\tAir Fox 6L 1/5 HP Air Compressor\tAir Fox\tNULL\tPneumatic Tools\tpneumatic-tools\tNULL\tNULL\n30015\tAir Fox 8L 2 HP Air Compressor\tAir Fox\tNULL\tPneumatic Tools\tpneumatic-tools\tNULL\tNULL\n30018\tBauer 5.5 HP High Pressure Compressor (Breathing Air)\tBauer\tNULL\tPneumatic Tools\tpneumatic-tools\tNULL\tNULL\n30020\tCP-9 Pneumatic Rock and Concrete Drill/Breaker\tNULL\tCP-9\tPneumatic Tools\tpneumatic-tools\tNULL\tNULL\n30016\tFini Amico 6L 2 HP Air Compressor\tFini Amico\tNULL\tPneumatic Tools\tpneumatic-tools\tNULL\tNULL\n30021\tToku Pneumatic Demolition Hammer/Breaker\tToku Corp Japan\tTCA-7\tPneumatic Tools\tpneumatic-tools\tNULL\tNULL\n30022\tXcalibre Magnum Hydraulic Drill\tXcalibre\tMag 15\tPneumatic Tools\tpneumatic-tools\tNULL\tNULL\n55\tMakita 18V Battery\tMakita\t\tPower Tools\tpower-tools\tBattery Packs\tbattery-packs\n56\tMakita 18V battery\tMakita\t\tPower Tools\tpower-tools\tBattery Packs\tbattery-packs\n57\tMakita Smart Battery Charger\tMakita\t\tPower Tools\tpower-tools\tChargers\tbattery-chargers\n46\t4\" Bench Vice\tUnknown\t\tPower Tools\tpower-tools\tClamping & Holding\tclamping-holding\n71\t6 Drawer top tool chest\tMakita\tDTW300\tPower Tools\tpower-tools\tClamping & Holding\tclamping-holding\n70\tBeta 5 Drawer Bottom Tool Chest\tBeta Tools\tC24S-5\tPower Tools\tpower-tools\tClamping & Holding\tclamping-holding\n47\tIrwin 6\" Bench Vice\tIrwin Tools\t\tPower Tools\tpower-tools\tClamping & Holding\tclamping-holding\n68\tMilwaukie Packout Large Tool Box\tMilwaukee\t\tPower Tools\tpower-tools\tClamping & Holding\tclamping-holding\n69\tMilwaukie Packout Rolling Base Tool Box\tMilwaukee\t\tPower Tools\tpower-tools\tClamping & Holding\tclamping-holding\n67\tMilwaukie Packout Three Drawer Tool Chest\tMilwaukee\t\tPower Tools\tpower-tools\tClamping & Holding\tclamping-holding\n42\tDongchang paint/mud mixer\tJiangsu Dongcheng tools co. Ltd\t\tPower Tools\tpower-tools\tConcrete & Masonry\tconcrete-masonry-tools\n172\tFeiyu STO 140 Cement Mixer\tZhengzhou Feiyu Machinery Equipment Co., LTD.\t\tPower Tools\tpower-tools\tConcrete & Masonry\tconcrete-masonry-tools\n173\tMiniMix 150 Cement Mixer\tFeiyu\t\tPower Tools\tpower-tools\tConcrete & Masonry\tconcrete-masonry-tools\n17\tToku Pneumatic Breaker\tToku\tTCA-7\tPower Tools\tpower-tools\tConcrete & Masonry\tconcrete-masonry-tools\n64\tMilwaukie Packout Low Profile Organizer Box\tMilwaukee\t\tPower Tools\tpower-tools\tCutting & Shaping\tcutting-shaping\n63\tMilwaukie Packout Low Profile Small Organizer Box\tMilwaukee\t\tPower Tools\tpower-tools\tCutting & Shaping\tcutting-shaping\n11\tTogoshi Walking Measuring Wheel\tTogoshi\tTWM-130\tPower Tools\tpower-tools\tDistance & Layout\tdistance-layout\n52\tAP Industrial Floor Fan\tAP\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n50\tAir Plus Industrial Floor Fan\tAir Plus\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n51\tAir Plus Industrial Floor Fans\tN/A\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n20\tBora Speed Horse\tBora\tPM4550T\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n92\tBosch SDS Hammer Drill\tBosch\tGBH 2-23S\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n16\tCP-9 Pneumatic Rock/Concrete Drill/Breaker\tUnknown\tCP-9\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n3\tCadillac Sand Blaster\tCadillac\tQB7-V002\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n7\tCheetah Equipment Battery\tCheetah Battery\tNS40ZL\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n54\tDiesel Pump Kit\tPiusi/Fleetwood/Bada\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n73\tDrill Press\tMakita\tDHP484\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n30053\tDrill Press Electric Shot Stand\tNULL\tNULL\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n142\tElectric Pallet Truck\tZhejiang Gongzhong\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n45\tElectrical Winch\tUnknown\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n160\tFalcon 9 Hydraulic Power Pack\tParatech Equipment\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n74\tFireFly Motion Sensor\tMakita\tDHP489\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n182\tFlashing Bender\tAnhui Runbang Heavy Industry Machinery\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n143\tFloor washer attachment\tUnknown\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n94\tGraco Paint Gun\tMakita\tDCE 090\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n95\tGraco True Airless Paint Sprayer\tGraco\tmagnum ProX17\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n183\tHany IC 310 Concrete Grout Plant\tHany AG Switzerland\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n1\tHilti 360* Lazer level\tHilti\tPM 4-M\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n90\tHilti SDS Hammer Drill\tHilti\tTE500X\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n166\tIMC 4000 Pressure Washer\tIMC motor Japan co. Ltd\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n39\tIMC Power Sprayer\tIMC\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n23\tING Welding Rod Warmers\tNippon-Alloy electrode\tK-110-A\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n9\tKlein Digital Angle Gauge\tKlein\t935DAGL\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n93\tLavor Pressure Washer\tMakita\tDJR186\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n167\tLifan Hydropro 3600 Pressure Washer\tLifan USA Power\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n119\tMakita 1/2\" Big Impact Gun\tMakita\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n120\tMakita 1/2\" Small Impact Gun\tMakita\t4004-20\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n121\tMakita 1/4\" impact driver\tMakita\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n187\tMakita 18V Cordless Drill\tMakita\tDTD172\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n30070\tMakita 36V Cordless Hammer Drill\tMakita\tDHR243\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n105\tMakita Back Pack blower\tMakita\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n97\tMakita Backpack Garden Sprayer\tMakita\tDUS054\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n116\tMakita Caulking Gun\tMakita\tDCG180\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n139\tMakita Concrete Cutter\tMakita\t2624-EA\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n60\tMakita Cordless Drill\tMakita\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n59\tMakita Cordless Impact Driver\tMakita\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n62\tMakita Cordless SDS Hammer Drill\tMakita\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n106\tMakita Couple Shaft Power head\tMakita\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n122\tMakita Drill\tMakita\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n118\tMakita Dust Blower Gun\tMakita\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n130\tMakita Dust Extractor\tMakita\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n58\tMakita Fast Charging Double Charge Station\tMakita\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n107\tMakita Large Work Light\tMakita\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n123\tMakita Multitool\tMakita\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n117\tMakita Rivet Gun\tMakita\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n108\tMakita Router\tMakita\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n129\tMakita Router/Trimmer\tMakita\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n125\tMakita Shear Nibbler\tMakita\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n99\tMakita Small Circular Concrete/Tile Cutter\tMakita\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n128\tMakita Small Dust Blower\tMakita\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n100\tMakita Small Jobsite Fan\tMakita\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n98\tMakita Small Pressure Washer\tMakita\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n22\tMakita Tool Briefcase\tMakita\t823300-9\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n86\tMakita Wood Planner\tMakita\t2012 NB\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n115\tMakita Work Light\tMakita\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n141\tManual Pallet Jack\tKowloon Construction\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n178\tMercedes Vito 116 Van\tMercedes\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n30075\tMilwaukee M18 Drill Driver\tMilwaukee\t2801-20\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n30078\tMilwaukee M18 SDS Drill\tMilwaukee\t2712-20\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n65\tMilwaukie Compact Small Organizer Box\tMilwaukee\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n40\tMilwaukie Drain Cleaner\tMilwaukee\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n165\tMilwaukie Dymodril Coring Rig\tMilwaukee\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n66\tMilwaukie Packout Compact Large Organizer Box\tMilwaukee\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n185\tMobile Office 1 (MOBO1)\tKowloon Construction\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n184\tMobile Office 2 (MOBO2)\tKowloon Construction\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n49\tPU Pump\tUnknown\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n19\tPU Pump Large (Minion)\tUnknown\tMPX 3251\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n175\tPorta Mix\tEibenstock Germany\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n174\tPorta mix\tEibenstock Germany\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n181\tQuincy QT 7.5 (Big Blue)\tQuincy USA\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n85\tRex Pipe Threader\tMakita\tDJV180\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n48\tSL PU pump\tSL Company\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n38\tSmith H2O sprayer\tSmith Performance\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n18\tTD Pro Pipe Stand\tTD Company\tTD1108AP\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n12\tUmbilical Flushing and Cleaning Kit\tGuangdong Lingxiao pump industry\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n179\tVanguard Hydrapak 23\tVanguard USA\t\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n30052\tWarco Drill Press\tWarco\tNULL\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n104\tWarco drill press\tWarco\tTIG200P\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n15\tXcalibre Magnum Hydraulic Drill\tXcalibre\tMag 15\tPower Tools\tpower-tools\tDrills & Hammer Drills\tdrills-hammer-drills\n4\tHaru Fall Arrester\tHaru Co\tHE-6N\tPower Tools\tpower-tools\tFall Protection\tfall-protection\n5\tViraj Fall Arrester\tViraj VSPL group\tSF-RFA-6W\tPower Tools\tpower-tools\tFall Protection\tfall-protection\n75\tCrawcon Gas Detector\tCrawcon\tDTM052\tPower Tools\tpower-tools\tGas Detection\tgas-detection\n169\tEleMax Power Generator/Inverter\tEleMax\t\tPower Tools\tpower-tools\tGenerators\tportable-generators\n159\tHonda 20i EU Generator/Inverter\tHonda\t\tPower Tools\tpower-tools\tGenerators\tportable-generators\n158\tBlue Planet Floor polisher\tBlue Planet\t\tPower Tools\tpower-tools\tGrinders & Sanders\tgrinders-sanders\n82\tBosch Wet/Dry Vacuum\tBosch\tDUB186\tPower Tools\tpower-tools\tGrinders & Sanders\tgrinders-sanders\n96\tFull Clean Chrome Wet/Dry Vacuum\tFull Clean Italy\tFC-301\tPower Tools\tpower-tools\tGrinders & Sanders\tgrinders-sanders\n162\tInnovatech Concrete floor polisher/finisher\tBartell Global\t\tPower Tools\tpower-tools\tGrinders & Sanders\tgrinders-sanders\n30066\tMakita 18V Cordless Router\tMakita\tDRT50\tPower Tools\tpower-tools\tGrinders & Sanders\tgrinders-sanders\n30067\tMakita 18V Cordless Sander\tMakita\tDBO180\tPower Tools\tpower-tools\tGrinders & Sanders\tgrinders-sanders\n111\tMakita 7\" Angle Grinder\tMakita\t\tPower Tools\tpower-tools\tGrinders & Sanders\tgrinders-sanders\n30058\tMakita 9\" Angle Grinder\tMakita\tGA9020\tPower Tools\tpower-tools\tGrinders & Sanders\tgrinders-sanders\n112\tMakita 9\" Angle Grinder\tMakita\tGA9020\tPower Tools\tpower-tools\tGrinders & Sanders\tgrinders-sanders\n190\tMakita Angle Grinder\tMakita\tGA5030\tPower Tools\tpower-tools\tGrinders & Sanders\tgrinders-sanders\n124\tMakita Angle Grinder\tMakita\tDGA404\tPower Tools\tpower-tools\tGrinders & Sanders\tgrinders-sanders\n83\tMakita Drywall Sander\tMakita\tDSL801\tPower Tools\tpower-tools\tGrinders & Sanders\tgrinders-sanders\n109\tMakita Finger Belt Sander\tMakita\t\tPower Tools\tpower-tools\tGrinders & Sanders\tgrinders-sanders\n127\tMakita Orbital Sander\tMakita\t250DX\tPower Tools\tpower-tools\tGrinders & Sanders\tgrinders-sanders\n126\tMakita Palm Sander\tMakita\t\tPower Tools\tpower-tools\tGrinders & Sanders\tgrinders-sanders\n30080\tMilwaukee M18 Angle Grinder\tMilwaukee\t2780-20\tPower Tools\tpower-tools\tGrinders & Sanders\tgrinders-sanders\n102\tSPE Concrete Floor Grinder\tSanco\t\tPower Tools\tpower-tools\tGrinders & Sanders\tgrinders-sanders\n144\tSPE DRG 200-3 Concrete Floor Grinder\tSPE Manufacturing\t\tPower Tools\tpower-tools\tGrinders & Sanders\tgrinders-sanders\n103\tStanding Belt and Disc Sander\tUnknown\t\tPower Tools\tpower-tools\tGrinders & Sanders\tgrinders-sanders\n30059\tStanding Belt and Disc Sander\tNULL\tNULL\tPower Tools\tpower-tools\tGrinders & Sanders\tgrinders-sanders\n163\tVon Arx 380V Concrete Floor Grinder\tAG Switzerland - Von Arx\t\tPower Tools\tpower-tools\tGrinders & Sanders\tgrinders-sanders\n164\tVon Arx 380V Concrete floor grinder\tAG Switzerland -Von Arx\t\tPower Tools\tpower-tools\tGrinders & Sanders\tgrinders-sanders\n153\t1 HP nail gun compressor\tMade in Taiwan\t\tPower Tools\tpower-tools\tImpact & Fastening\timpact-fastening\n79\tDahoo Pneumatic Nail Gun\tDahoo Tools\tGJ38771\tPower Tools\tpower-tools\tImpact & Fastening\timpact-fastening\n30064\tMakita 18V Cordless Multi-Tool\tMakita\tDTM52\tPower Tools\tpower-tools\tImpact & Fastening\timpact-fastening\n30068\tMakita 18V Cordless Screwdriver\tMakita\tDF333D\tPower Tools\tpower-tools\tImpact & Fastening\timpact-fastening\n81\tMakita Brad Nailer\tMakita\tDBN500\tPower Tools\tpower-tools\tImpact & Fastening\timpact-fastening\n77\tMetabo Framing Nail Gun\tMakita\tDGA404\tPower Tools\tpower-tools\tImpact & Fastening\timpact-fastening\n78\tMetabo HTP Framing Nail Gun\tMetabo\tNR90AE(S1)\tPower Tools\tpower-tools\tImpact & Fastening\timpact-fastening\n76\tMetabo Siding Nail Gun\tMakita\tDTM51\tPower Tools\tpower-tools\tImpact & Fastening\timpact-fastening\n30073\tMilwaukee M18 Battery 5.0Ah\tMilwaukee\t48-11-1850\tPower Tools\tpower-tools\tImpact & Fastening\timpact-fastening\n30074\tMilwaukee M18 Charger\tMilwaukee\t48-59-1812\tPower Tools\tpower-tools\tImpact & Fastening\timpact-fastening\n30076\tMilwaukee M18 Impact Driver\tMilwaukee\t2853-20\tPower Tools\tpower-tools\tImpact & Fastening\timpact-fastening\n30082\tMilwaukee M18 Multi-Tool\tMilwaukee\t2836-20\tPower Tools\tpower-tools\tImpact & Fastening\timpact-fastening\n80\tNumax Brad Nailer\tNumax\tS20VFST50\tPower Tools\tpower-tools\tImpact & Fastening\timpact-fastening\n53\tEKO Pneumatic Impact Gun\tEKO Tools\t\tPower Tools\tpower-tools\tImpact Wrenches\timpact-wrenches\n43\tLittle Giant 4 Step Folding Ladder\tLittle Giant USA\t\tPower Tools\tpower-tools\tLadders & Steps\tladders-steps\n44\tLittle Giant 5 Step Folding Ladder\tLittle Giant USA\t\tPower Tools\tpower-tools\tLadders & Steps\tladders-steps\n8\tBosch Laser Level\tBosch Tools\tGLL-30G professional\tPower Tools\tpower-tools\tLaser Levels\tlaser-levels\n114\tMakita Big Leaf Blower\tMakita\t\tPower Tools\tpower-tools\tLeaf Blowers\tleaf-blowers\n10\tElephant 1T Chain Block\tElephant Chain Block Company\tC-21\tPower Tools\tpower-tools\tLifting & Rigging\tlifting-rigging-tools\n14\tTaiyu 1T chain block\tTaiyu\tHSZ-VT\tPower Tools\tpower-tools\tLifting & Rigging\tlifting-rigging-tools\n150\tKeyue ARC-200 arc welder\tKeyue\t\tPower Tools\tpower-tools\tMIG & TIG Welders\tmig-tig-welders\n149\tKeyue TIG-200P tig welder\tKeyue\t\tPower Tools\tpower-tools\tMIG & TIG Welders\tmig-tig-welders\n171\tMiller Syncrowave 250DX welder\tMiller Manufacturing USA\t\tPower Tools\tpower-tools\tMIG & TIG Welders\tmig-tig-welders\n152\tMitech Stick Welder\tMitech equipment\t\tPower Tools\tpower-tools\tMIG & TIG Welders\tmig-tig-welders\n177\t9M Open Cruiser Speed Boat\tUnknown\t\tPower Tools\tpower-tools\tMarine & Diving\tmarine-diving-tools\n6\tAC Delco Marine Battery\tAC Delco\tM24-75\tPower Tools\tpower-tools\tMarine & Diving\tmarine-diving-tools\n186\tDive Spread 1 (DS1)\tKowloon Construction\t\tPower Tools\tpower-tools\tMarine & Diving\tmarine-diving-tools\n145\tSuzuki DF250 boat motor\tSuzuki\t\tPower Tools\tpower-tools\tMarine & Diving\tmarine-diving-tools\n151\tKeyue CUT-40 plasma cutter\tKeyue\t\tPower Tools\tpower-tools\tPlasma Cutters\tplasma-cutters\n155\tAir Fox 1.5 HP air compressor\tAir Fox\t\tPower Tools\tpower-tools\tPortable Compressors\tportable-compressors\n156\tAir Fox 2 HP aircompressor\tAir Fox\t\tPower Tools\tpower-tools\tPortable Compressors\tportable-compressors\n170\tAir Fox 4 HP air compressor\tAir Fox\t\tPower Tools\tpower-tools\tPortable Compressors\tportable-compressors\n148\tBauer 5.5 HP Air Compressor\tBauer Germany\t\tPower Tools\tpower-tools\tPortable Compressors\tportable-compressors\n176\tBauer HP compressor\tBauer\t\tPower Tools\tpower-tools\tPortable Compressors\tportable-compressors\n157\tBauer Junior II HP air compressor\tBauer\t\tPower Tools\tpower-tools\tPortable Compressors\tportable-compressors\n154\tFini Amico 2500 air compressor\tFini Amico\t\tPower Tools\tpower-tools\tPortable Compressors\tportable-compressors\n147\tSanco HL-2  2HP Air Compressor\tSanco manufacturing co. Ltd Osaka Japan\t\tPower Tools\tpower-tools\tPortable Compressors\tportable-compressors\n146\tSeries 426 5.5 HP air compressor (THE 426)\tUnknown\t\tPower Tools\tpower-tools\tPortable Compressors\tportable-compressors\n21\tVespa 3HP air compressor\tVespa\tOTS-1500\tPower Tools\tpower-tools\tPortable Compressors\tportable-compressors\n180\tVespa Compressor\tVespa\t\tPower Tools\tpower-tools\tPortable Compressors\tportable-compressors\n168\tWhite 4 hp compressor\t\t\tPower Tools\tpower-tools\tPortable Compressors\tportable-compressors\n72\tArda Metal Band Saw\tMakita\tDTD173\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n189\tBosch Reciprocating Saw\tBosch\tRS20\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n188\tDeWalt Circular Saw\tDeWalt\tDCS391D1\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n30054\tDewalt 230V Electric Chop Saw\tDewalt\tD28720-B101\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n84\tDewalt Chop Saw\tMakita\tDX06\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n91\tDongcheng Reciprocating saw\tDongcheng\tDJF 30\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n30055\tHusqvarna 440 2-Stroke Gasoline Chainsaw\tHusqvarna\t440 E-series\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n25\tHusqvarna 440 Chainsaw\tHusqvarna\t440 E-series\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n30056\tHusqvarna 460 Rancher Chainsaw\tHusqvarna\t460 Rancher\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n26\tHusqvarna 460 Rancher Chainsaw\tHusqvarna\t460 Rancher\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n138\tMakita  Reciprocating Saw\tMakita\t\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n41\tMakita 10\" pole saw attachment\tMakita\t\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n30062\tMakita 18V Cordless Circular Saw\tMakita\tDCS553\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n30063\tMakita 18V Cordless Jigsaw\tMakita\tDJV182\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n30065\tMakita 18V Cordless Planer\tMakita\tDKP181\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n30071\tMakita 36V Cordless Reciprocating Saw\tMakita\tDJR187\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n30072\tMakita 36V Cordless Table Saw\tMakita\tDLS714\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n134\tMakita 36V Framing Circular Saw\tMakita\t\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n101\tMakita 7 1/4\" Circular Saw\tMakita\t\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n133\tMakita Circular Saw\tMakita\t\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n87\tMakita Combination Mitre/Table saw\tMakita\tLH1201FL\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n140\tMakita Concrete Saw\tMakita\t\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n61\tMakita Cordless Circular Saw\tMakita\t\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n110\tMakita Jigsaw\tMakita\t\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n136\tMakita Large Band Saw\tMakita\tMT-31P\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n131\tMakita Metal Cutting Circular Saw\tMakita\t\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n89\tMakita Mitre Saw\tMakita\tXSR01\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n137\tMakita Short Reciprocating Saw\tMakita\tDJR188\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n135\tMakita Small Band Saw\tMakita\t3864470470H7\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n88\tMakita Table Saw\tMakita\tDHS680\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n132\tMakita Tile Cutter Circular Saw\tMakita\t\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n30079\tMilwaukee M18 Circular Saw\tMilwaukee\t2730-20\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n30081\tMilwaukee M18 Jigsaw\tMilwaukee\t2737-20\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n30077\tMilwaukee M18 Reciprocating Saw\tMilwaukee\t2720-20\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n30057\tStihl Chainsaw\tStihl\tNULL\tPower Tools\tpower-tools\tSaws & Cutting Tools\tsaws-cutting-tools\n32\tDr  Scaffold HD Scaffold Castors\tDr Scaffold\t\tPower Tools\tpower-tools\tScaffolding Systems\tscaffolding-systems\n37\tDr Scaffold 3 Rung Ladder Span\tDr Scaffold\tSRP-3\tPower Tools\tpower-tools\tScaffolding Systems\tscaffolding-systems\n36\tDr Scaffold 3 Rung Span\tDr Scaffold\t\tPower Tools\tpower-tools\tScaffolding Systems\tscaffolding-systems\n34\tDr Scaffold 5 Rung Ladder Span\tDr Scaffold\t\tPower Tools\tpower-tools\tScaffolding Systems\tscaffolding-systems\n35\tDr Scaffold 5 Rung Span\tDr Scaffold\t\tPower Tools\tpower-tools\tScaffolding Systems\tscaffolding-systems\n27\tDr Scaffold Cross Brace\tDr Scaffold\tSRP-3\tPower Tools\tpower-tools\tScaffolding Systems\tscaffolding-systems\n31\tDr Scaffold HD Scaffold Castors\tDr Scaffold\t\tPower Tools\tpower-tools\tScaffolding Systems\tscaffolding-systems\n28\tDr Scaffold Horizontal Brace\tDr Scaffold\tSRP-3\tPower Tools\tpower-tools\tScaffolding Systems\tscaffolding-systems\n29\tDr Scaffold Horizontal brace\tDr Scaffold\t\tPower Tools\tpower-tools\tScaffolding Systems\tscaffolding-systems\n33\tDr Scaffold Outrigger\tDr Scaffold\t\tPower Tools\tpower-tools\tScaffolding Systems\tscaffolding-systems\n30\tDr Scaffold Platform\tDr Scaffold\t\tPower Tools\tpower-tools\tScaffolding Systems\tscaffolding-systems\n2\tDr Scaffold Safety Railing 2 Rung Span\tDr Scaffold\tSRP-3\tPower Tools\tpower-tools\tScaffolding Systems\tscaffolding-systems\n113\tMakita Demolition Jack Hammer\tMakita\tHM0810\tPower Tools\tpower-tools\tStriking Tools\tstriking-tools\n161\tTsurumi 3\" Water Pump\tTsurumi Manufacturing co. ltd Japan\t\tPower Tools\tpower-tools\tWater Pumps\twater-pumps\n13\tArgon Gas Tank\tUnknown\t\tPower Tools\tpower-tools\tWelding Accessories\twelding-accessories\n24\tUWeld Gas Torches\tU-Weld\tSEFIC-C17\tPower Tools\tpower-tools\tWelding Accessories\twelding-accessories\n30028\t240V Single Phase Small Batch Cement Mixer\tBelle Equipment\tNULL\tPumps & Fluid Handling\tpumps-fluid-handling\tAir Drills & Grinders\tair-drills-grinders\n30032\tConcrete Grout Mixer and Pump\tHany AG Switzerland\t2624-EA\tPumps & Fluid Handling\tpumps-fluid-handling\tAir Drills & Grinders\tair-drills-grinders\n30031\tWacker Neuson Plate Compactor\tWacker Neuson\tNULL\tPumps & Fluid Handling\tpumps-fluid-handling\tHoses & Fittings\tair-hoses-fittings\n30033\tElectric Flashing Bending Machine\tAnhui Runbang\tNULL\tPumps & Fluid Handling\tpumps-fluid-handling\tHydraulic Hoses\thydraulic-hoses\n30030\tBlue Planet 240V Electric Floor Scrubber/Polisher\tBlue Planet\tJB-168\tPumps & Fluid Handling\tpumps-fluid-handling\tImpact Wrenches\timpact-wrenches\n30029\tVon Arx 380V 3 Phase Electric Concrete Floor Grinder\tVon Arx\tNULL\tPumps & Fluid Handling\tpumps-fluid-handling\tImpact Wrenches\timpact-wrenches\n30034\tAdra 240V Electric Metal Band Saw on Stand\tArda Manufacturing\t128\tPumps & Fluid Handling\tpumps-fluid-handling\tNail & Staple Guns\tnail-staple-guns\n30007\tHaru Fall Arrester\tHaru Co.\tHE-6N\tSafety Equipment\tsafety-equipment\tFall Protection\tfall-protection\n30008\tViraj Fall Arrester\tViraj VSPL Group\tSF-RFA-6W\tSafety Equipment\tsafety-equipment\tFall Protection\tfall-protection\n30010\tCrawcon Battery Operated Gas Detector\tCrawcon UK\tNULL\tSafety Equipment\tsafety-equipment\tGas Detection\tgas-detection\n30009\tFirefly Battery Operated Motion Sensor\tFirefly MSA Company\tFirefly 11\tSafety Equipment\tsafety-equipment\tGas Detection\tgas-detection\n30011\tParatech Air Lifting Bag\tParatech\tNULL\tSafety Equipment\tsafety-equipment\tPPE & Clothing\tppe-clothing\n30004\tDr Scaffold 3 Rung Ladder Span 1400mm\tDr Scaffold\tSRP-3\tScaffolding & Access\tscaffolding-access\tScaffolding Systems\tscaffolding-systems\n30005\tDr Scaffold 5 Rung Ladder Span 2300mm\tDr Scaffold\tSRP-3\tScaffolding & Access\tscaffolding-access\tScaffolding Systems\tscaffolding-systems\n30001\tDr Scaffold SRP-3 Cross Brace 2200mm\tDr Scaffold\tSRP-3\tScaffolding & Access\tscaffolding-access\tScaffolding Systems\tscaffolding-systems\n30003\tDr Scaffold SRP-3 Extendable Outrigger 3200mm\tDr Scaffold\tSRP-3\tScaffolding & Access\tscaffolding-access\tScaffolding Systems\tscaffolding-systems\n30002\tDr Scaffold SRP-3 Horizontal Brace 2000mm\tDr Scaffold\tSRP-3\tScaffolding & Access\tscaffolding-access\tScaffolding Systems\tscaffolding-systems\n30006\tDr Scaffold Safety Railing 2 Rung Span\tDr Scaffold\tSRP-3\tScaffolding & Access\tscaffolding-access\tScaffolding Systems\tscaffolding-systems\n30051\tBora Quick Set Up Speed Saw Horse\tBora\tPM4550T\tSpecialized Equipment\tspecialized-equipment\tBlades & Bits\tblades-bits\n215\tElectric Winch 1000kg\tElephant\tEW1000\tSpecialized Equipment\tspecialized-equipment\tConcrete & Masonry\tconcrete-masonry-tools\n30050\t20ft Container Mobile Office\tKowloon Construction\tNULL\tSpecialized Equipment\tspecialized-equipment\tCutting & Shaping\tcutting-shaping\n",
+  "stderr": "",
+  "execution_time_ms": 1649
+}

@@ -1,0 +1,1 @@
+ALTER TABLE `staff_permissions` MODIFY COLUMN `permissions` text;

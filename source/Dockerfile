@@ -8,34 +8,26 @@ RUN npm install -g pnpm@10.4.1
 COPY package.json pnpm-lock.yaml ./
 COPY patches ./patches
 
-# Install dependencies
+# Install ALL dependencies (including devDeps - needed because esbuild uses --packages=external
+# which means vite and other devDeps are imported at runtime, not bundled)
 RUN pnpm install --frozen-lockfile
 
 # Copy all source files
 COPY . .
 
 # Build the application
-# - Server builds to /app/dist/index.js
+# - Server builds to /app/dist/index.js (esbuild, --packages=external)
 # - Frontend (Vite) builds to /app/dist/public/ (per vite.config.ts outDir)
 RUN pnpm build
 
-# Production stage
+# Production stage - keep all node_modules since devDeps are needed at runtime
 FROM node:22-alpine AS runner
 WORKDIR /app
 
-# Install pnpm matching the version in package.json packageManager field
-RUN npm install -g pnpm@10.4.1
-
-# Copy package files and patches
-COPY package.json pnpm-lock.yaml ./
-COPY patches ./patches
-
-# Install production dependencies only
-RUN pnpm install --prod --frozen-lockfile
-
-# Copy built server and frontend from builder
-# Both are under /app/dist/ (server: dist/index.js, frontend: dist/public/)
+# Copy everything from builder (including node_modules with all deps)
+COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/dist ./dist
+COPY --from=builder /app/package.json ./package.json
 
 # Expose port (Railway sets PORT env var)
 EXPOSE 3000

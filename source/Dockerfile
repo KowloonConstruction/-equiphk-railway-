@@ -1,8 +1,8 @@
 FROM node:22-alpine AS builder
 WORKDIR /app
 
-# Install pnpm globally - alpine has npm in PATH properly
-RUN npm install -g pnpm@9
+# Install pnpm matching the version in package.json packageManager field
+RUN npm install -g pnpm@10.4.1
 
 # Copy package files AND patches before install (patches needed during pnpm install)
 COPY package.json pnpm-lock.yaml ./
@@ -21,8 +21,8 @@ RUN pnpm build
 FROM node:22-alpine AS runner
 WORKDIR /app
 
-# Install pnpm for production
-RUN npm install -g pnpm@9
+# Install pnpm matching the version in package.json packageManager field
+RUN npm install -g pnpm@10.4.1
 
 # Copy package files and patches
 COPY package.json pnpm-lock.yaml ./
